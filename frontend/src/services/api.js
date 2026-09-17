@@ -1,6 +1,9 @@
 import axios from 'axios'
 
-const rawBase = import.meta.env.VITE_API_BASE_URL || ''
+// Live Render backend endpoint
+const RENDER_BACKEND_URL = 'https://datalens-1-2bf4.onrender.com'
+
+const rawBase = import.meta.env.VITE_API_BASE_URL || (import.meta.env.DEV ? '' : RENDER_BACKEND_URL)
 const normalizedBase = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase
 export const API_BASE_URL = normalizedBase ? `${normalizedBase}/api` : '/api'
 
@@ -14,7 +17,7 @@ const api = axios.create({
 export const getDownloadUrl = (path) => {
   if (!path) return ''
   if (path.startsWith('http://') || path.startsWith('https://')) return path
-  const rootHost = normalizedBase || ''
+  const rootHost = normalizedBase || RENDER_BACKEND_URL
   return `${rootHost}${path}`
 }
 
