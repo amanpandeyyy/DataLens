@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-[#050505] text-[#FFFFFF] font-sans text-sm;
+    overflow-x: hidden;
+  }
+
+  /* Ensure all select and option elements have dark background and white text */
+  select {
+    @apply bg-[#141414] text-white border border-[#333333];
+    color-scheme: dark;
+    cursor: pointer;
+  }
+
+  select option {
+    background-color: #141414 !important;
+    color: #FFFFFF !important;
+    padding: 12px;
+    font-weight: 500;
+  }
+
+  select option:checked {
+    background-color: #2563EB !important;
+    color: #FFFFFF !important;
+    font-weight: 700;
+  }
+
+  select option:hover {
+    background-color: #1E1E1E !important;
+    color: #60A5FA !important;
+  }
+
+  /* Form inputs focus state */
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  select {
+    @apply transition-colors duration-150;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    @apply outline-none border-blue-500 ring-2 ring-blue-500/40;
+  }
+
+  /* Accessible high-contrast text selection */
+  ::selection {
+    background-color: #2563EB;
+    color: #FFFFFF;
+  }
+
+  /* Crisp Checkboxes & Radio inputs */
+  input[type="checkbox"],
+  input[type="radio"] {
+    accent-color: #2563EB;
+    cursor: pointer;
+  }
+}
+
+/* Custom minimal dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #242424;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3B82F6;
+}

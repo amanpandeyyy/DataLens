@@ -1,0 +1,1254 @@
+order_id,order_date,customer_name,city,customer_segment,category,product_name,quantity,unit_price,discount_rate,revenue,profit,payment_method,shipping_status
+ORD-2026-10001,2026-06-13,Ananya Sharma,Chennai,Consumer,Technology,Dell XPS 15,3,145490.51,0.05,414647.95,124490.58,Corporate Wire,Delivered
+ORD-2026-10002,2026-01-08,Ananya Reddy,Hyderabad,Home Office,Office Supplies,LaserJet Pro Toner,2,6630.86,0.1,11935.55,2369.63,Corporate Wire,Processing
+ORD-2026-10003,2026-03-13,Meera Sharma,Bangalore,Home Office,Furniture,Steelcase Gesture,1,112898.44,0.0,112898.44,37552.76,Corporate Wire,Delivered
+ORD-2026-10004,2026-04-02,Arjun Nair,Chennai,Consumer,Office Supplies,Heavy Duty Stapler Set,2,938.46,0.2,1501.54,105.4,Net Banking,Processing
+ORD-2026-10005,2026-02-19,Ishaan Verma,Mumbai,Home Office,Technology,iPad Pro 12.9,8,88115.11,0.15,599182.75,95431.16,Corporate Wire,Delivered
+ORD-2026-10006,2026-02-11,Neha Nair,Hyderabad,Home Office,Furniture,Herman Miller Aeron Chair,2,97176.7,0.0,194353.4,62624.86,Corporate Wire,Delivered
+ORD-2026-10007,2026-08-25,Rahul Joshi,Hyderabad,Home Office,Furniture,Herman Miller Aeron Chair,1,93246.8,0.0,93246.8,28392.16,UPI,Processing
+ORD-2026-10008,2026-08-13,Ishaan Nair,Hyderabad,Home Office,Furniture,Bookshelf Oak Finish,4,13982.16,0.05,53132.21,15451.01,Net Banking,Processing
+ORD-2026-10009,2026-04-20,Divya Chatterjee,Kolkata,Corporate,Technology,Dell XPS 15,2,133659.63,0.0,267319.26,88578.82,UPI,Shipped
+ORD-2026-10010,2026-06-02,Ananya Deshmukh,Kolkata,Home Office,Furniture,Filing Cabinet 3-Tier,1,12530.92,0.05,11904.37,2310.09,Credit Card,Processing
+ORD-2026-10011,2026-07-12,Aditya Gupta,Pune,Consumer,Furniture,Bookshelf Oak Finish,1,14822.03,0.0,14822.03,3374.3,UPI,Processing
+ORD-2026-10012,2026-08-22,Ananya Gupta,Chennai,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4347.7,0.0,4347.7,816.95,Credit Card,Processing
+ORD-2026-10013,2026-03-24,Sneha Sharma,Delhi,Corporate,Furniture,Ergonomic Standing Desk,1,39698.41,0.15,33743.65,7361.63,Corporate Wire,Delivered
+ORD-2026-10014,2026-07-14,Kabir Patel,Bangalore,Home Office,Furniture,Filing Cabinet 3-Tier,1,12127.91,0.05,11521.51,1650.1,UPI,Delivered
+ORD-2026-10015,2026-04-13,Rahul Gupta,Pune,Corporate,Office Supplies,Heavy Duty Stapler Set,1,934.62,0.0,934.62,233.64,UPI,Processing
+ORD-2026-10016,2026-02-26,Aarav Verma,Mumbai,Consumer,Technology,ThinkPad X1 Carbon,4,121725.06,0.0,486900.24,115041.76,UPI,Processing
+ORD-2026-10017,2026-02-03,Ishaan Chatterjee,Ahmedabad,Consumer,Furniture,Bookshelf Oak Finish,1,14400.02,0.0,14400.02,4003.09,Corporate Wire,Delivered
+ORD-2026-10018,2026-06-22,Rahul Gupta,Delhi,Consumer,Furniture,Steelcase Gesture,3,106607.49,0.0,319822.47,82780.1,UPI,Shipped
+ORD-2026-10019,2026-02-16,Aditya Singhania,Hyderabad,Consumer,Furniture,Filing Cabinet 3-Tier,1,12048.71,0.05,11446.27,3584.38,Credit Card,Delivered
+ORD-2026-10020,2026-02-12,Vikram Singhania,Ahmedabad,Consumer,Furniture,Herman Miller Aeron Chair,1,93959.01,0.0,93959.01,18086.35,Corporate Wire,Delivered
+ORD-2026-10021,2026-04-19,Ishaan Joshi,Ahmedabad,Consumer,Technology,iPad Pro 12.9,1,87003.77,0.0,87003.77,29549.72,Net Banking,Delivered
+ORD-2026-10022,2026-01-13,Tanvi Singhania,Bangalore,Consumer,Office Supplies,LaserJet Pro Toner,4,6219.17,0.0,24876.68,5062.17,Corporate Wire,Delivered
+ORD-2026-10023,2026-08-16,Tanvi Reddy,Mumbai,Home Office,Technology,Logitech MX Master 3S,2,8343.91,0.05,15853.43,4266.57,Net Banking,Delivered
+ORD-2026-10024,2026-03-09,Vikram Patel,Chennai,Corporate,Furniture,Herman Miller Aeron Chair,1,95598.44,0.05,90818.52,27054.67,UPI,Processing
+ORD-2026-10025,2026-03-09,Rohan Nair,Delhi,Consumer,Furniture,Steelcase Gesture,1,112238.94,0.1,101015.05,16388.55,Credit Card,Processing
+ORD-2026-10026,2026-03-18,Divya Gupta,Delhi,Consumer,Furniture,Herman Miller Aeron Chair,4,91726.76,0.1,330216.34,74152.44,UPI,Delivered
+ORD-2026-10027,2026-02-22,Rahul Gupta,Chennai,Home Office,Furniture,Steelcase Gesture,4,105515.28,0.1,379855.01,75123.55,Net Banking,Delivered
+ORD-2026-10028,2026-01-01,Neha Patel,Chennai,Consumer,Office Supplies,Heavy Duty Stapler Set,2,903.42,0.0,1806.84,609.28,UPI,Processing
+ORD-2026-10029,2026-01-10,Arjun Nair,Bangalore,Corporate,Technology,ThinkPad X1 Carbon,1,128701.53,0.15,109396.3,6908.77,Net Banking,Delivered
+ORD-2026-10030,2026-06-24,Priya Gupta,Delhi,Corporate,Office Supplies,Heavy Duty Stapler Set,8,990.45,0.1,7131.24,1662.01,UPI,Delivered
+ORD-2026-10031,2026-08-14,Vikram Sharma,Bangalore,Home Office,Furniture,Bookshelf Oak Finish,3,14950.59,0.15,38124.0,6936.01,Credit Card,Shipped
+ORD-2026-10032,2026-08-12,Aarav Singhania,Hyderabad,Consumer,Furniture,Steelcase Gesture,1,107003.55,0.1,96303.2,26320.42,UPI,Shipped
+ORD-2026-10033,2026-03-26,Aditya Verma,Chennai,Corporate,Office Supplies,Whiteboard Magnetic 4x3,1,4516.3,0.2,3613.04,-43.67,Credit Card,Delivered
+ORD-2026-10034,2026-02-15,Tanvi Mehta,Mumbai,Consumer,Office Supplies,Heavy Duty Stapler Set,1,943.96,0.1,849.56,78.04,Credit Card,Shipped
+ORD-2026-10035,2026-08-19,Tanvi Reddy,Chennai,Consumer,Office Supplies,Heavy Duty Stapler Set,1,953.65,0.15,810.6,74.09,UPI,Delivered
+ORD-2026-10036,2026-04-21,Ananya Gupta,Pune,Home Office,Furniture,Herman Miller Aeron Chair,3,93188.2,0.0,279564.6,78438.34,Corporate Wire,Delivered
+ORD-2026-10037,2026-05-22,Rohan Reddy,Kolkata,Home Office,Furniture,Ergonomic Standing Desk,2,38182.16,0.0,76364.32,26722.24,Net Banking,Delivered
+ORD-2026-10038,2026-04-21,Meera Chatterjee,Pune,Corporate,Furniture,Bookshelf Oak Finish,2,14925.92,0.05,28359.25,4084.59,UPI,Delivered
+ORD-2026-10039,2026-03-14,Kabir Gupta,Pune,Consumer,Technology,Dell 27-inch 4K Monitor,1,40518.89,0.1,36467.0,9811.39,Corporate Wire,Processing
+ORD-2026-10040,2026-08-06,Meera Verma,Ahmedabad,Corporate,Office Supplies,Whiteboard Magnetic 4x3,1,4497.47,0.05,4272.6,1162.7,Credit Card,Delivered
+ORD-2026-10041,2026-07-19,Vikram Reddy,Bangalore,Home Office,Office Supplies,Heavy Duty Stapler Set,1,983.09,0.0,983.09,267.8,Corporate Wire,Processing
+ORD-2026-10042,2026-05-24,Tanvi Nair,Ahmedabad,Home Office,Office Supplies,Whiteboard Magnetic 4x3,2,4475.66,0.15,7608.62,1548.07,Corporate Wire,Shipped
+ORD-2026-10043,2026-03-08,Meera Reddy,Chennai,Home Office,Furniture,Ergonomic Standing Desk,1,37185.77,0.0,37185.77,11297.35,Net Banking,Processing
+ORD-2026-10044,2026-01-21,Rohan Patel,Hyderabad,Corporate,Office Supplies,Premium Copy Paper Box,3,2179.67,0.0,6539.01,1685.47,Corporate Wire,Delivered
+ORD-2026-10045,2026-02-22,Arjun Deshmukh,Kolkata,Home Office,Office Supplies,LaserJet Pro Toner,4,6422.25,0.1,23120.1,6396.5,Net Banking,Delivered
+ORD-2026-10046,2026-07-12,Vikram Deshmukh,Hyderabad,Corporate,Technology,iPad Pro 12.9,2,83607.1,0.0,167214.2,39219.4,Corporate Wire,Delivered
+ORD-2026-10047,2026-08-04,Sneha Patel,Mumbai,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4467.88,0.0,8935.76,1810.7,UPI,Delivered
+ORD-2026-10048,2026-03-08,Vikram Nair,Hyderabad,Corporate,Furniture,Steelcase Gesture,3,112772.11,0.0,338316.33,70563.61,Net Banking,Delivered
+ORD-2026-10049,2026-05-01,Aarav Joshi,Mumbai,Corporate,Technology,Dell 27-inch 4K Monitor,1,40069.08,0.2,32055.26,5798.99,UPI,Delivered
+ORD-2026-10050,2026-08-03,Aarav Chatterjee,Bangalore,Consumer,Technology,Logitech MX Master 3S,2,8260.27,0.05,15694.51,2991.72,Net Banking,Delivered
+ORD-2026-10051,2026-06-05,Tanvi Joshi,Delhi,Consumer,Furniture,Herman Miller Aeron Chair,2,95720.07,0.15,162724.12,8736.48,Corporate Wire,Shipped
+ORD-2026-10052,2026-07-03,Priya Verma,Hyderabad,Consumer,Office Supplies,Moleskine Hardcover Journal,4,1731.79,0.05,6580.8,919.55,Credit Card,Delivered
+ORD-2026-10053,2026-05-17,Vikram Gupta,Pune,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1798.24,0.0,1798.24,496.86,Net Banking,Shipped
+ORD-2026-10054,2026-07-01,Rohan Deshmukh,Bangalore,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1849.44,0.15,3144.05,447.46,Net Banking,Delivered
+ORD-2026-10055,2026-08-07,Priya Verma,Chennai,Corporate,Technology,Logitech MX Master 3S,2,8360.94,0.05,15885.79,3611.39,Net Banking,Delivered
+ORD-2026-10056,2026-05-05,Priya Nair,Chennai,Corporate,Furniture,Filing Cabinet 3-Tier,3,11412.18,0.0,34236.54,6464.86,Credit Card,Delivered
+ORD-2026-10057,2026-07-04,Vikram Singhania,Hyderabad,Home Office,Furniture,Bookshelf Oak Finish,2,14201.64,0.0,28403.28,7988.47,UPI,Delivered
+ORD-2026-10058,2026-06-19,Tanvi Nair,Ahmedabad,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1769.54,0.1,3185.17,461.9,Net Banking,Delivered
+ORD-2026-10059,2026-03-06,Priya Verma,Hyderabad,Corporate,Technology,Dell 27-inch 4K Monitor,2,40677.63,0.1,73219.73,17346.13,Corporate Wire,Delivered
+ORD-2026-10060,2026-07-05,Tanvi Iyer,Chennai,Consumer,Technology,iPad Pro 12.9,1,80870.26,0.0,80870.26,20961.33,Net Banking,Delivered
+ORD-2026-10061,2026-01-14,Kabir Mehta,Bangalore,Home Office,Furniture,Herman Miller Aeron Chair,4,94709.27,0.05,359895.23,85283.92,UPI,Delivered
+ORD-2026-10062,2026-03-06,Arjun Singhania,Delhi,Consumer,Furniture,Bookshelf Oak Finish,1,13852.73,0.05,13160.09,3804.46,Net Banking,Delivered
+ORD-2026-10063,2026-03-05,Ananya Iyer,Kolkata,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4477.73,0.05,4253.84,1006.31,Corporate Wire,Delivered
+ORD-2026-10064,2026-05-26,Tanvi Sharma,Delhi,Consumer,Office Supplies,Premium Copy Paper Box,1,2142.77,0.0,2142.77,548.89,UPI,Delivered
+ORD-2026-10065,2026-04-15,Sneha Joshi,Ahmedabad,Corporate,Technology,Dell XPS 15,1,145034.49,0.0,145034.49,49007.07,UPI,Delivered
+ORD-2026-10066,2026-07-21,Meera Gupta,Hyderabad,Corporate,Technology,Sony WH-1000XM5,1,27343.77,0.0,27343.77,8909.14,Credit Card,Delivered
+ORD-2026-10067,2026-07-22,Aditya Chatterjee,Chennai,Corporate,Technology,Logitech MX Master 3S,2,8876.27,0.05,16864.91,3815.37,Corporate Wire,Shipped
+ORD-2026-10068,2026-01-21,Tanvi Sharma,Kolkata,Home Office,Furniture,Filing Cabinet 3-Tier,1,12554.29,0.0,12554.29,2609.87,Credit Card,Delivered
+ORD-2026-10069,2026-05-28,Aarav Patel,Ahmedabad,Home Office,Office Supplies,Heavy Duty Stapler Set,4,958.11,0.0,3832.44,927.78,Corporate Wire,Delivered
+ORD-2026-10070,2026-05-01,Neha Deshmukh,Pune,Corporate,Office Supplies,LaserJet Pro Toner,4,6625.89,0.0,26503.56,7977.65,Corporate Wire,Processing
+ORD-2026-10071,2026-01-10,Sneha Verma,Pune,Corporate,Furniture,Herman Miller Aeron Chair,8,95138.66,0.0,761109.28,138536.91,Corporate Wire,Shipped
+ORD-2026-10072,2026-01-14,Priya Iyer,Pune,Home Office,Furniture,Bookshelf Oak Finish,3,14571.37,0.0,43714.11,8406.03,Corporate Wire,Shipped
+ORD-2026-10073,2026-02-01,Aarav Gupta,Hyderabad,Home Office,Technology,iPad Pro 12.9,2,81542.28,0.05,154930.33,21415.66,Credit Card,Shipped
+ORD-2026-10074,2026-01-31,Rahul Patel,Ahmedabad,Home Office,Furniture,Filing Cabinet 3-Tier,3,11979.0,0.0,35937.0,9693.02,Corporate Wire,Processing
+ORD-2026-10075,2026-02-07,Vikram Reddy,Bangalore,Consumer,Furniture,Bookshelf Oak Finish,1,14162.4,0.1,12746.16,3534.42,Net Banking,Processing
+ORD-2026-10076,2026-05-29,Rahul Singhania,Bangalore,Corporate,Office Supplies,Heavy Duty Stapler Set,1,954.13,0.05,906.42,212.38,Net Banking,Delivered
+ORD-2026-10077,2026-06-28,Priya Chatterjee,Kolkata,Consumer,Furniture,Herman Miller Aeron Chair,1,98927.59,0.0,98927.59,28213.23,UPI,Shipped
+ORD-2026-10078,2026-01-10,Rohan Iyer,Pune,Consumer,Furniture,Herman Miller Aeron Chair,2,97113.22,0.0,194226.44,54442.38,UPI,Delivered
+ORD-2026-10079,2026-05-01,Meera Mehta,Pune,Home Office,Office Supplies,Heavy Duty Stapler Set,2,983.47,0.15,1671.9,106.04,Corporate Wire,Delivered
+ORD-2026-10080,2026-06-10,Ishaan Singhania,Mumbai,Home Office,Technology,Dell XPS 15,2,146963.96,0.15,249838.73,21471.35,Corporate Wire,Delivered
+ORD-2026-10081,2026-07-14,Rahul Joshi,Delhi,Corporate,Technology,Dell 27-inch 4K Monitor,1,41262.37,0.0,41262.37,14048.18,Net Banking,Delivered
+ORD-2026-10082,2026-04-21,Rohan Reddy,Kolkata,Home Office,Office Supplies,Premium Copy Paper Box,1,2281.58,0.0,2281.58,558.19,UPI,Shipped
+ORD-2026-10083,2026-08-22,Tanvi Patel,Hyderabad,Corporate,Office Supplies,Moleskine Hardcover Journal,2,1871.8,0.05,3556.42,826.99,Net Banking,Processing
+ORD-2026-10084,2026-02-10,Ananya Singhania,Pune,Home Office,Furniture,Bookshelf Oak Finish,2,14213.08,0.0,28426.16,5119.74,Corporate Wire,Delivered
+ORD-2026-10085,2026-03-02,Vikram Chatterjee,Pune,Home Office,Furniture,Steelcase Gesture,1,108853.86,0.1,97968.47,27063.61,Credit Card,Processing
+ORD-2026-10086,2026-07-10,Sneha Mehta,Hyderabad,Home Office,Furniture,Ergonomic Standing Desk,2,38675.5,0.05,73483.45,13725.33,UPI,Delivered
+ORD-2026-10087,2026-08-20,Rahul Gupta,Mumbai,Corporate,Furniture,Herman Miller Aeron Chair,2,91106.27,0.1,163991.29,36411.76,Corporate Wire,Delivered
+ORD-2026-10088,2026-02-21,Rohan Iyer,Pune,Home Office,Office Supplies,Moleskine Hardcover Journal,3,1858.44,0.0,5575.32,1494.66,Net Banking,Delivered
+ORD-2026-10089,2026-07-25,Ananya Singhania,Delhi,Consumer,Technology,Dell 27-inch 4K Monitor,3,43962.53,0.2,105510.07,1743.57,Net Banking,Delivered
+ORD-2026-10090,2026-07-22,Vikram Sharma,Chennai,Home Office,Technology,Logitech MX Master 3S,1,8297.84,0.1,7468.06,1536.98,Net Banking,Delivered
+ORD-2026-10091,2026-06-22,Priya Singhania,Mumbai,Home Office,Office Supplies,Moleskine Hardcover Journal,4,1721.38,0.0,6885.52,1445.58,Net Banking,Shipped
+ORD-2026-10092,2026-01-30,Rohan Sharma,Mumbai,Corporate,Furniture,Herman Miller Aeron Chair,1,91538.81,0.15,77807.99,11248.34,Corporate Wire,Processing
+ORD-2026-10093,2026-07-10,Ishaan Patel,Kolkata,Home Office,Technology,Logitech MX Master 3S,2,8312.78,0.15,14131.73,1374.14,UPI,Shipped
+ORD-2026-10094,2026-04-24,Priya Nair,Delhi,Home Office,Furniture,Filing Cabinet 3-Tier,4,11472.66,0.05,43596.11,11614.93,Credit Card,Shipped
+ORD-2026-10095,2026-01-24,Rahul Reddy,Mumbai,Consumer,Furniture,Ergonomic Standing Desk,8,36879.78,0.1,265534.42,32138.8,UPI,Processing
+ORD-2026-10096,2026-02-25,Arjun Reddy,Pune,Consumer,Office Supplies,LaserJet Pro Toner,1,6816.89,0.2,5453.51,396.49,UPI,Delivered
+ORD-2026-10097,2026-06-19,Arjun Sharma,Bangalore,Consumer,Furniture,Ergonomic Standing Desk,2,37108.4,0.0,74216.8,24376.59,Corporate Wire,Processing
+ORD-2026-10098,2026-01-30,Ishaan Verma,Ahmedabad,Corporate,Furniture,Filing Cabinet 3-Tier,2,11665.86,0.0,23331.72,5726.35,Net Banking,Shipped
+ORD-2026-10099,2026-06-14,Aarav Sharma,Ahmedabad,Corporate,Furniture,Herman Miller Aeron Chair,2,90948.16,0.15,154611.87,33881.03,UPI,Delivered
+ORD-2026-10100,2026-02-02,Aditya Chatterjee,Pune,Corporate,Office Supplies,Whiteboard Magnetic 4x3,1,4468.59,0.05,4245.16,738.09,Credit Card,Processing
+ORD-2026-10101,2026-07-04,Arjun Reddy,Kolkata,Corporate,Technology,Logitech MX Master 3S,1,8428.59,0.0,8428.59,2813.76,Corporate Wire,Delivered
+ORD-2026-10102,2026-06-20,Aditya Nair,Bangalore,Home Office,Furniture,Herman Miller Aeron Chair,1,94352.83,0.0,94352.83,21080.3,Net Banking,Delivered
+ORD-2026-10103,2026-05-23,Aarav Chatterjee,Pune,Home Office,Technology,Logitech MX Master 3S,1,8712.74,0.05,8277.1,1328.03,Credit Card,Delivered
+ORD-2026-10104,2026-06-03,Aditya Nair,Delhi,Home Office,Office Supplies,Premium Copy Paper Box,1,2276.4,0.0,2276.4,661.25,Net Banking,Delivered
+ORD-2026-10105,2026-07-15,Aditya Chatterjee,Hyderabad,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4286.81,0.05,8144.94,1217.93,Net Banking,Delivered
+ORD-2026-10106,2026-02-16,Aditya Joshi,Chennai,Corporate,Furniture,Herman Miller Aeron Chair,1,96494.77,0.0,96494.77,32631.68,Credit Card,Delivered
+ORD-2026-10107,2026-07-11,Kabir Reddy,Kolkata,Corporate,Furniture,Steelcase Gesture,1,108068.21,0.0,108068.21,20528.72,Credit Card,Delivered
+ORD-2026-10108,2026-02-09,Rohan Chatterjee,Mumbai,Home Office,Technology,iPad Pro 12.9,2,85910.15,0.0,171820.3,48039.03,UPI,Processing
+ORD-2026-10109,2026-01-30,Neha Deshmukh,Delhi,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4295.44,0.05,8161.34,2000.01,Credit Card,Delivered
+ORD-2026-10110,2026-02-22,Aditya Reddy,Bangalore,Corporate,Furniture,Steelcase Gesture,1,109237.21,0.0,109237.21,35834.0,UPI,Processing
+ORD-2026-10111,2026-05-24,Arjun Gupta,Pune,Consumer,Furniture,Herman Miller Aeron Chair,2,90989.69,0.0,181979.38,54007.78,Corporate Wire,Processing
+ORD-2026-10112,2026-04-14,Ishaan Gupta,Kolkata,Corporate,Technology,Logitech MX Master 3S,1,8756.12,0.0,8756.12,2144.54,Net Banking,Delivered
+ORD-2026-10113,2026-04-22,Arjun Verma,Hyderabad,Corporate,Office Supplies,Heavy Duty Stapler Set,2,931.98,0.0,1863.96,544.8,Net Banking,Delivered
+ORD-2026-10114,2026-01-20,Kabir Gupta,Delhi,Home Office,Office Supplies,Premium Copy Paper Box,4,2250.02,0.0,9000.08,1897.03,UPI,Delivered
+ORD-2026-10115,2026-01-27,Rohan Mehta,Hyderabad,Consumer,Office Supplies,Premium Copy Paper Box,3,2128.97,0.05,6067.56,1076.93,Corporate Wire,Shipped
+ORD-2026-10116,2026-07-13,Tanvi Chatterjee,Ahmedabad,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4417.26,0.2,3533.81,332.36,Corporate Wire,Shipped
+ORD-2026-10117,2026-06-11,Aditya Mehta,Mumbai,Corporate,Office Supplies,LaserJet Pro Toner,1,6211.98,0.0,6211.98,1295.89,Credit Card,Delivered
+ORD-2026-10118,2026-06-07,Tanvi Iyer,Kolkata,Corporate,Office Supplies,Whiteboard Magnetic 4x3,5,4293.46,0.1,19320.57,2049.3,UPI,Delivered
+ORD-2026-10119,2026-06-04,Sneha Iyer,Bangalore,Consumer,Furniture,Herman Miller Aeron Chair,3,99582.66,0.1,268873.18,70404.16,UPI,Delivered
+ORD-2026-10120,2026-03-05,Ishaan Singhania,Ahmedabad,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4402.3,0.0,4402.3,1234.89,Net Banking,Processing
+ORD-2026-10121,2026-01-14,Meera Gupta,Pune,Consumer,Furniture,Herman Miller Aeron Chair,2,92643.96,0.0,185287.92,38027.33,UPI,Delivered
+ORD-2026-10122,2026-01-21,Tanvi Gupta,Bangalore,Corporate,Furniture,Bookshelf Oak Finish,1,13897.84,0.1,12508.06,2153.94,Net Banking,Delivered
+ORD-2026-10123,2026-06-21,Ishaan Joshi,Delhi,Home Office,Office Supplies,Heavy Duty Stapler Set,2,931.84,0.0,1863.68,350.93,Net Banking,Shipped
+ORD-2026-10124,2026-02-19,Priya Patel,Bangalore,Consumer,Furniture,Herman Miller Aeron Chair,2,97267.12,0.05,184807.53,40947.44,Net Banking,Processing
+ORD-2026-10125,2026-02-03,Tanvi Deshmukh,Bangalore,Consumer,Technology,Dell 27-inch 4K Monitor,3,40595.26,0.1,109607.2,21385.04,Corporate Wire,Delivered
+ORD-2026-10126,2026-06-23,Ishaan Reddy,Ahmedabad,Home Office,Furniture,Bookshelf Oak Finish,1,15175.12,0.0,15175.12,3287.8,UPI,Delivered
+ORD-2026-10127,2026-06-23,Tanvi Singhania,Ahmedabad,Corporate,Furniture,Filing Cabinet 3-Tier,2,12380.27,0.2,19808.43,341.35,UPI,Delivered
+ORD-2026-10128,2026-01-14,Rahul Singhania,Pune,Home Office,Technology,Dell 27-inch 4K Monitor,3,41097.26,0.15,104798.01,8663.73,Net Banking,Shipped
+ORD-2026-10129,2026-08-20,Kabir Patel,Kolkata,Consumer,Technology,Logitech MX Master 3S,4,8427.66,0.15,28654.04,4470.12,Net Banking,Delivered
+ORD-2026-10130,2026-04-09,Ananya Nair,Hyderabad,Consumer,Furniture,Herman Miller Aeron Chair,3,97768.12,0.05,278639.14,81130.35,Net Banking,Shipped
+ORD-2026-10131,2026-06-28,Arjun Patel,Ahmedabad,Corporate,Office Supplies,LaserJet Pro Toner,4,6315.18,0.0,25260.72,8199.17,Corporate Wire,Delivered
+ORD-2026-10132,2026-07-18,Aditya Reddy,Chennai,Consumer,Technology,Dell XPS 15,2,139399.59,0.1,250919.26,64445.59,Corporate Wire,Processing
+ORD-2026-10133,2026-05-18,Aarav Gupta,Hyderabad,Home Office,Technology,iPad Pro 12.9,2,82794.8,0.05,157310.12,37950.41,Credit Card,Processing
+ORD-2026-10134,2026-04-03,Ananya Iyer,Mumbai,Corporate,Furniture,Herman Miller Aeron Chair,2,92659.68,0.2,148255.49,27286.21,Credit Card,Delivered
+ORD-2026-10135,2026-03-03,Ishaan Gupta,Delhi,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1770.94,0.0,1770.94,426.31,Corporate Wire,Shipped
+ORD-2026-10136,2026-06-11,Rohan Patel,Delhi,Home Office,Furniture,Herman Miller Aeron Chair,1,92144.96,0.0,92144.96,31594.29,Net Banking,Processing
+ORD-2026-10137,2026-04-12,Arjun Iyer,Ahmedabad,Corporate,Technology,Dell 27-inch 4K Monitor,1,43179.53,0.0,43179.53,8757.43,Net Banking,Delivered
+ORD-2026-10138,2026-02-01,Meera Nair,Kolkata,Corporate,Office Supplies,Heavy Duty Stapler Set,4,995.0,0.0,3980.0,1057.27,Corporate Wire,Delivered
+ORD-2026-10139,2026-08-25,Meera Iyer,Chennai,Consumer,Office Supplies,Heavy Duty Stapler Set,1,980.62,0.05,931.59,203.25,Net Banking,Delivered
+ORD-2026-10140,2026-01-21,Neha Gupta,Chennai,Corporate,Furniture,Filing Cabinet 3-Tier,3,11932.69,0.0,35798.07,9808.24,Net Banking,Processing
+ORD-2026-10141,2026-04-22,Aditya Gupta,Mumbai,Consumer,Office Supplies,Heavy Duty Stapler Set,1,967.04,0.1,870.34,85.13,UPI,Processing
+ORD-2026-10142,2026-06-23,Meera Singhania,Mumbai,Consumer,Technology,Dell XPS 15,45,150000.0,0.0,6750000.0,1711586.77,UPI,Shipped
+ORD-2026-10143,2026-04-05,Neha Singhania,Delhi,Home Office,Technology,Sony WH-1000XM5,1,27380.33,0.0,27380.33,5112.22,Credit Card,Delivered
+ORD-2026-10144,2026-05-08,Kabir Deshmukh,Delhi,Corporate,Furniture,Bookshelf Oak Finish,1,14781.27,0.05,14042.21,1925.01,UPI,Delivered
+ORD-2026-10145,2026-02-04,Arjun Verma,Ahmedabad,Consumer,Office Supplies,Heavy Duty Stapler Set,12,994.42,0.1,10739.74,981.88,Net Banking,Delivered
+ORD-2026-10146,2026-05-21,Kabir Mehta,Chennai,Consumer,Office Supplies,Premium Copy Paper Box,3,2116.7,0.05,6032.59,1688.06,UPI,Delivered
+ORD-2026-10147,2026-07-22,Sneha Sharma,Pune,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1733.36,0.2,2773.38,-1.11,Credit Card,Delivered
+ORD-2026-10148,2026-04-12,Ishaan Joshi,Ahmedabad,Home Office,Furniture,Bookshelf Oak Finish,3,15184.95,0.0,45554.85,10969.72,Corporate Wire,Shipped
+ORD-2026-10149,2026-06-24,Kabir Nair,Bangalore,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4469.68,0.2,3575.74,-21.55,Credit Card,Delivered
+ORD-2026-10150,2026-05-13,Rohan Mehta,Bangalore,Consumer,Furniture,Ergonomic Standing Desk,1,39500.72,0.15,33575.61,2219.59,Net Banking,Delivered
+ORD-2026-10151,2026-06-12,Kabir Mehta,Bangalore,Home Office,Furniture,Filing Cabinet 3-Tier,2,11602.36,0.05,22044.48,3246.96,UPI,Delivered
+ORD-2026-10152,2026-06-18,Tanvi Joshi,Pune,Home Office,Technology,ThinkPad X1 Carbon,1,128387.78,0.15,109129.61,19901.19,UPI,Processing
+ORD-2026-10153,2026-04-17,Tanvi Gupta,Mumbai,Corporate,Office Supplies,Whiteboard Magnetic 4x3,1,4492.33,0.2,3593.86,59.31,Corporate Wire,Delivered
+ORD-2026-10154,2026-04-27,Ananya Joshi,Mumbai,Consumer,Furniture,Bookshelf Oak Finish,2,14654.66,0.0,29309.32,8700.79,Net Banking,Delivered
+ORD-2026-10155,2026-04-13,Rohan Nair,Delhi,Corporate,Technology,Logitech MX Master 3S,1,8194.75,0.0,8194.75,2797.66,Corporate Wire,Processing
+ORD-2026-10156,2026-04-18,Priya Patel,Pune,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1889.27,0.0,1889.27,511.31,Net Banking,Shipped
+ORD-2026-10157,2026-01-06,Ananya Deshmukh,Ahmedabad,Consumer,Technology,Sony WH-1000XM5,1,27985.7,0.0,27985.7,5597.2,Corporate Wire,Delivered
+ORD-2026-10158,2026-05-18,Aarav Verma,Kolkata,Consumer,Furniture,Steelcase Gesture,3,108906.4,0.0,326719.2,82676.99,UPI,Delivered
+ORD-2026-10159,2026-05-22,Aditya Verma,Kolkata,Home Office,Furniture,Filing Cabinet 3-Tier,1,12216.48,0.2,9773.18,1585.72,Credit Card,Shipped
+ORD-2026-10160,2026-04-06,Meera Nair,Pune,Consumer,Technology,Sony WH-1000XM5,2,26726.85,0.05,50781.01,14790.84,Net Banking,Shipped
+ORD-2026-10161,2026-05-13,Sneha Patel,Bangalore,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1843.08,0.2,1474.46,182.7,Net Banking,Processing
+ORD-2026-10162,2026-08-01,Kabir Iyer,Ahmedabad,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1769.62,0.0,3539.24,1172.79,Corporate Wire,Processing
+ORD-2026-10163,2026-03-20,Meera Joshi,Mumbai,Home Office,Furniture,Steelcase Gesture,5,113037.78,0.1,508670.01,85796.89,Credit Card,Processing
+ORD-2026-10164,2026-05-03,Rohan Iyer,Kolkata,Consumer,Office Supplies,Premium Copy Paper Box,1,2114.18,0.15,1797.05,416.03,Net Banking,Shipped
+ORD-2026-10165,2026-02-08,Vikram Joshi,Hyderabad,Corporate,Office Supplies,Whiteboard Magnetic 4x3,4,4606.13,0.15,15660.84,3489.83,UPI,Processing
+ORD-2026-10166,2026-02-23,Kabir Nair,Ahmedabad,Home Office,Furniture,Steelcase Gesture,5,110364.4,0.0,551822.0,141891.95,Net Banking,Processing
+ORD-2026-10167,2026-05-04,Priya Reddy,Chennai,Home Office,Furniture,Ergonomic Standing Desk,5,39030.46,0.2,156121.84,5887.13,Corporate Wire,Delivered
+ORD-2026-10168,2026-05-03,Neha Iyer,Chennai,Corporate,Technology,Sony WH-1000XM5,2,29344.45,0.0,58688.9,12376.07,UPI,Delivered
+ORD-2026-10169,2026-01-11,Aditya Joshi,Delhi,Corporate,Furniture,Steelcase Gesture,3,113607.47,0.0,340822.41,103578.47,Net Banking,Delivered
+ORD-2026-10170,2026-01-28,Tanvi Joshi,Hyderabad,Consumer,Technology,Dell 27-inch 4K Monitor,4,40877.91,0.0,163511.64,54443.87,Net Banking,Shipped
+ORD-2026-10171,2026-01-26,Rahul Patel,Mumbai,Home Office,Technology,Logitech MX Master 3S,2,8479.34,0.15,14414.88,1516.25,Net Banking,Delivered
+ORD-2026-10172,2026-03-15,Rahul Sharma,Delhi,Home Office,Office Supplies,Premium Copy Paper Box,2,2296.07,0.1,4132.93,435.11,UPI,Shipped
+ORD-2026-10173,2026-08-14,Arjun Patel,Mumbai,Corporate,Furniture,Ergonomic Standing Desk,5,39618.95,0.2,158475.8,188.92,Credit Card,Delivered
+ORD-2026-10174,2026-05-26,Tanvi Verma,Pune,Corporate,Furniture,Filing Cabinet 3-Tier,2,11561.04,0.15,19653.77,2642.48,Net Banking,Delivered
+ORD-2026-10175,2026-07-27,Ananya Nair,Bangalore,Home Office,Furniture,Steelcase Gesture,3,108208.23,0.0,324624.69,97337.37,UPI,Delivered
+ORD-2026-10176,2026-06-06,Arjun Gupta,Kolkata,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1743.26,0.05,1656.1,481.31,Net Banking,Delivered
+ORD-2026-10177,2026-01-02,Aditya Deshmukh,Hyderabad,Corporate,Furniture,Steelcase Gesture,1,104625.79,0.1,94163.21,14529.78,UPI,Delivered
+ORD-2026-10178,2026-06-20,Ananya Singhania,Chennai,Consumer,Furniture,Filing Cabinet 3-Tier,4,12323.81,0.15,41900.95,4074.28,Net Banking,Delivered
+ORD-2026-10179,2026-06-07,Priya Reddy,Bangalore,Corporate,Technology,Logitech MX Master 3S,3,8428.47,0.05,24021.14,5224.73,Corporate Wire,Processing
+ORD-2026-10180,2026-07-25,,Hyderabad,Home Office,Office Supplies,LaserJet Pro Toner,2,6410.16,0.05,12179.3,1847.0,Credit Card,Delivered
+ORD-2026-10181,2026-08-01,Kabir Iyer,Hyderabad,Home Office,Office Supplies,Premium Copy Paper Box,1,2187.2,0.15,1859.12,184.49,Corporate Wire,Delivered
+ORD-2026-10182,2026-08-19,Kabir Singhania,Mumbai,Corporate,Technology,Sony WH-1000XM5,2,28164.63,0.05,53512.8,10456.37,Net Banking,Delivered
+ORD-2026-10183,2026-04-12,Aditya Sharma,Hyderabad,Home Office,Technology,ThinkPad X1 Carbon,2,125514.54,0.1,225926.17,60185.86,Credit Card,Shipped
+ORD-2026-10184,2026-01-09,Aditya Deshmukh,Bangalore,Consumer,Office Supplies,Heavy Duty Stapler Set,1,945.11,0.15,803.34,41.67,Corporate Wire,Shipped
+ORD-2026-10185,2026-01-21,Rahul Gupta,Bangalore,Home Office,Furniture,Herman Miller Aeron Chair,1,95274.0,0.05,90510.3,16793.39,UPI,Delivered
+ORD-2026-10186,2026-07-13,Aarav Mehta,Ahmedabad,Home Office,Office Supplies,Whiteboard Magnetic 4x3,2,4378.35,0.0,8756.7,2379.14,UPI,Delivered
+ORD-2026-10187,2026-02-18,Divya Joshi,Delhi,Consumer,Office Supplies,Heavy Duty Stapler Set,2,986.96,0.15,1677.83,314.02,Credit Card,Delivered
+ORD-2026-10188,2026-06-02,Aarav Singhania,Mumbai,Consumer,Office Supplies,LaserJet Pro Toner,2,6316.22,0.0,12632.44,2566.48,Credit Card,Delivered
+ORD-2026-10189,2026-05-09,Aditya Reddy,Pune,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1887.43,0.15,1604.32,210.24,Corporate Wire,Delivered
+ORD-2026-10190,2026-03-12,Aarav Iyer,Bangalore,Home Office,Office Supplies,Heavy Duty Stapler Set,2,935.22,0.0,1870.44,450.1,Corporate Wire,Processing
+ORD-2026-10191,2026-03-23,Ishaan Deshmukh,Kolkata,Consumer,Furniture,Bookshelf Oak Finish,1,14124.4,0.05,13418.18,3696.23,UPI,Shipped
+ORD-2026-10192,2026-08-23,Aarav Iyer,Kolkata,Corporate,Office Supplies,Whiteboard Magnetic 4x3,1,4366.5,0.0,4366.5,1048.22,Corporate Wire,Delivered
+ORD-2026-10193,2026-01-24,Kabir Joshi,Hyderabad,Consumer,Furniture,Bookshelf Oak Finish,2,15041.75,0.05,28579.32,8062.74,UPI,Shipped
+ORD-2026-10194,2026-02-23,Arjun Nair,Chennai,Consumer,Technology,Dell XPS 15,5,146994.01,0.0,734970.05,197400.79,UPI,Processing
+ORD-2026-10195,2026-06-30,Priya Deshmukh,Hyderabad,Home Office,Furniture,Steelcase Gesture,1,108451.86,0.05,103029.27,27713.2,Corporate Wire,Shipped
+ORD-2026-10196,2026-01-26,Meera Joshi,Ahmedabad,Corporate,Technology,iPad Pro 12.9,1,88094.72,0.0,88094.72,19732.08,Credit Card,Delivered
+ORD-2026-10197,2026-05-22,Divya Chatterjee,Kolkata,Corporate,Technology,Dell XPS 15,1,144667.08,0.0,144667.08,38353.96,Net Banking,Delivered
+ORD-2026-10198,2026-07-15,Arjun Singhania,Ahmedabad,Corporate,Technology,Dell 27-inch 4K Monitor,3,42925.32,0.0,128775.96,34381.41,Credit Card,Processing
+ORD-2026-10199,2026-01-09,Arjun Verma,Mumbai,Consumer,Furniture,Ergonomic Standing Desk,3,38787.24,0.0,116361.72,40545.77,Corporate Wire,Delivered
+ORD-2026-10200,2026-01-16,Tanvi Gupta,Ahmedabad,Home Office,Furniture,Herman Miller Aeron Chair,1,90362.58,0.05,85844.45,18976.05,Net Banking,Processing
+ORD-2026-10201,2026-03-15,Aarav Iyer,Kolkata,Consumer,Technology,ThinkPad X1 Carbon,2,126497.26,0.0,252994.52,77691.81,Net Banking,Delivered
+ORD-2026-10202,2026-07-23,Vikram Verma,Pune,Corporate,Furniture,Filing Cabinet 3-Tier,1,11759.97,0.05,11171.97,1872.53,Credit Card,Delivered
+ORD-2026-10203,2026-01-24,Vikram Deshmukh,Kolkata,Home Office,Furniture,Herman Miller Aeron Chair,2,91035.52,0.1,163863.94,19353.05,Net Banking,Processing
+ORD-2026-10204,2026-08-08,Ananya Iyer,Mumbai,Consumer,Technology,Dell 27-inch 4K Monitor,4,40095.56,0.0,160382.24,54106.69,Net Banking,Processing
+ORD-2026-10205,2026-05-25,Rahul Sharma,Bangalore,Corporate,Technology,Dell XPS 15,2,142977.96,0.1,257360.33,52126.81,Credit Card,Delivered
+ORD-2026-10206,2026-02-11,Tanvi Reddy,Kolkata,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1852.29,0.1,1667.06,246.01,Credit Card,Processing
+ORD-2026-10207,2026-07-10,Neha Sharma,Delhi,Corporate,Technology,ThinkPad X1 Carbon,1,130685.73,0.1,117617.16,23858.05,Net Banking,Delivered
+ORD-2026-10208,2026-06-12,Aditya Singhania,Ahmedabad,Consumer,Furniture,Filing Cabinet 3-Tier,5,12215.63,0.0,61078.15,14517.41,Credit Card,Processing
+ORD-2026-10209,2026-03-17,Meera Reddy,Delhi,Consumer,Furniture,Ergonomic Standing Desk,1,36686.25,0.1,33017.62,6741.62,Net Banking,Delivered
+ORD-2026-10210,2026-01-24,Aarav Mehta,Ahmedabad,Corporate,Furniture,Herman Miller Aeron Chair,1,94514.01,0.0,94514.01,24166.68,Corporate Wire,Delivered
+ORD-2026-10211,2026-01-07,Ananya Nair,Delhi,Home Office,Office Supplies,Moleskine Hardcover Journal,4,1784.49,0.0,7137.96,1552.8,UPI,Processing
+ORD-2026-10212,2026-05-14,Rohan Gupta,Kolkata,Consumer,Technology,iPad Pro 12.9,1,81287.77,0.0,81287.77,22443.96,Corporate Wire,Delivered
+ORD-2026-10213,2026-05-04,Meera Verma,Pune,Corporate,Technology,Dell 27-inch 4K Monitor,2,40721.3,0.05,77370.47,22951.72,Net Banking,Delivered
+ORD-2026-10214,2026-04-12,Neha Chatterjee,Kolkata,Corporate,Furniture,Steelcase Gesture,2,111661.41,0.1,200990.54,33264.65,Net Banking,Delivered
+ORD-2026-10215,2026-06-04,Ishaan Reddy,Ahmedabad,Corporate,Technology,Logitech MX Master 3S,5,8665.71,0.0,43328.55,11548.3,UPI,Delivered
+ORD-2026-10216,2026-04-07,Aditya Deshmukh,Pune,Consumer,Office Supplies,Premium Copy Paper Box,2,2239.98,0.05,4255.96,925.03,Corporate Wire,Delivered
+ORD-2026-10217,2026-04-23,Meera Mehta,Delhi,Corporate,Office Supplies,Heavy Duty Stapler Set,1,926.5,0.0,926.5,300.0,Corporate Wire,Shipped
+ORD-2026-10218,2026-01-19,Sneha Chatterjee,Ahmedabad,Home Office,Furniture,Filing Cabinet 3-Tier,2,12230.05,0.15,20791.08,2631.42,Net Banking,Processing
+ORD-2026-10219,2026-06-02,Rahul Verma,Delhi,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1811.38,0.05,1720.81,344.79,Corporate Wire,Delivered
+ORD-2026-10220,2026-07-23,Vikram Verma,Mumbai,Consumer,Furniture,Ergonomic Standing Desk,2,38305.97,0.05,72781.34,15491.7,Corporate Wire,Delivered
+ORD-2026-10221,2026-04-11,Sneha Gupta,Bangalore,Corporate,Technology,Logitech MX Master 3S,1,8892.47,0.0,8892.47,2936.9,UPI,Delivered
+ORD-2026-10222,2026-03-21,Neha Singhania,Hyderabad,Home Office,Furniture,Steelcase Gesture,2,112164.4,0.0,224328.8,66353.18,Net Banking,Delivered
+ORD-2026-10223,2026-07-27,Ishaan Verma,Mumbai,Corporate,Office Supplies,LaserJet Pro Toner,2,6814.54,0.0,13629.08,4205.05,UPI,Processing
+ORD-2026-10224,2026-02-10,Neha Iyer,Kolkata,Corporate,Technology,Logitech MX Master 3S,2,8633.71,0.0,17267.42,4882.38,UPI,Shipped
+ORD-2026-10225,2026-06-01,Vikram Deshmukh,Mumbai,Home Office,Technology,Dell XPS 15,1,144144.11,0.1,129729.7,21888.41,UPI,Delivered
+ORD-2026-10226,2026-03-25,Priya Singhania,Delhi,Corporate,Office Supplies,Heavy Duty Stapler Set,2,959.21,0.05,1822.5,376.16,Credit Card,Delivered
+ORD-2026-10227,2026-04-01,Arjun Singhania,Bangalore,Home Office,Office Supplies,Moleskine Hardcover Journal,4,1830.98,0.05,6957.72,1807.23,UPI,Delivered
+ORD-2026-10228,2026-01-30,Rohan Nair,Bangalore,Home Office,Furniture,Bookshelf Oak Finish,2,14388.41,0.05,27337.98,6252.23,UPI,Processing
+ORD-2026-10229,2026-02-12,Sneha Mehta,Bangalore,Consumer,Furniture,Bookshelf Oak Finish,2,15155.17,0.15,25763.79,3565.0,UPI,Shipped
+ORD-2026-10230,2026-05-24,Kabir Gupta,Ahmedabad,Corporate,Office Supplies,Heavy Duty Stapler Set,2,948.93,0.1,1708.07,447.79,Credit Card,Delivered
+ORD-2026-10231,2026-03-16,Aarav Mehta,Hyderabad,Home Office,Furniture,Ergonomic Standing Desk,3,39035.68,0.05,111251.69,25271.32,Credit Card,Processing
+ORD-2026-10232,2026-01-30,Aditya Iyer,Pune,Home Office,Technology,Dell 27-inch 4K Monitor,2,41685.65,0.0,83371.3,18748.7,UPI,Delivered
+ORD-2026-10233,2026-08-12,Aarav Singhania,Chennai,Corporate,Technology,Logitech MX Master 3S,4,8765.11,0.0,35060.44,11020.22,Net Banking,Processing
+ORD-2026-10234,2026-06-11,Vikram Patel,Bangalore,Consumer,Technology,ThinkPad X1 Carbon,2,126210.72,0.05,239800.37,68501.08,Net Banking,Delivered
+ORD-2026-10235,2026-05-27,Aditya Iyer,Delhi,Consumer,Furniture,Herman Miller Aeron Chair,12,91455.44,0.15,932845.49,57909.52,UPI,Delivered
+ORD-2026-10236,2026-07-02,Neha Reddy,Kolkata,Corporate,Technology,Sony WH-1000XM5,2,27650.48,0.05,52535.91,15880.35,Credit Card,Shipped
+ORD-2026-10237,2026-05-12,Ishaan Mehta,Pune,Corporate,Furniture,Steelcase Gesture,2,113818.84,0.15,193492.03,41923.1,Corporate Wire,Delivered
+ORD-2026-10238,2026-08-06,Ananya Iyer,Kolkata,Consumer,Furniture,Ergonomic Standing Desk,2,37177.65,0.0,74355.3,19106.13,UPI,Processing
+ORD-2026-10239,2026-08-07,Sneha Nair,Mumbai,Consumer,Technology,Dell 27-inch 4K Monitor,3,40421.8,0.0,121265.4,24762.3,Corporate Wire,Shipped
+ORD-2026-10240,2026-01-01,Vikram Reddy,Bangalore,Home Office,Furniture,Ergonomic Standing Desk,4,36454.69,0.15,123945.95,20228.86,Credit Card,Delivered
+ORD-2026-10241,2026-06-20,Divya Gupta,Bangalore,Consumer,Furniture,Steelcase Gesture,3,109221.54,0.1,294898.16,76836.09,Credit Card,Delivered
+ORD-2026-10242,2026-02-24,Sneha Verma,Bangalore,Home Office,Technology,Sony WH-1000XM5,2,28547.67,0.0,57095.34,12052.34,Corporate Wire,Delivered
+ORD-2026-10243,2026-05-03,Ananya Reddy,Kolkata,Consumer,Office Supplies,LaserJet Pro Toner,1,6369.52,0.0,6369.52,1814.91,UPI,Delivered
+ORD-2026-10244,2026-01-18,Kabir Chatterjee,Mumbai,Home Office,Office Supplies,Premium Copy Paper Box,2,2228.18,0.1,4010.72,999.41,Corporate Wire,Processing
+ORD-2026-10245,2026-06-25,Sneha Reddy,Delhi,Consumer,Technology,ThinkPad X1 Carbon,2,130790.61,0.0,261581.22,77567.82,UPI,Delivered
+ORD-2026-10246,2026-03-12,Rahul Verma,Hyderabad,Home Office,Office Supplies,Whiteboard Magnetic 4x3,3,4698.58,0.0,14095.74,4869.23,Net Banking,Delivered
+ORD-2026-10247,2026-05-13,Tanvi Iyer,Hyderabad,Home Office,Furniture,Steelcase Gesture,2,113231.56,0.1,203816.81,47401.45,Corporate Wire,Delivered
+ORD-2026-10248,2026-03-03,Sneha Gupta,Delhi,Home Office,Technology,iPad Pro 12.9,5,88066.92,0.0,440334.6,111569.93,Net Banking,Processing
+ORD-2026-10249,2026-06-24,Rohan Singhania,Delhi,Consumer,Office Supplies,LaserJet Pro Toner,1,6774.68,0.0,6774.68,1278.55,Corporate Wire,Processing
+ORD-2026-10250,2026-03-15,Rahul Joshi,Kolkata,Corporate,Office Supplies,Heavy Duty Stapler Set,1,961.02,0.05,912.97,242.98,,Delivered
+ORD-2026-10251,2026-01-21,Kabir Reddy,Bangalore,Home Office,Furniture,Bookshelf Oak Finish,2,14717.27,0.1,26491.09,4140.38,Net Banking,Shipped
+ORD-2026-10252,2026-07-06,Arjun Reddy,Mumbai,Consumer,Technology,Logitech MX Master 3S,1,8121.77,0.05,7715.68,1516.87,UPI,Delivered
+ORD-2026-10253,2026-01-04,Ishaan Patel,Mumbai,Consumer,Furniture,Steelcase Gesture,2,112428.42,0.1,202371.16,49831.94,UPI,Delivered
+ORD-2026-10254,2026-07-07,Divya Verma,Mumbai,Corporate,Furniture,Steelcase Gesture,2,115225.56,0.0,230451.12,56073.23,Corporate Wire,Shipped
+ORD-2026-10255,2026-05-11,Neha Sharma,Ahmedabad,Home Office,Technology,iPad Pro 12.9,1,88351.28,0.1,79516.15,11962.72,Credit Card,Delivered
+ORD-2026-10256,2026-07-09,Kabir Sharma,Mumbai,Consumer,Technology,ThinkPad X1 Carbon,2,120626.06,0.0,241252.12,46248.7,Credit Card,Processing
+ORD-2026-10257,2026-07-25,Divya Joshi,Kolkata,Consumer,Furniture,Ergonomic Standing Desk,2,37130.78,0.1,66835.4,17582.1,Net Banking,Delivered
+ORD-2026-10258,2026-05-09,Rahul Sharma,Bangalore,Consumer,Office Supplies,LaserJet Pro Toner,5,6477.31,0.0,32386.55,9780.99,Net Banking,Delivered
+ORD-2026-10259,2026-01-23,Kabir Singhania,Mumbai,Corporate,Technology,iPad Pro 12.9,2,86043.1,0.0,172086.2,46658.16,Corporate Wire,Delivered
+ORD-2026-10260,2026-07-07,Divya Iyer,Hyderabad,Consumer,Technology,Logitech MX Master 3S,1,8615.55,0.05,8184.77,1568.99,Credit Card,Delivered
+ORD-2026-10261,2026-01-01,Meera Gupta,Kolkata,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1752.87,0.05,1665.23,379.25,Credit Card,Delivered
+ORD-2026-10262,2026-07-02,Aditya Verma,Mumbai,Consumer,Office Supplies,Heavy Duty Stapler Set,3,995.08,0.0,2985.24,1001.75,Credit Card,Processing
+ORD-2026-10263,2026-02-04,Rahul Deshmukh,Delhi,Home Office,Office Supplies,LaserJet Pro Toner,2,6328.9,0.2,10126.24,1337.06,Net Banking,Shipped
+ORD-2026-10264,2026-06-29,Arjun Joshi,Pune,Corporate,Furniture,Steelcase Gesture,1,105997.23,0.15,90097.65,7321.77,Credit Card,Delivered
+ORD-2026-10265,2026-01-28,Rohan Singhania,Ahmedabad,Corporate,Furniture,Herman Miller Aeron Chair,2,92222.54,0.2,147556.06,17999.56,Net Banking,Delivered
+ORD-2026-10266,2026-01-24,Rohan Gupta,Chennai,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4422.51,0.1,3980.26,1037.05,UPI,Delivered
+ORD-2026-10267,2026-04-12,Kabir Sharma,Chennai,Corporate,Technology,ThinkPad X1 Carbon,5,125699.42,0.15,534222.53,66922.02,Credit Card,Shipped
+ORD-2026-10268,2026-01-27,Meera Patel,Delhi,Consumer,Technology,Dell XPS 15,1,138211.36,0.1,124390.22,19743.41,Credit Card,Processing
+ORD-2026-10269,2026-05-31,Aditya Verma,Mumbai,Consumer,Technology,Dell 27-inch 4K Monitor,2,43701.33,0.0,87402.66,18267.98,Net Banking,Delivered
+ORD-2026-10270,2026-01-11,Sneha Sharma,Bangalore,Home Office,Furniture,Bookshelf Oak Finish,2,14393.66,0.0,28787.32,8343.42,UPI,Delivered
+ORD-2026-10271,2026-03-13,Sneha Patel,Mumbai,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4460.4,0.0,4460.4,1143.57,Credit Card,Delivered
+ORD-2026-10272,2026-03-13,Vikram Patel,Kolkata,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4519.65,0.2,3615.72,662.94,Corporate Wire,Delivered
+ORD-2026-10273,2026-05-03,Kabir Singhania,Pune,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1767.4,0.0,1767.4,552.78,Net Banking,Delivered
+ORD-2026-10274,2026-07-27,Sneha Iyer,Pune,Home Office,Technology,Dell XPS 15,1,136731.38,0.05,129894.81,22045.41,Credit Card,Delivered
+ORD-2026-10275,2026-05-28,Arjun Deshmukh,Pune,Consumer,Technology,Dell XPS 15,2,142766.77,0.1,256980.19,27018.16,Credit Card,Delivered
+ORD-2026-10276,2026-05-26,Tanvi Patel,Hyderabad,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1720.11,0.0,1720.11,426.1,Credit Card,Processing
+ORD-2026-10277,2026-05-03,Aarav Nair,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,4,37329.64,0.1,134386.7,36773.4,UPI,Delivered
+ORD-2026-10278,2026-08-05,Kabir Nair,Delhi,Corporate,Office Supplies,Heavy Duty Stapler Set,2,933.15,0.0,1866.3,343.59,Corporate Wire,Shipped
+ORD-2026-10279,2026-06-16,Neha Patel,Pune,Consumer,Office Supplies,Whiteboard Magnetic 4x3,3,4605.3,0.0,13815.9,4143.83,UPI,Delivered
+ORD-2026-10280,2026-06-29,Tanvi Deshmukh,Mumbai,Consumer,Office Supplies,Moleskine Hardcover Journal,4,1749.76,0.2,5599.23,376.94,Corporate Wire,Delivered
+ORD-2026-10281,2026-03-26,Ishaan Verma,Hyderabad,Corporate,Furniture,Ergonomic Standing Desk,2,39222.31,0.2,62755.7,2831.53,Net Banking,Shipped
+ORD-2026-10282,2026-01-03,Aditya Reddy,Hyderabad,Home Office,Technology,iPad Pro 12.9,1,80760.89,0.0,80760.89,22967.65,Corporate Wire,Delivered
+ORD-2026-10283,2026-08-15,Vikram Singhania,Kolkata,Corporate,Office Supplies,Heavy Duty Stapler Set,1,984.58,0.0,984.58,235.64,UPI,Delivered
+ORD-2026-10284,2026-04-26,Ananya Sharma,Chennai,Consumer,Furniture,Steelcase Gesture,5,106371.16,0.0,531855.8,152202.32,Credit Card,Processing
+ORD-2026-10285,2026-08-18,Ananya Nair,Ahmedabad,Home Office,Technology,Logitech MX Master 3S,5,8831.29,0.0,44156.45,14275.44,Credit Card,Delivered
+ORD-2026-10286,2026-02-22,Priya Deshmukh,Chennai,Home Office,Furniture,Steelcase Gesture,1,110789.47,0.0,110789.47,22958.32,UPI,Delivered
+ORD-2026-10287,2026-04-03,Aarav Deshmukh,Delhi,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4368.13,0.0,8736.26,2109.87,Credit Card,Shipped
+ORD-2026-10288,2026-08-05,Ananya Mehta,Kolkata,Corporate,Furniture,Steelcase Gesture,1,106533.69,0.05,101207.01,15923.19,Net Banking,Delivered
+ORD-2026-10289,2026-04-25,Aarav Mehta,Ahmedabad,Corporate,Furniture,Ergonomic Standing Desk,3,36674.3,0.05,104521.76,19980.16,Credit Card,Delivered
+ORD-2026-10290,2026-06-21,Neha Iyer,Kolkata,Home Office,Technology,Sony WH-1000XM5,1,28063.23,0.0,28063.23,5215.36,Corporate Wire,Processing
+ORD-2026-10291,2026-08-14,Priya Singhania,Chennai,Consumer,Furniture,Herman Miller Aeron Chair,2,97854.28,0.15,166352.28,16599.82,UPI,Delivered
+ORD-2026-10292,2026-07-13,Sneha Patel,Bangalore,Consumer,Technology,Dell XPS 15,1,142563.76,0.0,142563.76,45003.63,UPI,Processing
+ORD-2026-10293,2026-03-08,Neha Joshi,Delhi,Consumer,Furniture,Filing Cabinet 3-Tier,1,11731.44,0.0,11731.44,3192.28,Credit Card,Processing
+ORD-2026-10294,2026-05-31,Kabir Deshmukh,Delhi,Corporate,Technology,Dell XPS 15,2,146507.64,0.05,278364.52,82913.17,Credit Card,Processing
+ORD-2026-10295,2026-07-19,Ananya Mehta,Pune,Corporate,Furniture,Bookshelf Oak Finish,2,14460.92,0.05,27475.75,7829.9,Corporate Wire,Delivered
+ORD-2026-10296,2026-06-08,Tanvi Gupta,Kolkata,Consumer,Furniture,Steelcase Gesture,2,109727.4,0.0,219454.8,66789.02,Net Banking,Delivered
+ORD-2026-10297,2026-03-28,Arjun Mehta,Chennai,Corporate,Furniture,Herman Miller Aeron Chair,8,93104.56,0.0,744836.48,166520.84,Net Banking,Delivered
+ORD-2026-10298,2026-07-06,Vikram Chatterjee,Delhi,Consumer,Furniture,Ergonomic Standing Desk,4,37940.95,0.0,151763.8,39791.67,Net Banking,Delivered
+ORD-2026-10299,2026-05-12,Meera Patel,Delhi,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4510.93,0.1,8119.67,1383.28,UPI,Delivered
+ORD-2026-10300,2026-08-13,Arjun Reddy,Mumbai,Consumer,Technology,Logitech MX Master 3S,1,8244.24,0.0,8244.24,2369.23,Corporate Wire,Processing
+ORD-2026-10301,2026-04-12,Rahul Verma,Mumbai,Consumer,Furniture,Bookshelf Oak Finish,2,15037.2,0.0,30074.4,7525.53,Net Banking,Delivered
+ORD-2026-10302,2026-02-11,Arjun Mehta,Delhi,Corporate,Technology,Logitech MX Master 3S,1,8737.86,0.15,7427.18,1429.21,UPI,Delivered
+ORD-2026-10303,2026-06-23,Priya Mehta,Kolkata,Home Office,Technology,Dell 27-inch 4K Monitor,1,42618.96,0.15,36226.12,4168.39,Credit Card,Delivered
+ORD-2026-10304,2026-03-06,Tanvi Mehta,Chennai,Corporate,Furniture,Steelcase Gesture,2,107823.6,0.0,215647.2,56389.92,Corporate Wire,Processing
+ORD-2026-10305,2026-01-27,Aarav Iyer,Pune,Home Office,Office Supplies,Whiteboard Magnetic 4x3,2,4323.65,0.0,8647.3,2932.71,Net Banking,Delivered
+ORD-2026-10306,2026-08-09,Aditya Mehta,Chennai,Consumer,Technology,Sony WH-1000XM5,3,28855.2,0.15,73580.76,5505.41,Corporate Wire,Delivered
+ORD-2026-10307,2026-06-24,Rohan Joshi,Mumbai,Home Office,Furniture,Steelcase Gesture,1,108771.02,0.0,108771.02,37416.77,UPI,Delivered
+ORD-2026-10308,2026-07-05,Ishaan Reddy,Ahmedabad,Home Office,Furniture,Filing Cabinet 3-Tier,1,12189.14,0.0,12189.14,3109.42,Net Banking,Delivered
+ORD-2026-10309,2026-05-01,Rohan Joshi,Chennai,Home Office,Office Supplies,Premium Copy Paper Box,5,2233.98,0.15,9494.41,1811.94,UPI,Delivered
+ORD-2026-10310,2026-04-18,Meera Nair,Pune,Corporate,Office Supplies,Moleskine Hardcover Journal,2,1719.66,0.0,3439.32,832.84,Credit Card,Shipped
+ORD-2026-10311,2026-08-16,Priya Iyer,Delhi,Home Office,Furniture,Filing Cabinet 3-Tier,1,12425.09,0.0,12425.09,4058.63,UPI,Delivered
+ORD-2026-10312,2026-04-15,Tanvi Singhania,Bangalore,Corporate,Office Supplies,Premium Copy Paper Box,3,2228.83,0.0,6686.49,2139.27,Credit Card,Delivered
+ORD-2026-10313,2026-04-26,Aditya Reddy,Bangalore,Home Office,Technology,Logitech MX Master 3S,3,8185.0,0.1,22099.5,4328.29,Corporate Wire,Shipped
+ORD-2026-10314,2026-04-20,Sneha Deshmukh,Mumbai,Consumer,Office Supplies,Premium Copy Paper Box,3,2286.24,0.2,5486.98,146.34,UPI,Delivered
+ORD-2026-10315,2026-06-23,Aarav Gupta,Hyderabad,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1800.6,0.0,1800.6,536.51,Credit Card,Delivered
+ORD-2026-10316,2026-03-18,Aditya Singhania,Pune,Corporate,Office Supplies,Premium Copy Paper Box,1,2169.04,0.15,1843.68,364.32,Corporate Wire,Delivered
+ORD-2026-10317,2026-02-28,Priya Joshi,Bangalore,Consumer,Office Supplies,LaserJet Pro Toner,2,6413.28,0.0,12826.56,3070.78,Credit Card,Shipped
+ORD-2026-10318,2026-08-13,Rahul Mehta,Mumbai,Home Office,Technology,Dell 27-inch 4K Monitor,1,40102.59,0.1,36092.33,9236.26,Corporate Wire,Shipped
+ORD-2026-10319,2026-02-01,Kabir Mehta,Ahmedabad,Home Office,Technology,Dell XPS 15,2,137215.63,0.05,260709.7,51460.54,Net Banking,Processing
+ORD-2026-10320,2026-06-05,Ishaan Patel,Kolkata,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4322.82,0.0,4322.82,1367.01,UPI,Delivered
+ORD-2026-10321,2026-08-01,Kabir Reddy,Pune,Home Office,Furniture,Steelcase Gesture,1,114513.92,0.05,108788.22,20956.65,Corporate Wire,Delivered
+ORD-2026-10322,2026-03-02,Aarav Sharma,Delhi,Consumer,Office Supplies,Heavy Duty Stapler Set,1,951.11,0.0,951.11,215.9,Credit Card,Delivered
+ORD-2026-10323,2026-06-14,Priya Singhania,Chennai,Corporate,Furniture,Herman Miller Aeron Chair,1,90624.72,0.0,90624.72,27242.12,Net Banking,Shipped
+ORD-2026-10324,2026-07-09,Ananya Verma,Mumbai,Consumer,Technology,Dell 27-inch 4K Monitor,2,43657.02,0.0,87314.04,16383.16,Net Banking,Delivered
+ORD-2026-10325,2026-04-06,Arjun Nair,Bangalore,Consumer,Furniture,Bookshelf Oak Finish,5,14334.29,0.0,71671.45,14720.3,Corporate Wire,Delivered
+ORD-2026-10326,2026-01-29,Rohan Joshi,Mumbai,Consumer,Technology,Logitech MX Master 3S,4,8558.6,0.0,34234.4,9432.0,Corporate Wire,Delivered
+ORD-2026-10327,2026-06-06,Aarav Gupta,Bangalore,Corporate,Furniture,Herman Miller Aeron Chair,4,90851.69,0.0,363406.76,86728.66,Credit Card,Processing
+ORD-2026-10328,2026-07-16,Ishaan Chatterjee,Hyderabad,Home Office,Furniture,Filing Cabinet 3-Tier,2,11514.29,0.1,20725.72,3166.63,UPI,Shipped
+ORD-2026-10329,2026-03-30,Rahul Gupta,Kolkata,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4345.62,0.05,4128.34,676.6,Corporate Wire,Delivered
+ORD-2026-10330,2026-01-20,Meera Singhania,Pune,Consumer,Furniture,Steelcase Gesture,1,111576.49,0.0,111576.49,31402.41,UPI,Delivered
+ORD-2026-10331,2026-04-28,Sneha Chatterjee,Ahmedabad,Consumer,Furniture,Bookshelf Oak Finish,1,14855.6,0.2,11884.48,2183.46,Corporate Wire,Shipped
+ORD-2026-10332,2026-01-10,Kabir Iyer,Mumbai,Consumer,Office Supplies,Whiteboard Magnetic 4x3,2,4528.05,0.15,7697.69,803.45,Corporate Wire,Delivered
+ORD-2026-10333,2026-04-04,Arjun Sharma,Hyderabad,Corporate,Furniture,Filing Cabinet 3-Tier,3,12259.99,0.05,34940.97,8762.46,Corporate Wire,Delivered
+ORD-2026-10334,2026-01-25,Meera Gupta,Hyderabad,Consumer,Furniture,Steelcase Gesture,3,107711.82,0.2,258508.37,19796.1,Credit Card,Delivered
+ORD-2026-10335,2026-08-18,Rohan Singhania,Bangalore,Home Office,Office Supplies,Heavy Duty Stapler Set,1,920.32,0.05,874.3,130.56,Corporate Wire,Delivered
+ORD-2026-10336,2026-04-28,Arjun Reddy,Pune,Consumer,Furniture,Herman Miller Aeron Chair,4,95843.71,0.1,345037.36,45520.14,Corporate Wire,Shipped
+ORD-2026-10337,2026-06-18,Tanvi Iyer,Bangalore,Corporate,Technology,Sony WH-1000XM5,3,27811.87,0.05,79263.83,16731.3,UPI,Processing
+ORD-2026-10338,2026-02-14,Ishaan Patel,Delhi,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4671.63,0.0,9343.26,2605.15,UPI,Delivered
+ORD-2026-10339,2026-04-12,Neha Mehta,Ahmedabad,Consumer,Technology,Logitech MX Master 3S,2,8510.45,0.15,14467.77,964.7,Net Banking,Processing
+ORD-2026-10340,2026-06-11,Priya Reddy,Hyderabad,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1733.88,0.15,2947.6,274.76,UPI,Processing
+ORD-2026-10341,2026-05-19,Ishaan Gupta,Pune,Home Office,Technology,iPad Pro 12.9,2,88762.73,0.05,168649.19,31826.59,Net Banking,Shipped
+ORD-2026-10342,2026-07-26,Aarav Iyer,Delhi,Consumer,Furniture,Ergonomic Standing Desk,1,37114.52,0.0,37114.52,8033.79,Net Banking,Delivered
+ORD-2026-10343,2026-02-07,Arjun Sharma,Chennai,Consumer,Office Supplies,LaserJet Pro Toner,1,6575.47,0.0,6575.47,1546.29,UPI,Processing
+ORD-2026-10344,2026-04-10,Priya Iyer,Chennai,Home Office,Office Supplies,LaserJet Pro Toner,4,6796.86,0.0,27187.44,5005.48,Net Banking,Processing
+ORD-2026-10345,2026-01-14,Aarav Joshi,Chennai,Consumer,Office Supplies,Heavy Duty Stapler Set,3,969.44,0.15,2472.07,261.46,UPI,Delivered
+ORD-2026-10346,2026-03-17,Sneha Patel,Delhi,Consumer,Technology,Dell 27-inch 4K Monitor,2,41699.73,0.0,83399.46,21298.41,UPI,Delivered
+ORD-2026-10347,2026-05-30,Arjun Mehta,Mumbai,Corporate,Furniture,Ergonomic Standing Desk,1,38368.15,0.15,32612.93,2627.36,Net Banking,Shipped
+ORD-2026-10348,2026-07-22,Tanvi Iyer,Pune,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1803.71,0.2,2885.94,58.94,UPI,Shipped
+ORD-2026-10349,2026-05-20,Kabir Deshmukh,Delhi,Corporate,Technology,Dell XPS 15,2,137110.04,0.0,274220.08,51676.11,Corporate Wire,Processing
+ORD-2026-10350,2026-07-30,Meera Gupta,Mumbai,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1820.47,0.15,3094.8,343.73,Credit Card,Delivered
+ORD-2026-10351,2026-04-08,Divya Verma,Kolkata,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1848.69,0.05,1756.26,392.98,Corporate Wire,Shipped
+ORD-2026-10352,2026-01-12,Aditya Gupta,Hyderabad,Corporate,Office Supplies,LaserJet Pro Toner,5,6796.58,0.0,33982.9,8786.08,Credit Card,Delivered
+ORD-2026-10353,2026-02-23,Rahul Gupta,Hyderabad,Home Office,Furniture,Herman Miller Aeron Chair,1,98597.05,0.1,88737.35,12222.71,Corporate Wire,Delivered
+ORD-2026-10354,2026-07-11,Rahul Patel,Mumbai,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1742.04,0.0,1742.04,535.11,Credit Card,Processing
+ORD-2026-10355,2026-07-30,Priya Mehta,Kolkata,Corporate,Furniture,Bookshelf Oak Finish,2,14751.28,0.0,29502.56,7643.47,Credit Card,Processing
+ORD-2026-10356,2026-01-12,Ishaan Verma,Pune,Home Office,Technology,iPad Pro 12.9,3,81485.29,0.0,244455.87,53756.67,Corporate Wire,Shipped
+ORD-2026-10357,2026-04-12,Arjun Gupta,Mumbai,Corporate,Technology,Sony WH-1000XM5,1,28830.96,0.1,25947.86,3044.27,Net Banking,Delivered
+ORD-2026-10358,2026-03-18,Rahul Joshi,Pune,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4532.72,0.0,4532.72,1282.79,Credit Card,Delivered
+ORD-2026-10359,2026-02-23,Ishaan Joshi,Pune,Consumer,Furniture,Filing Cabinet 3-Tier,1,12140.26,0.0,12140.26,3727.47,Credit Card,Delivered
+ORD-2026-10360,2026-06-21,,Mumbai,Home Office,Furniture,Filing Cabinet 3-Tier,1,11700.83,0.05,11115.79,3117.56,Corporate Wire,Delivered
+ORD-2026-10361,2026-04-02,Rohan Gupta,Hyderabad,Consumer,Furniture,Filing Cabinet 3-Tier,1,11983.03,0.0,11983.03,3525.18,Net Banking,Processing
+ORD-2026-10362,2026-02-09,Tanvi Chatterjee,Pune,Corporate,Furniture,Ergonomic Standing Desk,1,36941.8,0.0,36941.8,8283.51,Corporate Wire,Delivered
+ORD-2026-10363,2026-08-04,Neha Patel,Pune,Corporate,Furniture,Bookshelf Oak Finish,1,14574.92,0.0,14574.92,4665.71,Credit Card,Delivered
+ORD-2026-10364,2026-08-08,Arjun Patel,Hyderabad,Corporate,Office Supplies,LaserJet Pro Toner,3,6727.23,0.15,17154.44,1869.3,Corporate Wire,Processing
+ORD-2026-10365,2026-02-24,Divya Sharma,Chennai,Home Office,Office Supplies,Heavy Duty Stapler Set,2,939.79,0.0,1879.58,373.01,Net Banking,Delivered
+ORD-2026-10366,2026-04-29,Kabir Iyer,Delhi,Corporate,Furniture,Filing Cabinet 3-Tier,1,12556.8,0.0,12556.8,2298.96,UPI,Processing
+ORD-2026-10367,2026-02-05,Sneha Patel,Bangalore,Home Office,Office Supplies,Premium Copy Paper Box,3,2168.94,0.0,6506.82,2035.34,Corporate Wire,Delivered
+ORD-2026-10368,2026-01-17,Aditya Nair,Hyderabad,Consumer,Office Supplies,Premium Copy Paper Box,2,2175.38,0.1,3915.68,408.78,Credit Card,Delivered
+ORD-2026-10369,2026-06-16,Neha Verma,Chennai,Home Office,Furniture,Filing Cabinet 3-Tier,2,12184.41,0.0,24368.82,7015.77,Credit Card,Processing
+ORD-2026-10370,2026-03-06,Vikram Reddy,Kolkata,Corporate,Furniture,Bookshelf Oak Finish,3,13784.57,0.15,35150.65,2069.92,Corporate Wire,Delivered
+ORD-2026-10371,2026-02-28,Ananya Iyer,Chennai,Consumer,Technology,Dell XPS 15,1,144437.37,0.05,137215.5,27098.09,Corporate Wire,Delivered
+ORD-2026-10372,2026-07-04,Ananya Singhania,Ahmedabad,Corporate,Technology,Sony WH-1000XM5,1,26662.85,0.1,23996.56,6470.15,UPI,Delivered
+ORD-2026-10373,2026-06-11,Kabir Sharma,Bangalore,Consumer,Technology,iPad Pro 12.9,4,84196.38,0.05,319946.24,45543.02,Credit Card,Delivered
+ORD-2026-10374,2026-01-22,Priya Singhania,Ahmedabad,Corporate,Technology,Dell XPS 15,3,144124.62,0.05,410755.17,69405.93,UPI,Processing
+ORD-2026-10375,2026-06-18,Kabir Mehta,Bangalore,Home Office,Office Supplies,Moleskine Hardcover Journal,4,1722.39,0.05,6545.08,1623.9,UPI,Delivered
+ORD-2026-10376,2026-01-05,Priya Iyer,Kolkata,Consumer,Office Supplies,LaserJet Pro Toner,1,6564.88,0.15,5580.15,333.38,Credit Card,Delivered
+ORD-2026-10377,2026-05-04,Rahul Patel,Mumbai,Home Office,Office Supplies,Heavy Duty Stapler Set,2,906.63,0.0,1813.26,471.32,UPI,Shipped
+ORD-2026-10378,2026-07-22,Meera Deshmukh,Pune,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4489.71,0.0,4489.71,1393.93,Credit Card,Delivered
+ORD-2026-10379,2026-06-03,Divya Iyer,Kolkata,Corporate,Technology,ThinkPad X1 Carbon,3,125974.84,0.1,340132.07,86910.98,Credit Card,Shipped
+ORD-2026-10380,2026-06-17,Priya Joshi,Pune,Corporate,Furniture,Herman Miller Aeron Chair,1,92659.51,0.05,88026.53,14330.15,Corporate Wire,Processing
+ORD-2026-10381,2026-04-04,Tanvi Mehta,Kolkata,Consumer,Furniture,Filing Cabinet 3-Tier,3,11844.26,0.0,35532.78,9084.49,Net Banking,Delivered
+ORD-2026-10382,2026-05-28,Neha Joshi,Kolkata,Home Office,Technology,Dell 27-inch 4K Monitor,1,43189.06,0.0,43189.06,8146.68,Credit Card,Delivered
+ORD-2026-10383,2026-05-11,Vikram Nair,Mumbai,Consumer,Furniture,Herman Miller Aeron Chair,3,94730.85,0.1,255773.3,42048.64,Credit Card,Delivered
+ORD-2026-10384,2026-03-09,Priya Nair,Delhi,Home Office,Technology,Dell 27-inch 4K Monitor,1,42478.66,0.2,33982.93,2609.43,Credit Card,Delivered
+ORD-2026-10385,2026-06-13,Sneha Singhania,Mumbai,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4544.78,0.0,4544.78,1192.15,UPI,Processing
+ORD-2026-10386,2026-02-13,Rahul Sharma,Pune,Consumer,Office Supplies,LaserJet Pro Toner,8,6354.36,0.0,50834.88,14340.33,Corporate Wire,Shipped
+ORD-2026-10387,2026-05-31,Priya Iyer,Mumbai,Home Office,Office Supplies,LaserJet Pro Toner,4,6646.99,0.05,25258.56,5449.22,Net Banking,Delivered
+ORD-2026-10388,2026-07-28,Aditya Reddy,Hyderabad,Corporate,Furniture,Filing Cabinet 3-Tier,1,12007.49,0.0,12007.49,3062.3,Net Banking,Delivered
+ORD-2026-10389,2026-01-30,Meera Iyer,Chennai,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1811.37,0.2,2898.19,69.21,Net Banking,Shipped
+ORD-2026-10390,2026-06-24,Sneha Chatterjee,Mumbai,Corporate,Technology,iPad Pro 12.9,1,89200.68,0.05,84740.65,16495.42,UPI,Delivered
+ORD-2026-10391,2026-04-16,Neha Iyer,Mumbai,Home Office,Furniture,Ergonomic Standing Desk,1,38945.39,0.0,38945.39,11366.65,UPI,Shipped
+ORD-2026-10392,2026-03-22,Neha Reddy,Chennai,Consumer,Office Supplies,Premium Copy Paper Box,2,2251.79,0.0,4503.58,908.07,UPI,Delivered
+ORD-2026-10393,2026-02-21,Arjun Reddy,Pune,Consumer,Technology,ThinkPad X1 Carbon,4,127042.8,0.05,482762.64,99423.4,Credit Card,Shipped
+ORD-2026-10394,2026-04-06,Tanvi Nair,Ahmedabad,Home Office,Furniture,Bookshelf Oak Finish,1,14516.14,0.1,13064.53,2647.17,UPI,Delivered
+ORD-2026-10395,2026-05-15,Meera Deshmukh,Ahmedabad,Home Office,Technology,Sony WH-1000XM5,1,28772.53,0.15,24456.65,3518.21,Credit Card,Processing
+ORD-2026-10396,2026-04-28,Neha Joshi,Mumbai,Consumer,Office Supplies,Premium Copy Paper Box,1,2169.55,0.0,2169.55,441.47,UPI,Processing
+ORD-2026-10397,2026-03-09,Priya Mehta,Ahmedabad,Home Office,Furniture,Steelcase Gesture,1,109110.02,0.0,109110.02,24236.25,Net Banking,Shipped
+ORD-2026-10398,2026-03-13,Sneha Patel,Bangalore,Home Office,Office Supplies,Premium Copy Paper Box,3,2266.9,0.1,6120.63,1058.14,Corporate Wire,Delivered
+ORD-2026-10399,2026-02-07,Meera Joshi,Bangalore,Corporate,Technology,Dell XPS 15,2,145505.79,0.0,291011.58,70654.46,Net Banking,Shipped
+ORD-2026-10400,2026-03-18,Aditya Iyer,Mumbai,Corporate,Technology,Dell 27-inch 4K Monitor,1,40968.02,0.0,40968.02,8495.74,Credit Card,Shipped
+ORD-2026-10401,2026-07-10,Neha Mehta,Pune,Corporate,Office Supplies,Whiteboard Magnetic 4x3,5,4283.93,0.0,21419.65,7055.41,UPI,Processing
+ORD-2026-10402,2026-05-28,Rahul Gupta,Bangalore,Corporate,Furniture,Steelcase Gesture,2,112601.79,0.0,225203.58,44762.02,Corporate Wire,Processing
+ORD-2026-10403,2026-03-15,Sneha Gupta,Bangalore,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1782.86,0.05,3387.43,519.87,Credit Card,Delivered
+ORD-2026-10404,2026-03-29,Priya Nair,Pune,Home Office,Furniture,Steelcase Gesture,2,114264.61,0.0,228529.22,49644.41,Net Banking,Processing
+ORD-2026-10405,2026-05-14,Sneha Deshmukh,Bangalore,Consumer,Technology,Dell XPS 15,3,146166.12,0.05,416573.44,79316.25,Credit Card,Delivered
+ORD-2026-10406,2026-02-12,Vikram Verma,Delhi,Consumer,Furniture,Filing Cabinet 3-Tier,1,12028.78,0.1,10825.9,970.45,Credit Card,Delivered
+ORD-2026-10407,2026-06-08,Rohan Verma,Kolkata,Corporate,Technology,Dell XPS 15,3,134769.76,0.0,404309.28,105303.89,UPI,Delivered
+ORD-2026-10408,2026-01-09,Rahul Nair,Pune,Corporate,Furniture,Filing Cabinet 3-Tier,5,11562.14,0.05,54920.16,8021.65,UPI,Processing
+ORD-2026-10409,2026-06-02,Sneha Gupta,Kolkata,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4517.85,0.0,4517.85,963.2,Corporate Wire,Delivered
+ORD-2026-10410,2026-04-04,Vikram Mehta,Bangalore,Corporate,Technology,ThinkPad X1 Carbon,2,120453.76,0.1,216816.77,48482.74,Credit Card,Shipped
+ORD-2026-10411,2026-07-13,Sneha Mehta,Mumbai,Corporate,Furniture,Filing Cabinet 3-Tier,1,11848.37,0.0,11848.37,3317.6,Corporate Wire,Shipped
+ORD-2026-10412,2026-03-05,Rohan Joshi,Kolkata,Corporate,Technology,iPad Pro 12.9,1,85141.19,0.05,80884.13,13963.75,Net Banking,Delivered
+ORD-2026-10413,2026-06-16,Ishaan Iyer,Chennai,Corporate,Technology,ThinkPad X1 Carbon,1,126711.16,0.0,126711.16,31042.46,Net Banking,Processing
+ORD-2026-10414,2026-05-06,Priya Nair,Mumbai,Consumer,Technology,Sony WH-1000XM5,1,27389.92,0.2,21911.94,3526.27,Corporate Wire,Delivered
+ORD-2026-10415,2026-03-01,Ananya Patel,Mumbai,Corporate,Technology,iPad Pro 12.9,2,84986.36,0.1,152975.45,31761.53,Credit Card,Delivered
+ORD-2026-10416,2026-01-21,Arjun Patel,Mumbai,Corporate,Furniture,Herman Miller Aeron Chair,2,98759.14,0.0,197518.28,60734.2,Corporate Wire,Delivered
+ORD-2026-10417,2026-02-01,Meera Joshi,Hyderabad,Corporate,Furniture,Ergonomic Standing Desk,3,37851.17,0.0,113553.51,24860.35,UPI,Shipped
+ORD-2026-10418,2026-04-10,Rahul Mehta,Pune,Consumer,Office Supplies,LaserJet Pro Toner,3,6254.39,0.05,17825.01,4093.95,Net Banking,Delivered
+ORD-2026-10419,2026-04-03,Divya Sharma,Hyderabad,Consumer,Technology,Dell 27-inch 4K Monitor,2,43236.44,0.0,86472.88,21670.24,Corporate Wire,Delivered
+ORD-2026-10420,2026-01-03,Aarav Chatterjee,Ahmedabad,Home Office,Office Supplies,Premium Copy Paper Box,1,2124.69,0.0,2124.69,710.63,Net Banking,Delivered
+ORD-2026-10421,2026-01-16,Neha Gupta,Bangalore,Home Office,Office Supplies,LaserJet Pro Toner,1,6813.09,0.0,6813.09,1471.25,Net Banking,Shipped
+ORD-2026-10422,2026-07-07,Priya Sharma,Kolkata,Corporate,Office Supplies,Premium Copy Paper Box,1,2245.46,0.0,2245.46,572.52,Corporate Wire,Delivered
+ORD-2026-10423,2026-05-26,Rohan Iyer,Pune,Corporate,Office Supplies,Heavy Duty Stapler Set,1,989.38,0.1,890.44,154.08,Credit Card,Processing
+ORD-2026-10424,2026-02-09,Sneha Mehta,Chennai,Home Office,Furniture,Bookshelf Oak Finish,1,14324.61,0.05,13608.38,3845.57,Credit Card,Processing
+ORD-2026-10425,2026-08-08,Neha Chatterjee,Hyderabad,Corporate,Office Supplies,LaserJet Pro Toner,2,6426.87,0.05,12211.05,2710.96,Corporate Wire,Processing
+ORD-2026-10426,2026-02-09,Tanvi Mehta,Pune,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1722.0,0.05,1635.9,272.11,UPI,Delivered
+ORD-2026-10427,2026-08-12,Aarav Reddy,Delhi,Corporate,Technology,ThinkPad X1 Carbon,1,123607.49,0.05,117427.12,26787.65,Net Banking,Delivered
+ORD-2026-10428,2026-04-04,Priya Chatterjee,Delhi,Consumer,Technology,Dell 27-inch 4K Monitor,2,40235.82,0.15,68400.89,5136.23,Credit Card,Delivered
+ORD-2026-10429,2026-05-23,Ishaan Deshmukh,Pune,Home Office,Technology,Sony WH-1000XM5,1,26797.09,0.0,26797.09,7994.54,UPI,Processing
+ORD-2026-10430,2026-01-25,Ananya Joshi,Hyderabad,Home Office,Furniture,Ergonomic Standing Desk,1,38266.11,0.05,36352.8,5316.09,Corporate Wire,Delivered
+ORD-2026-10431,2026-07-16,Rahul Chatterjee,Pune,Home Office,Furniture,Bookshelf Oak Finish,4,14036.57,0.0,56146.28,15818.39,Net Banking,Delivered
+ORD-2026-10432,2026-05-17,Tanvi Singhania,Pune,Corporate,Office Supplies,Moleskine Hardcover Journal,3,1823.98,0.0,5471.94,1146.67,Net Banking,Processing
+ORD-2026-10433,2026-03-03,Tanvi Iyer,Hyderabad,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1882.77,0.0,1882.77,658.91,Credit Card,Delivered
+ORD-2026-10434,2026-06-02,Aarav Iyer,Bangalore,Corporate,Technology,iPad Pro 12.9,8,83426.69,0.0,667413.52,146057.49,Net Banking,Processing
+ORD-2026-10435,2026-05-11,Kabir Chatterjee,Bangalore,Consumer,Technology,Logitech MX Master 3S,1,8387.02,0.0,8387.02,2105.42,UPI,Delivered
+ORD-2026-10436,2026-07-27,Aditya Verma,Kolkata,Home Office,Technology,Dell 27-inch 4K Monitor,1,41926.64,0.0,41926.64,11194.12,Credit Card,Processing
+ORD-2026-10437,2026-06-14,Aditya Sharma,Kolkata,Consumer,Technology,iPad Pro 12.9,1,84290.43,0.1,75861.39,8637.13,UPI,Processing
+ORD-2026-10438,2026-08-26,Aarav Gupta,Kolkata,Consumer,Furniture,Filing Cabinet 3-Tier,1,11579.5,0.05,11000.52,2484.86,UPI,Delivered
+ORD-2026-10439,2026-01-13,Rahul Joshi,Kolkata,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4405.4,0.0,8810.8,2493.15,UPI,Delivered
+ORD-2026-10440,2026-01-22,Sneha Chatterjee,Mumbai,Home Office,Furniture,Steelcase Gesture,1,113012.08,0.05,107361.48,31398.85,UPI,Shipped
+ORD-2026-10441,2026-05-24,Priya Singhania,Kolkata,Home Office,Office Supplies,Premium Copy Paper Box,2,2205.33,0.2,3528.53,479.91,Net Banking,Shipped
+ORD-2026-10442,2026-03-24,Rahul Chatterjee,Delhi,Consumer,Office Supplies,Heavy Duty Stapler Set,2,932.97,0.0,1865.94,464.7,Credit Card,Delivered
+ORD-2026-10443,2026-02-13,Neha Chatterjee,Ahmedabad,Home Office,Technology,Logitech MX Master 3S,1,8244.73,0.1,7420.26,1537.24,Credit Card,Delivered
+ORD-2026-10444,2026-07-09,Aarav Reddy,Bangalore,Corporate,Technology,iPad Pro 12.9,2,84575.52,0.0,169151.04,58548.73,UPI,Processing
+ORD-2026-10445,2026-02-24,Priya Iyer,Chennai,Home Office,Furniture,Filing Cabinet 3-Tier,3,12238.51,0.0,36715.53,12735.66,Credit Card,Delivered
+ORD-2026-10446,2026-02-13,Aarav Mehta,Hyderabad,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1711.5,0.05,1625.92,400.37,Net Banking,Delivered
+ORD-2026-10447,2026-08-10,Ananya Sharma,Chennai,Home Office,Furniture,Ergonomic Standing Desk,8,38796.82,0.05,294855.83,45420.75,Corporate Wire,Processing
+ORD-2026-10448,2026-05-17,Ananya Patel,Hyderabad,Home Office,Furniture,Filing Cabinet 3-Tier,4,11696.87,0.0,46787.48,12164.72,Net Banking,Shipped
+ORD-2026-10449,2026-04-11,Ishaan Patel,Mumbai,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1889.28,0.0,1889.28,346.95,Net Banking,Delivered
+ORD-2026-10450,2026-06-10,Aditya Deshmukh,Mumbai,Home Office,Furniture,Ergonomic Standing Desk,1,38596.34,0.15,32806.89,7143.21,Corporate Wire,Processing
+ORD-2026-10451,2026-06-23,Tanvi Gupta,Hyderabad,Corporate,Technology,Sony WH-1000XM5,1,29147.26,0.2,23317.81,2740.47,UPI,Delivered
+ORD-2026-10452,2026-06-17,Rohan Chatterjee,Hyderabad,Consumer,Furniture,Filing Cabinet 3-Tier,4,12490.8,0.0,49963.2,10946.51,UPI,Delivered
+ORD-2026-10453,2026-01-18,Kabir Iyer,Delhi,Consumer,Furniture,Ergonomic Standing Desk,3,39444.5,0.1,106500.15,21254.26,Corporate Wire,Delivered
+ORD-2026-10454,2026-04-24,Ishaan Gupta,Chennai,Consumer,Technology,ThinkPad X1 Carbon,1,131074.44,0.0,131074.44,32128.85,UPI,Processing
+ORD-2026-10455,2026-03-01,Priya Gupta,Mumbai,Corporate,Technology,Dell 27-inch 4K Monitor,3,43453.78,0.0,130361.34,35238.0,Net Banking,Delivered
+ORD-2026-10456,2026-08-07,Vikram Singhania,Ahmedabad,Consumer,Technology,Dell XPS 15,1,146563.41,0.0,146563.41,28239.26,Corporate Wire,Delivered
+ORD-2026-10457,2026-07-10,Rahul Reddy,Hyderabad,Consumer,Technology,Logitech MX Master 3S,4,8351.16,0.0,33404.64,9093.32,UPI,Shipped
+ORD-2026-10458,2026-04-14,Meera Sharma,Kolkata,Home Office,Furniture,Bookshelf Oak Finish,2,14636.02,0.1,26344.84,4704.34,Credit Card,Processing
+ORD-2026-10459,2026-01-28,Sneha Singhania,Mumbai,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4525.97,0.1,4073.37,734.37,Credit Card,Delivered
+ORD-2026-10460,2026-03-16,Sneha Deshmukh,Chennai,Corporate,Furniture,Ergonomic Standing Desk,2,36307.28,0.05,68983.83,15402.65,UPI,Shipped
+ORD-2026-10461,2026-08-01,Rahul Singhania,Delhi,Home Office,Office Supplies,LaserJet Pro Toner,1,6756.31,0.05,6418.49,1399.3,Corporate Wire,Shipped
+ORD-2026-10462,2026-03-24,Sneha Sharma,Bangalore,Corporate,Office Supplies,Premium Copy Paper Box,4,2161.3,0.0,8645.2,2072.62,UPI,Delivered
+ORD-2026-10463,2026-01-24,Ananya Joshi,Ahmedabad,Home Office,Furniture,Herman Miller Aeron Chair,2,97765.13,0.0,195530.26,51427.72,UPI,Shipped
+ORD-2026-10464,2026-05-21,Vikram Sharma,Bangalore,Corporate,Office Supplies,Premium Copy Paper Box,1,2259.21,0.0,2259.21,771.02,Net Banking,Delivered
+ORD-2026-10465,2026-07-06,Meera Singhania,Chennai,Home Office,Technology,ThinkPad X1 Carbon,4,118794.16,0.2,380141.31,9447.8,Credit Card,Shipped
+ORD-2026-10466,2026-05-08,Arjun Singhania,Mumbai,Home Office,Furniture,Ergonomic Standing Desk,1,37824.21,0.05,35933.0,8505.95,Credit Card,Delivered
+ORD-2026-10467,2026-08-14,Kabir Mehta,Hyderabad,Consumer,Technology,Dell XPS 15,1,135035.24,0.0,135035.24,46517.82,Net Banking,Delivered
+ORD-2026-10468,2026-08-24,Ananya Sharma,Delhi,Corporate,Technology,Dell XPS 15,2,142681.19,0.05,271094.26,56745.81,UPI,Shipped
+ORD-2026-10469,2026-07-11,Tanvi Nair,Mumbai,Consumer,Furniture,Steelcase Gesture,1,105244.33,0.0,105244.33,29190.04,Credit Card,Delivered
+ORD-2026-10470,2026-05-01,Rohan Verma,Chennai,Corporate,Office Supplies,Heavy Duty Stapler Set,2,960.65,0.05,1825.23,540.68,Credit Card,Shipped
+ORD-2026-10471,2026-07-05,Ishaan Chatterjee,Chennai,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1822.18,0.05,1731.07,259.46,Corporate Wire,Processing
+ORD-2026-10472,2026-07-06,Rahul Singhania,Ahmedabad,Consumer,Office Supplies,Premium Copy Paper Box,3,2090.35,0.2,5016.84,915.09,Credit Card,Delivered
+ORD-2026-10473,2026-07-24,Tanvi Deshmukh,Kolkata,Consumer,Furniture,Steelcase Gesture,2,104624.27,0.05,198786.11,55617.88,Net Banking,Delivered
+ORD-2026-10474,2026-07-22,Ananya Mehta,Chennai,Home Office,Office Supplies,Moleskine Hardcover Journal,3,1769.99,0.0,5309.97,1500.98,Credit Card,Delivered
+ORD-2026-10475,2026-02-19,Neha Nair,Ahmedabad,Corporate,Technology,Dell 27-inch 4K Monitor,1,41834.6,0.0,41834.6,8488.74,Net Banking,Shipped
+ORD-2026-10476,2026-07-20,Arjun Deshmukh,Mumbai,Home Office,Furniture,Filing Cabinet 3-Tier,3,12043.06,0.0,36129.18,11366.07,Net Banking,Delivered
+ORD-2026-10477,2026-01-17,Rohan Mehta,Mumbai,Corporate,Furniture,Filing Cabinet 3-Tier,3,11867.48,0.05,33822.32,7078.39,Net Banking,Delivered
+ORD-2026-10478,2026-07-01,Aarav Mehta,Kolkata,Consumer,Furniture,Ergonomic Standing Desk,1,37249.99,0.1,33524.99,5987.3,UPI,Delivered
+ORD-2026-10479,2026-04-06,Meera Sharma,Hyderabad,Consumer,Furniture,Filing Cabinet 3-Tier,1,12000.07,0.0,12000.07,3811.99,Corporate Wire,Processing
+ORD-2026-10480,2026-03-21,Meera Nair,Bangalore,Consumer,Office Supplies,Premium Copy Paper Box,1,2175.27,0.0,2175.27,441.54,Credit Card,Delivered
+ORD-2026-10481,2026-03-21,Divya Sharma,Delhi,Corporate,Furniture,Herman Miller Aeron Chair,1,97332.77,0.1,87599.49,23961.22,Net Banking,Delivered
+ORD-2026-10482,2026-03-24,Priya Reddy,Chennai,Corporate,Office Supplies,Moleskine Hardcover Journal,3,1759.08,0.05,5013.38,1441.88,Credit Card,Delivered
+ORD-2026-10483,2026-06-09,Kabir Iyer,Delhi,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1879.79,0.0,3759.58,801.99,UPI,Delivered
+ORD-2026-10484,2026-01-19,Aditya Chatterjee,Pune,Home Office,Furniture,Herman Miller Aeron Chair,1,96667.21,0.0,96667.21,32092.78,Credit Card,Delivered
+ORD-2026-10485,2026-04-20,Vikram Patel,Ahmedabad,Home Office,Furniture,Steelcase Gesture,1,112842.43,0.0,112842.43,23969.88,Credit Card,Shipped
+ORD-2026-10486,2026-05-26,Rohan Verma,Ahmedabad,Consumer,Furniture,Steelcase Gesture,2,109619.36,0.1,197314.85,46174.3,UPI,Delivered
+ORD-2026-10487,2026-08-09,Divya Chatterjee,Chennai,Corporate,Furniture,Ergonomic Standing Desk,2,39097.36,0.05,74284.98,11728.53,Corporate Wire,Shipped
+ORD-2026-10488,2026-01-08,Ananya Singhania,Delhi,Corporate,Furniture,Bookshelf Oak Finish,3,14280.49,0.0,42841.47,10809.1,Credit Card,Shipped
+ORD-2026-10489,2026-07-29,Ishaan Verma,Pune,Home Office,Office Supplies,LaserJet Pro Toner,3,6435.53,0.05,18341.26,4435.01,UPI,Processing
+ORD-2026-10490,2026-02-10,Sneha Deshmukh,Delhi,Corporate,Technology,Dell 27-inch 4K Monitor,2,41728.49,0.1,75111.28,9693.9,UPI,Delivered
+ORD-2026-10491,2026-06-19,Rahul Verma,Ahmedabad,Consumer,Office Supplies,Whiteboard Magnetic 4x3,2,4644.91,0.05,8825.33,2508.72,Corporate Wire,Delivered
+ORD-2026-10492,2026-06-03,Ananya Gupta,Kolkata,Corporate,Furniture,Herman Miller Aeron Chair,1,98678.98,0.1,88811.08,9517.24,Credit Card,Delivered
+ORD-2026-10493,2026-06-19,Rohan Singhania,Chennai,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4669.84,0.0,9339.68,2792.98,Net Banking,Shipped
+ORD-2026-10494,2026-07-03,Divya Nair,Delhi,Home Office,Technology,Sony WH-1000XM5,8,26957.16,0.0,215657.28,64694.73,Net Banking,Processing
+ORD-2026-10495,2026-01-14,Aarav Joshi,Pune,Consumer,Furniture,Herman Miller Aeron Chair,1,93995.55,0.1,84596.0,18415.46,Corporate Wire,Shipped
+ORD-2026-10496,2026-04-08,Vikram Iyer,Hyderabad,Home Office,Technology,Logitech MX Master 3S,1,8791.83,0.05,8352.24,2099.06,Corporate Wire,Delivered
+ORD-2026-10497,2026-03-15,Arjun Gupta,Bangalore,Consumer,Technology,ThinkPad X1 Carbon,2,129811.11,0.0,259622.22,61829.67,UPI,Delivered
+ORD-2026-10498,2026-02-05,Rahul Deshmukh,Ahmedabad,Home Office,Office Supplies,Heavy Duty Stapler Set,2,942.79,0.0,1885.58,397.08,Corporate Wire,Delivered
+ORD-2026-10499,2026-02-27,Rohan Deshmukh,Mumbai,Home Office,Furniture,Ergonomic Standing Desk,3,39620.94,0.0,118862.82,29955.82,Credit Card,Delivered
+ORD-2026-10500,2026-05-26,Sneha Joshi,Pune,Consumer,Office Supplies,Heavy Duty Stapler Set,5,971.87,0.0,4859.35,1265.91,,Delivered
+ORD-2026-10501,2026-04-30,Kabir Verma,Delhi,Consumer,Furniture,Herman Miller Aeron Chair,2,95756.47,0.05,181937.29,37495.04,Net Banking,Processing
+ORD-2026-10502,2026-07-19,Aarav Singhania,Ahmedabad,Home Office,Furniture,Filing Cabinet 3-Tier,3,12552.7,0.0,37658.1,8070.21,Net Banking,Delivered
+ORD-2026-10503,2026-01-10,Ishaan Chatterjee,Chennai,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1740.43,0.0,1740.43,593.88,Net Banking,Processing
+ORD-2026-10504,2026-01-07,Aditya Singhania,Delhi,Consumer,Office Supplies,LaserJet Pro Toner,4,6261.15,0.0,25044.6,7569.35,Net Banking,Delivered
+ORD-2026-10505,2026-07-09,Ananya Chatterjee,Bangalore,Home Office,Office Supplies,Premium Copy Paper Box,2,2128.59,0.0,4257.18,923.68,UPI,Shipped
+ORD-2026-10506,2026-02-16,Meera Iyer,Mumbai,Corporate,Technology,Dell XPS 15,2,144726.6,0.1,260507.88,35322.14,Corporate Wire,Shipped
+ORD-2026-10507,2026-03-02,Rahul Singhania,Bangalore,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1857.52,0.0,1857.52,633.55,Corporate Wire,Shipped
+ORD-2026-10508,2026-05-02,Aditya Singhania,Hyderabad,Corporate,Office Supplies,Heavy Duty Stapler Set,2,985.18,0.0,1970.36,685.65,Corporate Wire,Shipped
+ORD-2026-10509,2026-06-23,Neha Iyer,Mumbai,Consumer,Office Supplies,Moleskine Hardcover Journal,5,1875.25,0.0,9376.25,1913.5,Net Banking,Delivered
+ORD-2026-10510,2026-03-10,Meera Verma,Chennai,Home Office,Office Supplies,Heavy Duty Stapler Set,2,925.47,0.05,1758.39,343.86,UPI,Processing
+ORD-2026-10511,2026-03-28,Rahul Joshi,Bangalore,Corporate,Office Supplies,LaserJet Pro Toner,2,6182.77,0.1,11128.99,2886.01,Credit Card,Shipped
+ORD-2026-10512,2026-03-31,Priya Joshi,Chennai,Corporate,Technology,ThinkPad X1 Carbon,1,130481.32,0.0,130481.32,31103.75,UPI,Processing
+ORD-2026-10513,2026-06-13,Ananya Joshi,Delhi,Consumer,Office Supplies,Premium Copy Paper Box,1,2232.54,0.1,2009.29,253.3,UPI,Delivered
+ORD-2026-10514,2026-06-28,Rohan Mehta,Chennai,Corporate,Office Supplies,LaserJet Pro Toner,2,6354.65,0.15,10802.9,1619.32,Net Banking,Delivered
+ORD-2026-10515,2026-02-11,Meera Verma,Chennai,Consumer,Furniture,Bookshelf Oak Finish,1,15160.63,0.0,15160.63,4624.1,Corporate Wire,Delivered
+ORD-2026-10516,2026-05-06,Divya Reddy,Kolkata,Consumer,Office Supplies,Heavy Duty Stapler Set,1,943.47,0.05,896.3,184.57,Credit Card,Shipped
+ORD-2026-10517,2026-07-03,Aditya Verma,Mumbai,Consumer,Technology,Sony WH-1000XM5,3,26652.54,0.1,71961.86,13224.25,Credit Card,Delivered
+ORD-2026-10518,2026-06-20,Vikram Mehta,Bangalore,Home Office,Furniture,Bookshelf Oak Finish,2,15137.87,0.05,28761.95,6557.25,Corporate Wire,Shipped
+ORD-2026-10519,2026-08-05,Ishaan Verma,Hyderabad,Consumer,Furniture,Bookshelf Oak Finish,1,15212.82,0.05,14452.18,3701.51,Net Banking,Shipped
+ORD-2026-10520,2026-01-15,Rahul Gupta,Delhi,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1847.97,0.0,1847.97,443.28,UPI,Processing
+ORD-2026-10521,2026-01-11,Vikram Gupta,Hyderabad,Corporate,Office Supplies,Heavy Duty Stapler Set,4,936.63,0.05,3559.19,1069.9,Corporate Wire,Delivered
+ORD-2026-10522,2026-02-05,Aarav Reddy,Mumbai,Home Office,Office Supplies,Premium Copy Paper Box,2,2208.92,0.0,4417.84,1315.13,Corporate Wire,Delivered
+ORD-2026-10523,2026-01-10,Neha Sharma,Pune,Home Office,Technology,Logitech MX Master 3S,1,8642.22,0.1,7778.0,1487.13,UPI,Processing
+ORD-2026-10524,2026-03-01,Divya Verma,Mumbai,Home Office,Technology,Logitech MX Master 3S,2,8855.32,0.0,17710.64,6060.82,UPI,Delivered
+ORD-2026-10525,2026-02-14,Rahul Sharma,Chennai,Consumer,Furniture,Filing Cabinet 3-Tier,1,12381.36,0.05,11762.29,3490.6,Corporate Wire,Processing
+ORD-2026-10526,2026-07-24,Tanvi Reddy,Delhi,Consumer,Furniture,Steelcase Gesture,3,111962.38,0.2,268709.71,31868.99,UPI,Delivered
+ORD-2026-10527,2026-08-03,Meera Reddy,Mumbai,Home Office,Technology,iPad Pro 12.9,1,87189.18,0.0,87189.18,28025.34,Net Banking,Processing
+ORD-2026-10528,2026-02-12,Sneha Reddy,Mumbai,Consumer,Technology,Dell 27-inch 4K Monitor,2,39965.65,0.1,71938.17,13365.75,Credit Card,Delivered
+ORD-2026-10529,2026-02-15,Divya Verma,Chennai,Corporate,Office Supplies,Heavy Duty Stapler Set,2,963.28,0.0,1926.56,502.98,Corporate Wire,Delivered
+ORD-2026-10530,2026-08-29,Rohan Chatterjee,Mumbai,Home Office,Technology,Dell 27-inch 4K Monitor,2,42534.2,0.2,68054.72,1442.84,Net Banking,Shipped
+ORD-2026-10531,2026-01-02,Kabir Reddy,Hyderabad,Consumer,Office Supplies,LaserJet Pro Toner,2,6816.41,0.15,11587.9,1550.3,Corporate Wire,Delivered
+ORD-2026-10532,2026-03-12,Aarav Reddy,Delhi,Consumer,Office Supplies,Heavy Duty Stapler Set,2,990.15,0.0,1980.3,674.92,Net Banking,Delivered
+ORD-2026-10533,2026-02-23,Vikram Mehta,Pune,Home Office,Furniture,Herman Miller Aeron Chair,1,95354.93,0.0,95354.93,30812.25,Credit Card,Shipped
+ORD-2026-10534,2026-05-12,Ananya Verma,Hyderabad,Home Office,Furniture,Filing Cabinet 3-Tier,2,12296.5,0.0,24593.0,4851.62,UPI,Delivered
+ORD-2026-10535,2026-03-25,Priya Verma,Hyderabad,Home Office,Furniture,Ergonomic Standing Desk,1,37889.76,0.0,37889.76,10141.22,Corporate Wire,Delivered
+ORD-2026-10536,2026-02-25,Divya Chatterjee,Ahmedabad,Consumer,Furniture,Steelcase Gesture,1,111452.23,0.1,100307.01,9379.32,UPI,Delivered
+ORD-2026-10537,2026-02-02,Aarav Joshi,Mumbai,Corporate,Technology,ThinkPad X1 Carbon,4,120890.02,0.0,483560.08,141002.29,Net Banking,Processing
+ORD-2026-10538,2026-02-10,Meera Gupta,Bangalore,Home Office,Office Supplies,Premium Copy Paper Box,1,2197.63,0.15,1867.99,67.55,Corporate Wire,Shipped
+ORD-2026-10539,2026-03-13,Aarav Joshi,Kolkata,Home Office,Technology,Dell XPS 15,1,145485.52,0.05,138211.24,29009.64,UPI,Processing
+ORD-2026-10540,2026-08-18,,Mumbai,Consumer,Furniture,Filing Cabinet 3-Tier,1,11975.12,0.05,11376.36,1967.95,Credit Card,Shipped
+ORD-2026-10541,2026-05-07,Priya Verma,Mumbai,Home Office,Office Supplies,Heavy Duty Stapler Set,5,930.6,0.0,4653.0,1116.26,Credit Card,Delivered
+ORD-2026-10542,2026-05-03,Rahul Mehta,Bangalore,Home Office,Furniture,Filing Cabinet 3-Tier,3,11945.81,0.0,35837.43,7840.8,Corporate Wire,Delivered
+ORD-2026-10543,2026-07-22,Arjun Nair,Ahmedabad,Home Office,Office Supplies,LaserJet Pro Toner,4,6755.73,0.0,27022.92,7928.69,Credit Card,Delivered
+ORD-2026-10544,2026-04-20,Meera Mehta,Hyderabad,Home Office,Technology,Sony WH-1000XM5,4,26753.47,0.1,96312.49,9555.83,Net Banking,Delivered
+ORD-2026-10545,2026-01-29,Vikram Nair,Ahmedabad,Home Office,Technology,iPad Pro 12.9,1,86741.43,0.05,82404.36,17753.47,UPI,Delivered
+ORD-2026-10546,2026-03-27,Priya Iyer,Delhi,Home Office,Furniture,Filing Cabinet 3-Tier,4,12303.81,0.1,44293.72,5937.79,Net Banking,Delivered
+ORD-2026-10547,2026-08-18,Aditya Iyer,Kolkata,Corporate,Technology,ThinkPad X1 Carbon,1,125018.13,0.0,125018.13,26125.64,Corporate Wire,Processing
+ORD-2026-10548,2026-06-23,Arjun Iyer,Chennai,Corporate,Office Supplies,Moleskine Hardcover Journal,3,1855.58,0.15,4731.73,222.96,Credit Card,Delivered
+ORD-2026-10549,2026-08-17,Divya Singhania,Delhi,Consumer,Furniture,Ergonomic Standing Desk,1,36515.59,0.2,29212.47,3764.38,UPI,Shipped
+ORD-2026-10550,2026-02-08,Arjun Reddy,Mumbai,Corporate,Furniture,Filing Cabinet 3-Tier,5,11904.16,0.0,59520.8,13367.74,Credit Card,Delivered
+ORD-2026-10551,2026-02-18,Ananya Sharma,Hyderabad,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1826.29,0.0,3652.58,1075.79,Corporate Wire,Shipped
+ORD-2026-10552,2026-03-19,Tanvi Patel,Chennai,Consumer,Furniture,Ergonomic Standing Desk,2,39025.05,0.2,62440.08,11079.66,Net Banking,Delivered
+ORD-2026-10553,2026-04-27,Rohan Chatterjee,Bangalore,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1837.46,0.0,1837.46,360.51,UPI,Delivered
+ORD-2026-10554,2026-03-02,Ananya Sharma,Pune,Home Office,Technology,Logitech MX Master 3S,1,8553.11,0.0,8553.11,2943.15,Net Banking,Delivered
+ORD-2026-10555,2026-02-07,Neha Singhania,Bangalore,Home Office,Furniture,Herman Miller Aeron Chair,4,94994.46,0.0,379977.84,123600.99,Corporate Wire,Delivered
+ORD-2026-10556,2026-02-09,Aarav Joshi,Pune,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1879.92,0.0,3759.84,689.11,UPI,Processing
+ORD-2026-10557,2026-07-06,Divya Singhania,Pune,Home Office,Technology,Dell 27-inch 4K Monitor,2,42747.64,0.0,85495.28,28224.65,Credit Card,Shipped
+ORD-2026-10558,2026-06-08,Arjun Reddy,Ahmedabad,Corporate,Technology,iPad Pro 12.9,1,85709.17,0.05,81423.71,22475.99,Net Banking,Delivered
+ORD-2026-10559,2026-01-06,Ananya Iyer,Ahmedabad,Home Office,Office Supplies,LaserJet Pro Toner,8,6493.8,0.0,51950.4,12855.69,Credit Card,Delivered
+ORD-2026-10560,2026-04-12,Rohan Joshi,Kolkata,Corporate,Furniture,Steelcase Gesture,1,107888.94,0.0,107888.94,29588.77,Credit Card,Delivered
+ORD-2026-10561,2026-07-06,Divya Singhania,Kolkata,Corporate,Furniture,Ergonomic Standing Desk,3,37710.56,0.2,90505.34,-270.72,UPI,Processing
+ORD-2026-10562,2026-06-03,Ananya Patel,Hyderabad,Corporate,Furniture,Filing Cabinet 3-Tier,8,12552.11,0.0,100416.88,22238.38,Credit Card,Delivered
+ORD-2026-10563,2026-04-15,Rahul Mehta,Kolkata,Consumer,Office Supplies,Heavy Duty Stapler Set,3,915.51,0.1,2471.88,599.79,Corporate Wire,Delivered
+ORD-2026-10564,2026-05-22,Sneha Sharma,Chennai,Home Office,Furniture,Bookshelf Oak Finish,2,13813.92,0.0,27627.84,9658.25,Net Banking,Delivered
+ORD-2026-10565,2026-06-13,Arjun Gupta,Ahmedabad,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1833.81,0.0,3667.62,1131.07,Credit Card,Delivered
+ORD-2026-10566,2026-05-07,Ananya Chatterjee,Pune,Home Office,Furniture,Filing Cabinet 3-Tier,2,12223.1,0.0,24446.2,4507.29,Credit Card,Delivered
+ORD-2026-10567,2026-05-12,Ishaan Chatterjee,Mumbai,Corporate,Technology,Sony WH-1000XM5,1,29059.29,0.0,29059.29,9501.38,UPI,Delivered
+ORD-2026-10568,2026-03-11,Neha Deshmukh,Pune,Consumer,Furniture,Steelcase Gesture,2,110152.53,0.15,187259.3,15356.32,UPI,Delivered
+ORD-2026-10569,2026-06-03,Meera Patel,Pune,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1775.25,0.05,1686.49,371.29,Net Banking,Delivered
+ORD-2026-10570,2026-01-04,Rohan Iyer,Chennai,Corporate,Furniture,Bookshelf Oak Finish,1,13923.51,0.15,11834.98,2418.87,UPI,Delivered
+ORD-2026-10571,2026-07-23,Divya Iyer,Delhi,Corporate,Furniture,Herman Miller Aeron Chair,1,90415.1,0.0,90415.1,26293.1,Net Banking,Delivered
+ORD-2026-10572,2026-07-29,Sneha Chatterjee,Pune,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1750.02,0.1,1575.02,182.6,UPI,Delivered
+ORD-2026-10573,2026-03-20,Rohan Reddy,Bangalore,Consumer,Furniture,Herman Miller Aeron Chair,1,97444.67,0.1,87700.2,23656.85,Credit Card,Delivered
+ORD-2026-10574,2026-07-23,Rahul Iyer,Mumbai,Corporate,Technology,iPad Pro 12.9,1,80837.32,0.0,80837.32,26966.88,Credit Card,Processing
+ORD-2026-10575,2026-02-22,Tanvi Reddy,Bangalore,Home Office,Furniture,Herman Miller Aeron Chair,1,99197.53,0.1,89277.78,8799.36,Net Banking,Delivered
+ORD-2026-10576,2026-02-11,Arjun Iyer,Hyderabad,Home Office,Office Supplies,LaserJet Pro Toner,1,6184.09,0.05,5874.89,1627.1,UPI,Delivered
+ORD-2026-10577,2026-02-13,Divya Iyer,Mumbai,Home Office,Technology,Dell XPS 15,4,139646.02,0.15,474796.47,45422.61,UPI,Shipped
+ORD-2026-10578,2026-06-22,Ananya Patel,Pune,Corporate,Furniture,Ergonomic Standing Desk,2,38993.36,0.0,77986.72,23128.71,Corporate Wire,Delivered
+ORD-2026-10579,2026-05-14,Rohan Singhania,Pune,Home Office,Furniture,Filing Cabinet 3-Tier,3,11992.46,0.0,35977.38,10238.7,Corporate Wire,Processing
+ORD-2026-10580,2026-07-08,Aditya Gupta,Ahmedabad,Consumer,Office Supplies,Heavy Duty Stapler Set,1,920.43,0.15,782.37,173.2,Corporate Wire,Delivered
+ORD-2026-10581,2026-02-15,Aarav Gupta,Ahmedabad,Home Office,Technology,Logitech MX Master 3S,2,8147.26,0.05,15479.79,4491.21,Corporate Wire,Processing
+ORD-2026-10582,2026-01-27,Ishaan Patel,Delhi,Corporate,Technology,iPad Pro 12.9,1,84186.46,0.1,75767.81,17713.85,Corporate Wire,Shipped
+ORD-2026-10583,2026-03-13,Meera Joshi,Chennai,Home Office,Furniture,Steelcase Gesture,2,108948.88,0.05,207002.87,47420.96,Net Banking,Delivered
+ORD-2026-10584,2026-07-16,Sneha Verma,Delhi,Corporate,Furniture,Bookshelf Oak Finish,1,13818.1,0.15,11745.39,1030.48,Credit Card,Shipped
+ORD-2026-10585,2026-06-23,Aarav Patel,Kolkata,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1727.34,0.05,1640.97,495.73,Corporate Wire,Shipped
+ORD-2026-10586,2026-02-21,Aditya Gupta,Ahmedabad,Corporate,Office Supplies,Moleskine Hardcover Journal,2,1807.3,0.1,3253.14,892.79,Credit Card,Shipped
+ORD-2026-10587,2026-08-14,Divya Verma,Kolkata,Corporate,Furniture,Bookshelf Oak Finish,2,14031.46,0.0,28062.92,6676.17,Net Banking,Delivered
+ORD-2026-10588,2026-05-06,Vikram Patel,Chennai,Home Office,Furniture,Bookshelf Oak Finish,3,14486.3,0.05,41285.95,8946.3,Corporate Wire,Shipped
+ORD-2026-10589,2026-05-24,Arjun Patel,Mumbai,Corporate,Furniture,Bookshelf Oak Finish,2,14755.91,0.0,29511.82,6483.75,Net Banking,Delivered
+ORD-2026-10590,2026-01-16,Aarav Chatterjee,Mumbai,Consumer,Furniture,Steelcase Gesture,3,112917.13,0.05,321813.82,65624.27,Corporate Wire,Delivered
+ORD-2026-10591,2026-04-20,Neha Nair,Kolkata,Corporate,Technology,Dell 27-inch 4K Monitor,1,41210.82,0.0,41210.82,13828.7,Credit Card,Delivered
+ORD-2026-10592,2026-01-30,Neha Patel,Mumbai,Home Office,Furniture,Herman Miller Aeron Chair,2,95646.47,0.15,162599.0,8944.92,Net Banking,Delivered
+ORD-2026-10593,2026-06-28,Sneha Chatterjee,Mumbai,Corporate,Furniture,Filing Cabinet 3-Tier,1,12369.99,0.05,11751.49,3500.59,UPI,Delivered
+ORD-2026-10594,2026-05-08,Kabir Gupta,Pune,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1799.45,0.0,1799.45,370.6,Credit Card,Processing
+ORD-2026-10595,2026-02-24,Aditya Mehta,Mumbai,Corporate,Office Supplies,Heavy Duty Stapler Set,3,993.5,0.05,2831.47,530.49,Credit Card,Processing
+ORD-2026-10596,2026-03-28,Aditya Verma,Ahmedabad,Corporate,Technology,iPad Pro 12.9,3,83315.7,0.05,237449.74,40815.97,Corporate Wire,Processing
+ORD-2026-10597,2026-03-22,Priya Deshmukh,Kolkata,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4356.27,0.1,7841.29,2150.59,UPI,Processing
+ORD-2026-10598,2026-05-08,Priya Gupta,Ahmedabad,Corporate,Office Supplies,Whiteboard Magnetic 4x3,3,4683.08,0.15,11941.85,577.59,Credit Card,Processing
+ORD-2026-10599,2026-02-21,Neha Singhania,Bangalore,Consumer,Technology,Dell 27-inch 4K Monitor,2,41728.63,0.0,83457.26,24689.07,Credit Card,Delivered
+ORD-2026-10600,2026-08-05,Vikram Mehta,Chennai,Home Office,Technology,iPad Pro 12.9,2,82777.11,0.0,165554.22,53723.41,Credit Card,Delivered
+ORD-2026-10601,2026-07-24,Arjun Mehta,Ahmedabad,Corporate,Office Supplies,Heavy Duty Stapler Set,2,921.69,0.15,1566.87,283.21,Credit Card,Delivered
+ORD-2026-10602,2026-07-22,Meera Mehta,Bangalore,Home Office,Technology,Dell 27-inch 4K Monitor,2,43510.25,0.0,87020.5,29215.56,Net Banking,Delivered
+ORD-2026-10603,2026-08-19,Vikram Nair,Delhi,Corporate,Office Supplies,Premium Copy Paper Box,1,2200.05,0.05,2090.05,614.9,Net Banking,Shipped
+ORD-2026-10604,2026-08-15,Ananya Reddy,Delhi,Corporate,Furniture,Filing Cabinet 3-Tier,3,12292.75,0.1,33190.43,3354.63,UPI,Delivered
+ORD-2026-10605,2026-01-28,Rohan Reddy,Chennai,Corporate,Furniture,Steelcase Gesture,4,110368.17,0.0,441472.68,102008.88,Credit Card,Delivered
+ORD-2026-10606,2026-05-20,Vikram Singhania,Hyderabad,Corporate,Technology,iPad Pro 12.9,2,83369.46,0.0,166738.92,40064.43,Credit Card,Delivered
+ORD-2026-10607,2026-06-26,Divya Gupta,Hyderabad,Corporate,Office Supplies,Heavy Duty Stapler Set,1,936.97,0.2,749.58,11.17,Credit Card,Processing
+ORD-2026-10608,2026-08-10,Priya Singhania,Kolkata,Consumer,Furniture,Steelcase Gesture,1,112823.35,0.15,95899.85,16860.11,UPI,Shipped
+ORD-2026-10609,2026-06-11,Neha Gupta,Kolkata,Consumer,Furniture,Herman Miller Aeron Chair,3,94725.37,0.15,241549.69,36885.08,Net Banking,Shipped
+ORD-2026-10610,2026-08-13,Divya Verma,Bangalore,Home Office,Furniture,Filing Cabinet 3-Tier,1,12275.08,0.0,12275.08,3153.3,Net Banking,Shipped
+ORD-2026-10611,2026-06-27,Aarav Sharma,Bangalore,Home Office,Furniture,Ergonomic Standing Desk,1,37261.08,0.0,37261.08,9393.98,Credit Card,Delivered
+ORD-2026-10612,2026-03-05,Kabir Joshi,Bangalore,Home Office,Office Supplies,Heavy Duty Stapler Set,3,947.94,0.0,2843.82,639.92,Net Banking,Delivered
+ORD-2026-10613,2026-06-25,Tanvi Nair,Chennai,Consumer,Technology,Logitech MX Master 3S,1,8395.72,0.0,8395.72,1747.19,UPI,Delivered
+ORD-2026-10614,2026-01-06,Divya Iyer,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,1,36289.18,0.15,30845.8,3445.27,Net Banking,Delivered
+ORD-2026-10615,2026-01-23,Neha Patel,Delhi,Consumer,Office Supplies,Whiteboard Magnetic 4x3,2,4479.17,0.15,7614.59,765.82,Credit Card,Delivered
+ORD-2026-10616,2026-07-02,Priya Reddy,Chennai,Corporate,Office Supplies,Heavy Duty Stapler Set,1,922.13,0.0,922.13,288.95,Net Banking,Delivered
+ORD-2026-10617,2026-04-18,Rohan Deshmukh,Bangalore,Consumer,Furniture,Steelcase Gesture,1,107231.5,0.0,107231.5,26905.08,Corporate Wire,Delivered
+ORD-2026-10618,2026-01-03,Sneha Patel,Pune,Home Office,Furniture,Ergonomic Standing Desk,3,38897.2,0.1,105022.44,24090.01,Credit Card,Processing
+ORD-2026-10619,2026-01-16,Aarav Nair,Hyderabad,Corporate,Furniture,Filing Cabinet 3-Tier,5,12117.88,0.2,48471.52,1381.37,Credit Card,Delivered
+ORD-2026-10620,2026-03-06,Kabir Chatterjee,Kolkata,Corporate,Furniture,Steelcase Gesture,1,104952.37,0.15,89209.51,17790.13,UPI,Processing
+ORD-2026-10621,2026-05-07,Divya Nair,Ahmedabad,Consumer,Technology,iPad Pro 12.9,3,82963.45,0.0,248890.35,73856.76,UPI,Shipped
+ORD-2026-10622,2026-08-12,Arjun Mehta,Pune,Corporate,Furniture,Steelcase Gesture,2,107401.34,0.1,193322.41,42270.64,UPI,Delivered
+ORD-2026-10623,2026-07-08,Sneha Patel,Ahmedabad,Consumer,Technology,Dell XPS 15,1,139583.47,0.0,139583.47,44973.19,Corporate Wire,Shipped
+ORD-2026-10624,2026-01-30,Divya Singhania,Mumbai,Corporate,Furniture,Filing Cabinet 3-Tier,2,12415.01,0.0,24830.02,5031.32,Credit Card,Delivered
+ORD-2026-10625,2026-01-24,Priya Mehta,Bangalore,Consumer,Office Supplies,Whiteboard Magnetic 4x3,3,4573.41,0.05,13034.22,3620.67,Credit Card,Processing
+ORD-2026-10626,2026-07-16,Tanvi Patel,Kolkata,Consumer,Technology,Logitech MX Master 3S,2,8097.07,0.15,13765.02,1363.17,Credit Card,Shipped
+ORD-2026-10627,2026-04-06,Tanvi Verma,Pune,Consumer,Technology,ThinkPad X1 Carbon,2,124748.19,0.1,224546.74,35722.73,Net Banking,Processing
+ORD-2026-10628,2026-06-18,Aarav Nair,Mumbai,Home Office,Office Supplies,Heavy Duty Stapler Set,1,972.26,0.1,875.03,84.82,UPI,Delivered
+ORD-2026-10629,2026-08-09,Aarav Gupta,Chennai,Corporate,Technology,Dell 27-inch 4K Monitor,1,41501.84,0.2,33201.47,3411.2,UPI,Delivered
+ORD-2026-10630,2026-07-17,Arjun Deshmukh,Delhi,Consumer,Technology,Dell XPS 15,1,142060.35,0.0,142060.35,26671.33,UPI,Delivered
+ORD-2026-10631,2026-03-18,Sneha Deshmukh,Chennai,Home Office,Office Supplies,Premium Copy Paper Box,1,2170.84,0.0,2170.84,686.03,Corporate Wire,Shipped
+ORD-2026-10632,2026-05-02,Aditya Chatterjee,Kolkata,Consumer,Furniture,Steelcase Gesture,2,109186.19,0.0,218372.38,74929.14,Net Banking,Shipped
+ORD-2026-10633,2026-06-23,Priya Gupta,Bangalore,Corporate,Office Supplies,Whiteboard Magnetic 4x3,1,4310.63,0.0,4310.63,921.34,Net Banking,Delivered
+ORD-2026-10634,2026-02-02,Rahul Mehta,Hyderabad,Home Office,Furniture,Steelcase Gesture,2,114590.32,0.05,217721.61,48751.2,Corporate Wire,Shipped
+ORD-2026-10635,2026-01-25,Sneha Gupta,Chennai,Corporate,Furniture,Filing Cabinet 3-Tier,1,11536.72,0.05,10959.88,2163.5,UPI,Delivered
+ORD-2026-10636,2026-08-04,Vikram Sharma,Delhi,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1846.32,0.1,1661.69,320.35,Net Banking,Delivered
+ORD-2026-10637,2026-08-24,Arjun Patel,Hyderabad,Consumer,Technology,Dell 27-inch 4K Monitor,8,42728.32,0.0,341826.56,94431.02,Credit Card,Delivered
+ORD-2026-10638,2026-04-12,Ananya Sharma,Bangalore,Home Office,Furniture,Bookshelf Oak Finish,2,15175.42,0.15,25798.21,2964.64,Corporate Wire,Delivered
+ORD-2026-10639,2026-06-08,Arjun Chatterjee,Pune,Home Office,Office Supplies,Heavy Duty Stapler Set,3,915.34,0.0,2746.02,872.04,Credit Card,Delivered
+ORD-2026-10640,2026-08-08,Aarav Reddy,Ahmedabad,Home Office,Technology,Dell 27-inch 4K Monitor,1,43504.4,0.1,39153.96,6892.88,Credit Card,Delivered
+ORD-2026-10641,2026-07-17,Sneha Patel,Ahmedabad,Corporate,Technology,ThinkPad X1 Carbon,1,127532.48,0.0,127532.48,23739.23,Corporate Wire,Delivered
+ORD-2026-10642,2026-08-09,Sneha Chatterjee,Hyderabad,Consumer,Furniture,Filing Cabinet 3-Tier,3,11800.62,0.0,35401.86,11772.79,Corporate Wire,Shipped
+ORD-2026-10643,2026-08-06,Sneha Joshi,Chennai,Consumer,Furniture,Bookshelf Oak Finish,2,14661.67,0.05,27857.17,5413.86,Corporate Wire,Delivered
+ORD-2026-10644,2026-07-02,Aarav Iyer,Mumbai,Corporate,Office Supplies,Moleskine Hardcover Journal,2,1826.69,0.0,3653.38,726.46,Credit Card,Shipped
+ORD-2026-10645,2026-06-09,Rahul Nair,Ahmedabad,Home Office,Furniture,Herman Miller Aeron Chair,1,94707.78,0.1,85237.0,16623.22,UPI,Processing
+ORD-2026-10646,2026-08-21,Rahul Nair,Ahmedabad,Consumer,Furniture,Bookshelf Oak Finish,5,14751.01,0.1,66379.54,9228.27,Corporate Wire,Delivered
+ORD-2026-10647,2026-06-09,Priya Mehta,Delhi,Home Office,Furniture,Ergonomic Standing Desk,1,37970.31,0.0,37970.31,8167.72,Corporate Wire,Delivered
+ORD-2026-10648,2026-03-02,Priya Iyer,Mumbai,Consumer,Furniture,Steelcase Gesture,1,113607.44,0.0,113607.44,22487.71,Credit Card,Delivered
+ORD-2026-10649,2026-03-28,Vikram Verma,Hyderabad,Consumer,Office Supplies,Premium Copy Paper Box,2,2262.67,0.2,3620.27,86.91,Net Banking,Delivered
+ORD-2026-10650,2026-08-07,Ishaan Iyer,Delhi,Home Office,Technology,Logitech MX Master 3S,3,8717.4,0.2,20921.76,-410.38,Credit Card,Processing
+ORD-2026-10651,2026-01-11,Kabir Verma,Bangalore,Home Office,Technology,Dell XPS 15,4,137089.72,0.0,548358.88,150766.86,Corporate Wire,Delivered
+ORD-2026-10652,2026-02-09,Rahul Nair,Pune,Consumer,Technology,Dell XPS 15,2,143766.46,0.0,287532.92,88645.33,Corporate Wire,Delivered
+ORD-2026-10653,2026-03-15,Kabir Patel,Delhi,Corporate,Furniture,Bookshelf Oak Finish,1,13994.84,0.05,13295.1,2405.77,Corporate Wire,Delivered
+ORD-2026-10654,2026-02-05,Meera Deshmukh,Kolkata,Corporate,Furniture,Filing Cabinet 3-Tier,3,11435.72,0.0,34307.16,11158.43,Credit Card,Processing
+ORD-2026-10655,2026-01-18,Ananya Nair,Pune,Corporate,Technology,Logitech MX Master 3S,1,8636.15,0.1,7772.53,1217.27,Credit Card,Processing
+ORD-2026-10656,2026-03-17,Vikram Deshmukh,Chennai,Home Office,Office Supplies,Moleskine Hardcover Journal,4,1760.36,0.0,7041.44,1832.71,UPI,Shipped
+ORD-2026-10657,2026-04-25,Rahul Reddy,Ahmedabad,Home Office,Furniture,Bookshelf Oak Finish,3,13897.21,0.15,35437.89,4529.23,Corporate Wire,Delivered
+ORD-2026-10658,2026-05-14,Kabir Mehta,Hyderabad,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4561.06,0.0,4561.06,1578.21,Net Banking,Delivered
+ORD-2026-10659,2026-08-02,Meera Mehta,Kolkata,Home Office,Technology,Dell 27-inch 4K Monitor,1,42533.36,0.0,42533.36,12323.6,Credit Card,Delivered
+ORD-2026-10660,2026-04-25,Aditya Chatterjee,Mumbai,Corporate,Furniture,Ergonomic Standing Desk,3,38249.27,0.2,91798.25,-233.81,UPI,Delivered
+ORD-2026-10661,2026-03-18,Aditya Gupta,Bangalore,Home Office,Furniture,Filing Cabinet 3-Tier,3,12019.74,0.0,36059.22,11440.35,Net Banking,Shipped
+ORD-2026-10662,2026-01-26,Rohan Joshi,Kolkata,Corporate,Technology,ThinkPad X1 Carbon,1,124703.16,0.15,105997.69,15482.16,Net Banking,Processing
+ORD-2026-10663,2026-04-14,Tanvi Iyer,Kolkata,Corporate,Office Supplies,Heavy Duty Stapler Set,2,967.96,0.2,1548.74,-21.54,Corporate Wire,Delivered
+ORD-2026-10664,2026-02-06,Kabir Patel,Ahmedabad,Home Office,Furniture,Ergonomic Standing Desk,5,38110.74,0.05,181026.01,34669.33,Corporate Wire,Shipped
+ORD-2026-10665,2026-01-09,Ishaan Patel,Pune,Consumer,Office Supplies,Heavy Duty Stapler Set,1,930.01,0.0,930.01,242.85,Credit Card,Delivered
+ORD-2026-10666,2026-03-20,Neha Mehta,Chennai,Corporate,Technology,Dell XPS 15,1,133681.11,0.05,126997.05,19781.73,Net Banking,Delivered
+ORD-2026-10667,2026-02-16,Arjun Joshi,Ahmedabad,Consumer,Technology,Sony WH-1000XM5,1,27769.21,0.15,23603.83,2848.57,Corporate Wire,Delivered
+ORD-2026-10668,2026-07-20,Vikram Singhania,Bangalore,Consumer,Office Supplies,Heavy Duty Stapler Set,3,916.65,0.05,2612.45,484.71,Credit Card,Processing
+ORD-2026-10669,2026-06-20,Tanvi Deshmukh,Kolkata,Consumer,Furniture,Steelcase Gesture,2,114290.47,0.2,182864.75,5690.48,Credit Card,Delivered
+ORD-2026-10670,2026-07-01,Aarav Chatterjee,Chennai,Home Office,Office Supplies,LaserJet Pro Toner,2,6795.86,0.0,13591.72,3505.14,Credit Card,Processing
+ORD-2026-10671,2026-05-14,Priya Singhania,Mumbai,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4629.04,0.0,4629.04,1427.14,Corporate Wire,Delivered
+ORD-2026-10672,2026-07-26,Kabir Chatterjee,Pune,Corporate,Office Supplies,LaserJet Pro Toner,2,6395.97,0.15,10873.15,2165.85,Credit Card,Processing
+ORD-2026-10673,2026-03-23,Vikram Mehta,Delhi,Consumer,Technology,Sony WH-1000XM5,1,27315.55,0.0,27315.55,9144.24,Net Banking,Shipped
+ORD-2026-10674,2026-06-23,Rohan Sharma,Pune,Consumer,Technology,Dell 27-inch 4K Monitor,1,41244.17,0.0,41244.17,11540.95,Net Banking,Delivered
+ORD-2026-10675,2026-04-07,Arjun Verma,Mumbai,Consumer,Technology,Sony WH-1000XM5,2,28706.69,0.0,57413.38,16336.5,Credit Card,Delivered
+ORD-2026-10676,2026-01-16,Neha Singhania,Kolkata,Consumer,Furniture,Herman Miller Aeron Chair,2,98668.48,0.0,197336.96,60038.36,Credit Card,Delivered
+ORD-2026-10677,2026-07-15,Kabir Gupta,Bangalore,Corporate,Office Supplies,Heavy Duty Stapler Set,2,950.04,0.1,1710.07,222.14,UPI,Delivered
+ORD-2026-10678,2026-05-19,Rohan Reddy,Kolkata,Home Office,Furniture,Herman Miller Aeron Chair,1,98129.03,0.0,98129.03,29519.92,UPI,Delivered
+ORD-2026-10679,2026-01-16,Divya Singhania,Chennai,Home Office,Furniture,Bookshelf Oak Finish,12,14083.49,0.1,152101.69,18097.34,Net Banking,Delivered
+ORD-2026-10680,2026-02-11,Ishaan Iyer,Delhi,Corporate,Technology,Logitech MX Master 3S,2,8691.31,0.1,15644.36,1394.09,Corporate Wire,Delivered
+ORD-2026-10681,2026-06-06,Kabir Nair,Pune,Home Office,Furniture,Bookshelf Oak Finish,1,14241.38,0.05,13529.31,3762.49,Net Banking,Delivered
+ORD-2026-10682,2026-08-22,Ishaan Patel,Mumbai,Home Office,Furniture,Herman Miller Aeron Chair,4,94175.05,0.05,357865.19,55677.95,Corporate Wire,Shipped
+ORD-2026-10683,2026-05-18,Ananya Gupta,Delhi,Home Office,Technology,Dell 27-inch 4K Monitor,2,43982.56,0.0,87965.12,25159.43,Net Banking,Shipped
+ORD-2026-10684,2026-02-15,Arjun Joshi,Mumbai,Consumer,Furniture,Steelcase Gesture,5,106936.73,0.0,534683.65,185341.2,Net Banking,Delivered
+ORD-2026-10685,2026-02-19,Ananya Chatterjee,Chennai,Home Office,Technology,Dell XPS 15,8,133515.14,0.2,854496.9,70728.38,UPI,Delivered
+ORD-2026-10686,2026-02-20,Arjun Gupta,Kolkata,Consumer,Furniture,Filing Cabinet 3-Tier,2,11632.52,0.0,23265.04,5220.71,UPI,Delivered
+ORD-2026-10687,2026-05-31,Rohan Joshi,Delhi,Consumer,Furniture,Filing Cabinet 3-Tier,4,12274.68,0.15,41733.91,7529.99,Credit Card,Processing
+ORD-2026-10688,2026-06-07,Aditya Gupta,Ahmedabad,Consumer,Furniture,Herman Miller Aeron Chair,4,98271.24,0.0,393084.96,110390.48,Credit Card,Processing
+ORD-2026-10689,2026-04-30,Sneha Nair,Mumbai,Home Office,Technology,ThinkPad X1 Carbon,1,124360.77,0.0,124360.77,43417.2,UPI,Delivered
+ORD-2026-10690,2026-01-21,Divya Chatterjee,Mumbai,Home Office,Technology,Dell 27-inch 4K Monitor,2,40949.93,0.0,81899.86,26374.88,Net Banking,Delivered
+ORD-2026-10691,2026-06-10,Rahul Verma,Mumbai,Corporate,Furniture,Herman Miller Aeron Chair,2,93425.87,0.05,177509.15,48101.31,Credit Card,Shipped
+ORD-2026-10692,2026-03-03,Neha Sharma,Pune,Home Office,Technology,ThinkPad X1 Carbon,3,128301.23,0.05,365658.51,74552.27,Credit Card,Delivered
+ORD-2026-10693,2026-01-16,Divya Sharma,Kolkata,Corporate,Office Supplies,LaserJet Pro Toner,3,6696.55,0.0,20089.65,6844.26,Corporate Wire,Delivered
+ORD-2026-10694,2026-01-27,Rahul Sharma,Mumbai,Corporate,Furniture,Bookshelf Oak Finish,1,14113.01,0.1,12701.71,2089.74,Credit Card,Shipped
+ORD-2026-10695,2026-04-09,Sneha Deshmukh,Delhi,Corporate,Office Supplies,LaserJet Pro Toner,2,6300.11,0.0,12600.22,4190.11,Credit Card,Processing
+ORD-2026-10696,2026-07-22,Arjun Reddy,Bangalore,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1821.75,0.0,1821.75,580.03,UPI,Delivered
+ORD-2026-10697,2026-01-16,Rohan Mehta,Kolkata,Home Office,Office Supplies,Moleskine Hardcover Journal,1,1849.59,0.15,1572.15,323.57,Net Banking,Processing
+ORD-2026-10698,2026-03-29,Aditya Nair,Mumbai,Home Office,Office Supplies,Premium Copy Paper Box,1,2273.74,0.05,2160.05,350.2,Corporate Wire,Delivered
+ORD-2026-10699,2026-02-20,Priya Gupta,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,2,39831.31,0.05,75679.49,15776.42,Net Banking,Processing
+ORD-2026-10700,2026-05-25,Neha Chatterjee,Chennai,Corporate,Furniture,Ergonomic Standing Desk,1,39560.06,0.15,33626.05,4576.77,Credit Card,Delivered
+ORD-2026-10701,2026-06-27,Priya Singhania,Hyderabad,Consumer,Furniture,Steelcase Gesture,3,108903.44,0.0,326710.32,68467.27,Credit Card,Delivered
+ORD-2026-10702,2026-01-03,Ananya Nair,Mumbai,Home Office,Technology,Dell XPS 15,1,141199.61,0.0,141199.61,31044.07,Credit Card,Delivered
+ORD-2026-10703,2026-02-20,Priya Mehta,Bangalore,Consumer,Furniture,Ergonomic Standing Desk,1,36778.46,0.05,34939.54,10899.17,Net Banking,Delivered
+ORD-2026-10704,2026-01-06,Arjun Gupta,Bangalore,Corporate,Office Supplies,LaserJet Pro Toner,1,6471.53,0.0,6471.53,1858.37,Net Banking,Delivered
+ORD-2026-10705,2026-08-29,Kabir Chatterjee,Kolkata,Home Office,Technology,ThinkPad X1 Carbon,1,128686.23,0.15,109383.3,21543.9,Corporate Wire,Delivered
+ORD-2026-10706,2026-03-23,Tanvi Deshmukh,Hyderabad,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4630.31,0.05,4398.79,1131.15,Credit Card,Delivered
+ORD-2026-10707,2026-08-12,Rohan Iyer,Ahmedabad,Consumer,Office Supplies,LaserJet Pro Toner,3,6574.68,0.1,17751.64,4369.59,Corporate Wire,Processing
+ORD-2026-10708,2026-04-06,Sneha Iyer,Ahmedabad,Consumer,Furniture,Steelcase Gesture,2,115013.27,0.0,230026.54,61983.21,Corporate Wire,Processing
+ORD-2026-10709,2026-06-16,Aarav Reddy,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,1,39477.09,0.0,39477.09,9982.45,Net Banking,Delivered
+ORD-2026-10710,2026-05-21,Ananya Patel,Delhi,Corporate,Furniture,Filing Cabinet 3-Tier,1,11958.3,0.05,11360.38,2324.79,Corporate Wire,Shipped
+ORD-2026-10711,2026-04-30,Vikram Deshmukh,Pune,Corporate,Furniture,Steelcase Gesture,1,107071.69,0.0,107071.69,25728.22,Net Banking,Delivered
+ORD-2026-10712,2026-03-17,Arjun Iyer,Delhi,Corporate,Technology,ThinkPad X1 Carbon,1,125575.33,0.0,125575.33,36826.37,Net Banking,Delivered
+ORD-2026-10713,2026-03-19,Ishaan Gupta,Chennai,Consumer,Office Supplies,Whiteboard Magnetic 4x3,12,4613.57,0.2,44290.27,1341.46,Net Banking,Delivered
+ORD-2026-10714,2026-07-17,Aditya Mehta,Pune,Corporate,Furniture,Filing Cabinet 3-Tier,3,12184.91,0.0,36554.73,6646.5,UPI,Shipped
+ORD-2026-10715,2026-02-28,Priya Joshi,Hyderabad,Corporate,Technology,Sony WH-1000XM5,2,27912.47,0.05,53033.69,9018.65,Net Banking,Delivered
+ORD-2026-10716,2026-03-22,Arjun Reddy,Kolkata,Home Office,Furniture,Ergonomic Standing Desk,2,36214.4,0.15,61564.48,12774.88,UPI,Delivered
+ORD-2026-10717,2026-07-08,Aarav Singhania,Pune,Corporate,Technology,Logitech MX Master 3S,2,8723.42,0.1,15702.16,2313.66,Net Banking,Delivered
+ORD-2026-10718,2026-05-31,Aarav Chatterjee,Mumbai,Consumer,Technology,iPad Pro 12.9,2,88516.89,0.1,159330.4,26987.14,Corporate Wire,Shipped
+ORD-2026-10719,2026-02-22,Vikram Verma,Kolkata,Consumer,Furniture,Herman Miller Aeron Chair,1,96320.53,0.2,77056.42,9459.66,UPI,Delivered
+ORD-2026-10720,2026-06-22,,Mumbai,Home Office,Office Supplies,Heavy Duty Stapler Set,1,989.08,0.0,989.08,281.29,UPI,Delivered
+ORD-2026-10721,2026-03-16,Rahul Iyer,Delhi,Corporate,Technology,iPad Pro 12.9,2,88057.51,0.0,176115.02,49339.26,UPI,Delivered
+ORD-2026-10722,2026-02-03,Kabir Deshmukh,Ahmedabad,Home Office,Technology,Logitech MX Master 3S,5,8185.44,0.15,34788.12,6754.42,Corporate Wire,Shipped
+ORD-2026-10723,2026-02-10,Tanvi Chatterjee,Chennai,Home Office,Technology,Sony WH-1000XM5,3,27164.77,0.0,81494.31,14792.48,Corporate Wire,Delivered
+ORD-2026-10724,2026-07-31,Vikram Chatterjee,Hyderabad,Home Office,Furniture,Filing Cabinet 3-Tier,4,12091.36,0.0,48365.44,10865.81,Net Banking,Shipped
+ORD-2026-10725,2026-03-30,Ishaan Joshi,Chennai,Corporate,Office Supplies,Premium Copy Paper Box,2,2225.9,0.0,4451.8,1231.13,Corporate Wire,Delivered
+ORD-2026-10726,2026-06-28,Tanvi Verma,Kolkata,Home Office,Technology,Dell XPS 15,4,145355.78,0.0,581423.12,150347.08,Credit Card,Delivered
+ORD-2026-10727,2026-08-21,Sneha Deshmukh,Delhi,Corporate,Technology,ThinkPad X1 Carbon,2,123876.2,0.1,222977.16,54995.42,UPI,Processing
+ORD-2026-10728,2026-01-12,Sneha Sharma,Delhi,Home Office,Office Supplies,Heavy Duty Stapler Set,1,983.8,0.1,885.42,179.61,Credit Card,Delivered
+ORD-2026-10729,2026-01-30,Ishaan Patel,Pune,Home Office,Office Supplies,Heavy Duty Stapler Set,2,954.6,0.0,1909.2,589.58,Corporate Wire,Delivered
+ORD-2026-10730,2026-05-01,Arjun Mehta,Bangalore,Consumer,Technology,Sony WH-1000XM5,1,28097.03,0.0,28097.03,7967.07,Credit Card,Delivered
+ORD-2026-10731,2026-06-23,Aditya Patel,Ahmedabad,Corporate,Technology,Dell XPS 15,3,140452.18,0.15,358153.06,52606.41,Credit Card,Processing
+ORD-2026-10732,2026-06-14,Rahul Joshi,Delhi,Corporate,Office Supplies,Moleskine Hardcover Journal,2,1718.76,0.05,3265.64,810.71,UPI,Delivered
+ORD-2026-10733,2026-04-06,Divya Reddy,Hyderabad,Consumer,Technology,Logitech MX Master 3S,1,8772.45,0.0,8772.45,2056.32,Credit Card,Delivered
+ORD-2026-10734,2026-08-14,Ananya Gupta,Bangalore,Home Office,Technology,ThinkPad X1 Carbon,2,122839.27,0.0,245678.54,62513.1,UPI,Processing
+ORD-2026-10735,2026-02-23,Divya Iyer,Kolkata,Corporate,Technology,Dell XPS 15,1,135430.7,0.0,135430.7,38142.2,Net Banking,Delivered
+ORD-2026-10736,2026-04-10,Priya Singhania,Hyderabad,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1722.12,0.0,3444.24,1077.51,Net Banking,Processing
+ORD-2026-10737,2026-05-08,Ananya Joshi,Bangalore,Corporate,Technology,Sony WH-1000XM5,1,27687.98,0.05,26303.58,3954.56,UPI,Delivered
+ORD-2026-10738,2026-02-14,Rahul Joshi,Pune,Home Office,Furniture,Herman Miller Aeron Chair,1,95807.85,0.05,91017.46,22514.55,UPI,Processing
+ORD-2026-10739,2026-05-31,Ishaan Sharma,Hyderabad,Consumer,Office Supplies,LaserJet Pro Toner,1,6667.21,0.1,6000.49,964.34,Credit Card,Delivered
+ORD-2026-10740,2026-04-06,Sneha Mehta,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,2,38856.17,0.0,77712.34,14139.47,Corporate Wire,Delivered
+ORD-2026-10741,2026-02-04,Aditya Nair,Mumbai,Home Office,Furniture,Steelcase Gesture,3,112561.6,0.0,337684.8,98514.87,UPI,Processing
+ORD-2026-10742,2026-01-14,Divya Gupta,Hyderabad,Home Office,Office Supplies,Premium Copy Paper Box,2,2160.76,0.0,4321.52,1187.55,Credit Card,Delivered
+ORD-2026-10743,2026-08-11,Sneha Verma,Hyderabad,Consumer,Office Supplies,Premium Copy Paper Box,5,2128.21,0.0,10641.05,2731.51,UPI,Delivered
+ORD-2026-10744,2026-05-10,Ananya Deshmukh,Ahmedabad,Corporate,Technology,Dell 27-inch 4K Monitor,1,42444.58,0.0,42444.58,12668.56,Corporate Wire,Delivered
+ORD-2026-10745,2026-03-11,Arjun Singhania,Delhi,Corporate,Furniture,Bookshelf Oak Finish,1,14507.67,0.0,14507.67,3265.13,UPI,Shipped
+ORD-2026-10746,2026-01-06,Meera Deshmukh,Kolkata,Consumer,Furniture,Filing Cabinet 3-Tier,2,11610.84,0.05,22060.6,5464.61,Net Banking,Shipped
+ORD-2026-10747,2026-03-14,Vikram Iyer,Ahmedabad,Consumer,Furniture,Ergonomic Standing Desk,3,39581.3,0.0,118743.9,41475.97,Net Banking,Shipped
+ORD-2026-10748,2026-04-14,Divya Deshmukh,Kolkata,Home Office,Furniture,Bookshelf Oak Finish,2,14628.05,0.05,27793.29,6743.7,Credit Card,Delivered
+ORD-2026-10749,2026-04-09,Divya Chatterjee,Bangalore,Consumer,Furniture,Steelcase Gesture,3,108334.37,0.1,292502.8,42071.06,Net Banking,Delivered
+ORD-2026-10750,2026-06-16,Vikram Deshmukh,Hyderabad,Consumer,Furniture,Herman Miller Aeron Chair,4,96962.31,0.0,387849.24,133884.19,,Delivered
+ORD-2026-10751,2026-03-08,Tanvi Singhania,Bangalore,Corporate,Technology,Sony WH-1000XM5,2,27052.0,0.05,51398.8,15157.55,Credit Card,Shipped
+ORD-2026-10752,2026-04-12,Ishaan Chatterjee,Delhi,Home Office,Technology,Logitech MX Master 3S,1,8663.06,0.0,8663.06,2294.76,Corporate Wire,Processing
+ORD-2026-10753,2026-03-20,Ishaan Deshmukh,Delhi,Consumer,Office Supplies,Whiteboard Magnetic 4x3,3,4339.22,0.0,13017.66,2899.24,Corporate Wire,Delivered
+ORD-2026-10754,2026-01-02,Rohan Singhania,Mumbai,Consumer,Technology,Dell 27-inch 4K Monitor,2,41111.03,0.0,82222.06,22754.02,UPI,Delivered
+ORD-2026-10755,2026-02-17,Ishaan Patel,Hyderabad,Corporate,Technology,Sony WH-1000XM5,5,28880.24,0.0,144401.2,45983.34,Credit Card,Delivered
+ORD-2026-10756,2026-07-27,Meera Reddy,Chennai,Corporate,Furniture,Filing Cabinet 3-Tier,1,11495.77,0.05,10920.98,3281.23,Credit Card,Delivered
+ORD-2026-10757,2026-01-17,Neha Sharma,Hyderabad,Corporate,Furniture,Herman Miller Aeron Chair,1,99324.53,0.0,99324.53,23529.51,Credit Card,Delivered
+ORD-2026-10758,2026-02-24,Kabir Sharma,Kolkata,Home Office,Office Supplies,Moleskine Hardcover Journal,5,1770.67,0.0,8853.35,2452.31,Net Banking,Delivered
+ORD-2026-10759,2026-03-22,Arjun Reddy,Pune,Home Office,Furniture,Bookshelf Oak Finish,2,15040.96,0.2,24065.54,389.09,Credit Card,Shipped
+ORD-2026-10760,2026-08-11,Ishaan Deshmukh,Bangalore,Consumer,Office Supplies,LaserJet Pro Toner,4,6629.52,0.0,26518.08,5607.01,Net Banking,Shipped
+ORD-2026-10761,2026-06-08,Rahul Gupta,Ahmedabad,Home Office,Furniture,Ergonomic Standing Desk,1,39679.36,0.05,37695.39,9730.52,Net Banking,Delivered
+ORD-2026-10762,2026-07-26,Ishaan Nair,Ahmedabad,Consumer,Office Supplies,Heavy Duty Stapler Set,2,910.23,0.05,1729.44,413.71,Corporate Wire,Delivered
+ORD-2026-10763,2026-07-07,Vikram Mehta,Hyderabad,Home Office,Technology,Sony WH-1000XM5,4,28606.66,0.1,102983.98,27989.13,Corporate Wire,Delivered
+ORD-2026-10764,2026-03-19,Arjun Gupta,Ahmedabad,Consumer,Furniture,Herman Miller Aeron Chair,2,92561.88,0.05,175867.57,50173.42,Credit Card,Delivered
+ORD-2026-10765,2026-04-22,Ishaan Sharma,Bangalore,Corporate,Furniture,Steelcase Gesture,1,109739.33,0.0,109739.33,21665.08,Credit Card,Delivered
+ORD-2026-10766,2026-08-25,Kabir Gupta,Ahmedabad,Consumer,Office Supplies,Moleskine Hardcover Journal,4,1847.94,0.15,6283.0,723.54,Net Banking,Shipped
+ORD-2026-10767,2026-08-22,Ishaan Joshi,Kolkata,Home Office,Office Supplies,Whiteboard Magnetic 4x3,5,4380.02,0.0,21900.1,6700.42,Net Banking,Delivered
+ORD-2026-10768,2026-01-29,Ananya Nair,Hyderabad,Home Office,Technology,Sony WH-1000XM5,1,29271.39,0.15,24880.68,2983.46,Credit Card,Delivered
+ORD-2026-10769,2026-01-16,Tanvi Iyer,Hyderabad,Corporate,Furniture,Steelcase Gesture,3,114773.18,0.1,309887.59,78686.57,UPI,Delivered
+ORD-2026-10770,2026-04-12,Aarav Iyer,Ahmedabad,Corporate,Technology,iPad Pro 12.9,3,84624.17,0.0,253872.51,62897.14,UPI,Delivered
+ORD-2026-10771,2026-06-03,Neha Mehta,Delhi,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4497.76,0.1,8095.97,1172.08,Corporate Wire,Delivered
+ORD-2026-10772,2026-07-27,Neha Patel,Hyderabad,Home Office,Technology,Dell 27-inch 4K Monitor,3,43159.36,0.15,110056.37,7036.83,Corporate Wire,Delivered
+ORD-2026-10773,2026-07-28,Rahul Patel,Mumbai,Home Office,Furniture,Steelcase Gesture,2,108331.38,0.0,216662.76,61417.03,Credit Card,Processing
+ORD-2026-10774,2026-07-06,Aditya Mehta,Hyderabad,Home Office,Office Supplies,Heavy Duty Stapler Set,1,977.67,0.0,977.67,198.28,Credit Card,Delivered
+ORD-2026-10775,2026-04-28,Rahul Patel,Bangalore,Corporate,Office Supplies,Heavy Duty Stapler Set,1,923.22,0.0,923.22,205.67,Credit Card,Delivered
+ORD-2026-10776,2026-07-05,Arjun Chatterjee,Delhi,Home Office,Technology,Logitech MX Master 3S,5,8790.41,0.0,43952.05,8464.4,Credit Card,Delivered
+ORD-2026-10777,2026-05-02,Rohan Sharma,Delhi,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1822.86,0.2,2916.58,296.48,Credit Card,Delivered
+ORD-2026-10778,2026-03-03,Vikram Singhania,Chennai,Home Office,Office Supplies,Premium Copy Paper Box,2,2242.19,0.0,4484.38,963.22,Credit Card,Shipped
+ORD-2026-10779,2026-08-10,Arjun Gupta,Kolkata,Corporate,Office Supplies,Heavy Duty Stapler Set,1,910.35,0.0,910.35,242.91,UPI,Delivered
+ORD-2026-10780,2026-05-31,Tanvi Chatterjee,Ahmedabad,Corporate,Office Supplies,LaserJet Pro Toner,3,6489.72,0.0,19469.16,4680.75,Corporate Wire,Delivered
+ORD-2026-10781,2026-05-27,Rohan Verma,Pune,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4283.89,0.1,3855.5,666.01,Corporate Wire,Delivered
+ORD-2026-10782,2026-05-13,Arjun Chatterjee,Delhi,Consumer,Office Supplies,LaserJet Pro Toner,1,6291.96,0.05,5977.36,1294.24,Net Banking,Delivered
+ORD-2026-10783,2026-01-11,Rohan Chatterjee,Hyderabad,Home Office,Technology,ThinkPad X1 Carbon,2,119187.57,0.15,202618.87,7964.63,Net Banking,Delivered
+ORD-2026-10784,2026-05-20,Rohan Deshmukh,Mumbai,Consumer,Furniture,Herman Miller Aeron Chair,5,97686.62,0.05,464011.44,91797.68,Corporate Wire,Delivered
+ORD-2026-10785,2026-05-28,Sneha Joshi,Pune,Home Office,Furniture,Filing Cabinet 3-Tier,2,11518.81,0.0,23037.62,4852.65,UPI,Delivered
+ORD-2026-10786,2026-02-18,Rohan Mehta,Hyderabad,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4332.82,0.0,4332.82,1058.1,Credit Card,Processing
+ORD-2026-10787,2026-03-07,Aditya Deshmukh,Bangalore,Corporate,Furniture,Herman Miller Aeron Chair,5,99181.89,0.05,471113.98,136696.71,UPI,Delivered
+ORD-2026-10788,2026-06-11,Ishaan Mehta,Hyderabad,Home Office,Furniture,Filing Cabinet 3-Tier,2,12125.93,0.1,21826.67,4332.67,UPI,Delivered
+ORD-2026-10789,2026-07-21,Vikram Deshmukh,Mumbai,Home Office,Technology,ThinkPad X1 Carbon,45,150000.0,0.05,6412500.0,1558218.5,Net Banking,Delivered
+ORD-2026-10790,2026-04-03,Divya Nair,Chennai,Consumer,Technology,iPad Pro 12.9,1,88984.57,0.0,88984.57,25416.89,Credit Card,Delivered
+ORD-2026-10791,2026-02-14,Kabir Joshi,Chennai,Home Office,Furniture,Herman Miller Aeron Chair,2,98471.28,0.1,177248.3,30769.87,Credit Card,Delivered
+ORD-2026-10792,2026-02-13,Neha Deshmukh,Bangalore,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4456.19,0.15,7575.52,885.06,Net Banking,Delivered
+ORD-2026-10793,2026-06-25,Kabir Joshi,Bangalore,Home Office,Technology,Dell XPS 15,1,133740.1,0.1,120366.09,16942.03,Net Banking,Delivered
+ORD-2026-10794,2026-06-23,Tanvi Deshmukh,Ahmedabad,Consumer,Furniture,Steelcase Gesture,3,107534.05,0.05,306472.04,73320.99,UPI,Delivered
+ORD-2026-10795,2026-06-12,Arjun Verma,Chennai,Corporate,Furniture,Herman Miller Aeron Chair,2,92530.35,0.0,185060.7,61825.5,Credit Card,Delivered
+ORD-2026-10796,2026-07-10,Aditya Iyer,Ahmedabad,Consumer,Furniture,Filing Cabinet 3-Tier,5,11997.37,0.0,59986.85,14008.69,Credit Card,Shipped
+ORD-2026-10797,2026-01-04,Tanvi Reddy,Mumbai,Home Office,Furniture,Filing Cabinet 3-Tier,3,12286.78,0.0,36860.34,6942.73,Credit Card,Processing
+ORD-2026-10798,2026-04-25,Rohan Gupta,Hyderabad,Consumer,Technology,iPad Pro 12.9,3,88846.11,0.05,253211.41,60807.31,Corporate Wire,Delivered
+ORD-2026-10799,2026-04-06,Ananya Nair,Hyderabad,Home Office,Technology,iPad Pro 12.9,1,82561.06,0.0,82561.06,18537.9,Corporate Wire,Delivered
+ORD-2026-10800,2026-08-25,Aditya Gupta,Mumbai,Corporate,Office Supplies,Heavy Duty Stapler Set,1,946.23,0.0,946.23,283.19,Credit Card,Delivered
+ORD-2026-10801,2026-03-31,Divya Joshi,Bangalore,Corporate,Furniture,Herman Miller Aeron Chair,1,91055.07,0.0,91055.07,23907.95,UPI,Shipped
+ORD-2026-10802,2026-02-01,Divya Singhania,Mumbai,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1763.87,0.0,1763.87,488.91,UPI,Processing
+ORD-2026-10803,2026-07-27,Aditya Verma,Ahmedabad,Home Office,Furniture,Ergonomic Standing Desk,1,36122.08,0.1,32509.87,3604.69,UPI,Delivered
+ORD-2026-10804,2026-02-18,Aditya Sharma,Bangalore,Corporate,Furniture,Steelcase Gesture,4,106688.91,0.0,426755.64,114592.36,Net Banking,Delivered
+ORD-2026-10805,2026-04-18,Sneha Iyer,Ahmedabad,Home Office,Office Supplies,Premium Copy Paper Box,1,2283.99,0.1,2055.59,376.14,Corporate Wire,Delivered
+ORD-2026-10806,2026-01-29,Ananya Sharma,Bangalore,Consumer,Furniture,Filing Cabinet 3-Tier,1,11462.45,0.05,10889.33,1821.71,Corporate Wire,Processing
+ORD-2026-10807,2026-07-08,Aarav Deshmukh,Ahmedabad,Corporate,Furniture,Bookshelf Oak Finish,1,14670.54,0.0,14670.54,3315.95,UPI,Delivered
+ORD-2026-10808,2026-03-13,Meera Verma,Chennai,Home Office,Technology,Dell 27-inch 4K Monitor,3,42867.14,0.0,128601.42,27303.12,UPI,Delivered
+ORD-2026-10809,2026-08-07,Tanvi Gupta,Bangalore,Consumer,Technology,Dell XPS 15,2,135690.48,0.0,271380.96,88238.01,Credit Card,Processing
+ORD-2026-10810,2026-02-21,Ananya Sharma,Kolkata,Corporate,Office Supplies,Moleskine Hardcover Journal,3,1749.92,0.2,4199.81,407.21,Credit Card,Processing
+ORD-2026-10811,2026-04-20,Rahul Sharma,Chennai,Consumer,Furniture,Steelcase Gesture,1,109098.82,0.0,109098.82,32252.56,Credit Card,Delivered
+ORD-2026-10812,2026-01-11,Aarav Sharma,Pune,Consumer,Furniture,Bookshelf Oak Finish,1,14399.82,0.05,13679.83,3702.41,Corporate Wire,Delivered
+ORD-2026-10813,2026-03-27,Aditya Verma,Delhi,Home Office,Technology,Dell 27-inch 4K Monitor,2,41291.09,0.15,70194.85,6109.45,Net Banking,Processing
+ORD-2026-10814,2026-05-16,Tanvi Nair,Hyderabad,Home Office,Furniture,Ergonomic Standing Desk,2,36504.19,0.0,73008.38,17739.21,Credit Card,Delivered
+ORD-2026-10815,2026-05-31,Divya Gupta,Hyderabad,Consumer,Office Supplies,Heavy Duty Stapler Set,4,954.43,0.0,3817.72,1113.66,Corporate Wire,Delivered
+ORD-2026-10816,2026-05-17,Ishaan Patel,Mumbai,Consumer,Technology,Logitech MX Master 3S,2,8820.51,0.0,17641.02,3614.92,Net Banking,Delivered
+ORD-2026-10817,2026-04-25,Rahul Joshi,Delhi,Corporate,Technology,Logitech MX Master 3S,2,8503.29,0.15,14455.59,3338.07,Net Banking,Delivered
+ORD-2026-10818,2026-03-16,Aarav Chatterjee,Mumbai,Home Office,Technology,Dell 27-inch 4K Monitor,3,42136.37,0.0,126409.11,33208.57,Credit Card,Delivered
+ORD-2026-10819,2026-04-23,Meera Iyer,Kolkata,Home Office,Furniture,Bookshelf Oak Finish,2,13780.22,0.0,27560.44,6966.65,Credit Card,Processing
+ORD-2026-10820,2026-04-27,Kabir Joshi,Chennai,Corporate,Technology,iPad Pro 12.9,3,82204.43,0.05,234282.63,72071.72,UPI,Delivered
+ORD-2026-10821,2026-01-11,Rahul Patel,Chennai,Consumer,Furniture,Herman Miller Aeron Chair,2,98072.4,0.0,196144.8,50824.82,Credit Card,Delivered
+ORD-2026-10822,2026-06-11,Tanvi Nair,Pune,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4679.25,0.0,4679.25,1403.16,Credit Card,Delivered
+ORD-2026-10823,2026-07-30,Neha Reddy,Chennai,Consumer,Furniture,Herman Miller Aeron Chair,2,97642.77,0.2,156228.43,3380.93,Credit Card,Shipped
+ORD-2026-10824,2026-06-17,Aditya Gupta,Hyderabad,Corporate,Technology,iPad Pro 12.9,1,87615.73,0.05,83234.94,15070.55,UPI,Shipped
+ORD-2026-10825,2026-03-01,Ishaan Joshi,Kolkata,Corporate,Technology,Logitech MX Master 3S,1,8232.27,0.0,8232.27,1674.44,UPI,Processing
+ORD-2026-10826,2026-05-06,Ishaan Patel,Chennai,Consumer,Furniture,Ergonomic Standing Desk,4,38711.99,0.1,139363.16,33767.05,UPI,Delivered
+ORD-2026-10827,2026-04-20,Priya Singhania,Kolkata,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4280.3,0.1,3852.27,997.51,Corporate Wire,Delivered
+ORD-2026-10828,2026-01-29,Arjun Sharma,Mumbai,Consumer,Technology,ThinkPad X1 Carbon,1,126245.46,0.15,107308.64,8242.81,Credit Card,Delivered
+ORD-2026-10829,2026-05-19,Ishaan Nair,Delhi,Consumer,Technology,Logitech MX Master 3S,3,8768.15,0.15,22358.78,3886.34,Corporate Wire,Delivered
+ORD-2026-10830,2026-03-04,Aarav Iyer,Chennai,Home Office,Office Supplies,LaserJet Pro Toner,1,6529.02,0.0,6529.02,2171.32,Corporate Wire,Delivered
+ORD-2026-10831,2026-01-01,Divya Reddy,Mumbai,Consumer,Furniture,Bookshelf Oak Finish,1,14102.53,0.05,13397.4,2123.44,Corporate Wire,Delivered
+ORD-2026-10832,2026-05-06,Rohan Verma,Hyderabad,Consumer,Furniture,Steelcase Gesture,1,108465.43,0.0,108465.43,20912.2,Credit Card,Delivered
+ORD-2026-10833,2026-06-04,Rohan Patel,Kolkata,Home Office,Furniture,Filing Cabinet 3-Tier,1,12471.74,0.0,12471.74,2908.19,Net Banking,Delivered
+ORD-2026-10834,2026-08-13,Ananya Mehta,Ahmedabad,Home Office,Furniture,Steelcase Gesture,3,105340.06,0.1,284418.16,78887.99,UPI,Delivered
+ORD-2026-10835,2026-03-23,Rohan Deshmukh,Ahmedabad,Home Office,Furniture,Herman Miller Aeron Chair,1,97153.72,0.0,97153.72,31614.45,Net Banking,Delivered
+ORD-2026-10836,2026-02-16,Meera Deshmukh,Pune,Corporate,Furniture,Bookshelf Oak Finish,2,14647.53,0.2,23436.05,1223.87,UPI,Delivered
+ORD-2026-10837,2026-04-09,Vikram Iyer,Ahmedabad,Home Office,Office Supplies,Heavy Duty Stapler Set,2,939.04,0.1,1690.27,284.03,Corporate Wire,Processing
+ORD-2026-10838,2026-05-28,Meera Joshi,Hyderabad,Home Office,Technology,Dell XPS 15,1,144908.33,0.0,144908.33,41790.44,Corporate Wire,Delivered
+ORD-2026-10839,2026-08-24,Ananya Sharma,Pune,Corporate,Technology,iPad Pro 12.9,2,85437.75,0.1,153787.95,15664.48,Corporate Wire,Delivered
+ORD-2026-10840,2026-02-23,Arjun Reddy,Mumbai,Home Office,Technology,ThinkPad X1 Carbon,5,123468.26,0.1,555607.17,151570.27,Corporate Wire,Delivered
+ORD-2026-10841,2026-01-14,Ishaan Verma,Delhi,Corporate,Office Supplies,Premium Copy Paper Box,1,2107.38,0.0,2107.38,709.97,Corporate Wire,Delivered
+ORD-2026-10842,2026-07-15,Rohan Singhania,Bangalore,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1789.92,0.1,3221.86,502.53,Credit Card,Delivered
+ORD-2026-10843,2026-01-29,Rohan Sharma,Mumbai,Home Office,Technology,Sony WH-1000XM5,1,27786.14,0.0,27786.14,5245.99,Corporate Wire,Processing
+ORD-2026-10844,2026-07-02,Arjun Mehta,Chennai,Home Office,Technology,Logitech MX Master 3S,5,8153.15,0.0,40765.75,11651.45,UPI,Delivered
+ORD-2026-10845,2026-04-13,Tanvi Sharma,Hyderabad,Corporate,Technology,Dell 27-inch 4K Monitor,8,40224.28,0.05,305704.53,58659.06,Corporate Wire,Delivered
+ORD-2026-10846,2026-06-17,Rahul Deshmukh,Kolkata,Consumer,Technology,iPad Pro 12.9,2,81671.41,0.0,163342.82,55009.38,Net Banking,Delivered
+ORD-2026-10847,2026-03-03,Aditya Patel,Delhi,Consumer,Technology,Sony WH-1000XM5,1,27125.68,0.15,23056.83,4494.91,Credit Card,Delivered
+ORD-2026-10848,2026-03-10,Ananya Chatterjee,Mumbai,Home Office,Furniture,Herman Miller Aeron Chair,1,93181.75,0.0,93181.75,17080.95,Net Banking,Shipped
+ORD-2026-10849,2026-05-09,Priya Nair,Kolkata,Home Office,Furniture,Ergonomic Standing Desk,3,37647.69,0.0,112943.07,25293.97,Credit Card,Processing
+ORD-2026-10850,2026-07-26,Meera Patel,Mumbai,Home Office,Furniture,Bookshelf Oak Finish,2,14195.67,0.15,24132.64,4946.87,Corporate Wire,Delivered
+ORD-2026-10851,2026-08-15,Rahul Verma,Hyderabad,Consumer,Office Supplies,Premium Copy Paper Box,3,2302.01,0.0,6906.03,1810.96,Net Banking,Shipped
+ORD-2026-10852,2026-07-21,Rohan Nair,Chennai,Corporate,Office Supplies,Heavy Duty Stapler Set,1,967.37,0.1,870.63,202.52,Credit Card,Delivered
+ORD-2026-10853,2026-05-26,Rahul Singhania,Delhi,Consumer,Technology,iPad Pro 12.9,2,87392.29,0.2,139827.66,23627.64,Credit Card,Shipped
+ORD-2026-10854,2026-03-22,Rohan Mehta,Bangalore,Consumer,Furniture,Filing Cabinet 3-Tier,1,11615.02,0.0,11615.02,2541.02,Net Banking,Shipped
+ORD-2026-10855,2026-03-07,Meera Singhania,Bangalore,Consumer,Office Supplies,Heavy Duty Stapler Set,1,940.59,0.15,799.5,51.08,UPI,Shipped
+ORD-2026-10856,2026-04-04,Kabir Chatterjee,Pune,Corporate,Technology,Dell 27-inch 4K Monitor,2,43585.12,0.0,87170.24,15820.34,Credit Card,Processing
+ORD-2026-10857,2026-06-14,Aarav Joshi,Hyderabad,Home Office,Office Supplies,LaserJet Pro Toner,1,6419.28,0.0,6419.28,1624.57,Credit Card,Delivered
+ORD-2026-10858,2026-04-10,Arjun Singhania,Delhi,Corporate,Furniture,Bookshelf Oak Finish,2,14449.04,0.15,24563.37,5358.0,Credit Card,Shipped
+ORD-2026-10859,2026-07-16,Vikram Reddy,Kolkata,Corporate,Technology,iPad Pro 12.9,1,82557.4,0.05,78429.53,14363.47,Credit Card,Delivered
+ORD-2026-10860,2026-04-27,Aarav Iyer,Bangalore,Corporate,Technology,Dell 27-inch 4K Monitor,1,44048.81,0.05,41846.37,7417.16,Credit Card,Delivered
+ORD-2026-10861,2026-07-22,Vikram Singhania,Hyderabad,Consumer,Technology,ThinkPad X1 Carbon,5,122123.1,0.05,580084.72,117197.36,Credit Card,Delivered
+ORD-2026-10862,2026-01-18,Aditya Deshmukh,Delhi,Corporate,Office Supplies,Heavy Duty Stapler Set,4,966.12,0.05,3671.26,988.9,Credit Card,Delivered
+ORD-2026-10863,2026-08-18,Divya Deshmukh,Pune,Corporate,Technology,Dell XPS 15,1,139656.99,0.0,139656.99,32525.95,UPI,Shipped
+ORD-2026-10864,2026-04-01,Divya Joshi,Kolkata,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4535.32,0.1,4081.79,1022.33,Net Banking,Delivered
+ORD-2026-10865,2026-02-08,Divya Singhania,Bangalore,Corporate,Furniture,Herman Miller Aeron Chair,3,92746.63,0.05,264327.9,49307.28,Corporate Wire,Delivered
+ORD-2026-10866,2026-06-12,Sneha Gupta,Delhi,Consumer,Technology,Dell 27-inch 4K Monitor,8,42193.56,0.0,337548.48,108610.55,Corporate Wire,Delivered
+ORD-2026-10867,2026-03-31,Priya Reddy,Mumbai,Corporate,Furniture,Herman Miller Aeron Chair,1,98030.99,0.0,98030.99,32231.93,Corporate Wire,Shipped
+ORD-2026-10868,2026-04-16,Vikram Nair,Pune,Home Office,Furniture,Filing Cabinet 3-Tier,8,12511.62,0.0,100092.96,27225.28,Net Banking,Delivered
+ORD-2026-10869,2026-05-22,Tanvi Patel,Kolkata,Corporate,Furniture,Bookshelf Oak Finish,2,15134.96,0.1,27242.93,2905.91,Credit Card,Delivered
+ORD-2026-10870,2026-07-26,Arjun Verma,Delhi,Home Office,Technology,Sony WH-1000XM5,5,28699.84,0.0,143499.2,35006.58,Credit Card,Shipped
+ORD-2026-10871,2026-05-09,Tanvi Sharma,Chennai,Corporate,Technology,Dell XPS 15,3,134603.02,0.05,383618.61,62356.91,Credit Card,Delivered
+ORD-2026-10872,2026-07-23,Divya Singhania,Kolkata,Home Office,Office Supplies,Heavy Duty Stapler Set,1,923.77,0.0,923.77,278.78,Net Banking,Delivered
+ORD-2026-10873,2026-08-03,Divya Deshmukh,Hyderabad,Consumer,Furniture,Herman Miller Aeron Chair,1,93806.85,0.0,93806.85,19808.24,Net Banking,Delivered
+ORD-2026-10874,2026-02-13,Tanvi Deshmukh,Hyderabad,Home Office,Furniture,Ergonomic Standing Desk,2,36296.01,0.0,72592.02,13906.46,Corporate Wire,Delivered
+ORD-2026-10875,2026-08-29,Rahul Deshmukh,Bangalore,Corporate,Furniture,Filing Cabinet 3-Tier,1,12252.03,0.0,12252.03,4025.08,Credit Card,Processing
+ORD-2026-10876,2026-07-20,Vikram Gupta,Chennai,Home Office,Technology,iPad Pro 12.9,1,84468.08,0.0,84468.08,20533.18,UPI,Delivered
+ORD-2026-10877,2026-06-08,Ishaan Iyer,Delhi,Home Office,Furniture,Herman Miller Aeron Chair,3,94560.21,0.0,283680.63,68833.6,Net Banking,Delivered
+ORD-2026-10878,2026-03-03,Rahul Reddy,Chennai,Consumer,Office Supplies,Premium Copy Paper Box,3,2173.18,0.1,5867.59,1341.19,Credit Card,Delivered
+ORD-2026-10879,2026-01-22,Divya Patel,Mumbai,Home Office,Office Supplies,LaserJet Pro Toner,1,6254.74,0.15,5316.53,1100.13,Net Banking,Delivered
+ORD-2026-10880,2026-01-24,Ananya Singhania,Pune,Consumer,Furniture,Herman Miller Aeron Chair,2,90948.97,0.0,181897.94,34002.74,Credit Card,Delivered
+ORD-2026-10881,2026-06-25,Vikram Deshmukh,Pune,Home Office,Furniture,Ergonomic Standing Desk,1,36778.97,0.0,36778.97,9325.68,Credit Card,Delivered
+ORD-2026-10882,2026-03-29,Neha Singhania,Mumbai,Consumer,Office Supplies,Moleskine Hardcover Journal,4,1715.32,0.0,6861.28,2374.58,UPI,Delivered
+ORD-2026-10883,2026-08-10,Neha Verma,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,1,39671.42,0.1,35704.28,8113.19,Corporate Wire,Delivered
+ORD-2026-10884,2026-01-24,Neha Joshi,Chennai,Corporate,Office Supplies,Heavy Duty Stapler Set,2,990.12,0.15,1683.2,311.85,UPI,Delivered
+ORD-2026-10885,2026-04-11,Ananya Chatterjee,Chennai,Consumer,Technology,Dell 27-inch 4K Monitor,2,41679.7,0.15,70855.49,6084.95,Net Banking,Processing
+ORD-2026-10886,2026-01-28,Tanvi Deshmukh,Kolkata,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1721.57,0.05,1635.49,467.52,Credit Card,Processing
+ORD-2026-10887,2026-03-06,Tanvi Deshmukh,Chennai,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4355.96,0.0,4355.96,1285.64,UPI,Delivered
+ORD-2026-10888,2026-03-04,Ananya Reddy,Pune,Corporate,Technology,iPad Pro 12.9,1,80842.66,0.0,80842.66,23775.2,Corporate Wire,Processing
+ORD-2026-10889,2026-07-23,Neha Reddy,Delhi,Corporate,Furniture,Filing Cabinet 3-Tier,1,12073.15,0.0,12073.15,2755.51,Credit Card,Processing
+ORD-2026-10890,2026-08-17,Rahul Deshmukh,Kolkata,Corporate,Furniture,Ergonomic Standing Desk,1,37994.87,0.1,34195.38,3102.5,Corporate Wire,Delivered
+ORD-2026-10891,2026-02-01,Sneha Patel,Pune,Home Office,Furniture,Ergonomic Standing Desk,2,38545.93,0.0,77091.86,15762.39,Credit Card,Shipped
+ORD-2026-10892,2026-03-14,Rohan Deshmukh,Mumbai,Home Office,Office Supplies,LaserJet Pro Toner,1,6480.43,0.0,6480.43,1353.93,Corporate Wire,Delivered
+ORD-2026-10893,2026-03-12,Neha Nair,Kolkata,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1763.72,0.0,3527.44,644.55,Corporate Wire,Delivered
+ORD-2026-10894,2026-08-04,Neha Chatterjee,Delhi,Consumer,Technology,ThinkPad X1 Carbon,3,131169.25,0.0,393507.75,80103.98,Corporate Wire,Delivered
+ORD-2026-10895,2026-02-13,Ananya Reddy,Pune,Home Office,Technology,Dell 27-inch 4K Monitor,4,43196.76,0.0,172787.04,57220.74,Net Banking,Delivered
+ORD-2026-10896,2026-03-09,Neha Joshi,Kolkata,Corporate,Office Supplies,Premium Copy Paper Box,4,2116.38,0.05,8042.24,2080.09,UPI,Processing
+ORD-2026-10897,2026-08-16,Arjun Deshmukh,Ahmedabad,Home Office,Technology,Sony WH-1000XM5,2,28451.55,0.05,54057.94,7626.18,Net Banking,Shipped
+ORD-2026-10898,2026-02-27,Ananya Mehta,Chennai,Home Office,Technology,iPad Pro 12.9,2,86355.59,0.15,146804.5,12954.09,UPI,Delivered
+ORD-2026-10899,2026-01-20,Sneha Sharma,Hyderabad,Consumer,Office Supplies,Premium Copy Paper Box,2,2197.28,0.0,4394.56,1283.75,Net Banking,Delivered
+ORD-2026-10900,2026-07-01,,Bangalore,Home Office,Technology,Dell XPS 15,1,146650.91,0.0,146650.91,29691.53,UPI,Shipped
+ORD-2026-10901,2026-02-18,Ananya Mehta,Kolkata,Consumer,Office Supplies,Moleskine Hardcover Journal,5,1728.37,0.05,8209.76,1915.36,Credit Card,Delivered
+ORD-2026-10902,2026-03-03,Aarav Singhania,Bangalore,Corporate,Technology,Logitech MX Master 3S,2,8300.74,0.0,16601.48,3194.49,Credit Card,Delivered
+ORD-2026-10903,2026-04-21,Priya Patel,Kolkata,Home Office,Furniture,Filing Cabinet 3-Tier,1,11843.74,0.0,11843.74,4046.38,Corporate Wire,Shipped
+ORD-2026-10904,2026-02-19,Aditya Reddy,Kolkata,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1788.04,0.0,3576.08,837.53,UPI,Delivered
+ORD-2026-10905,2026-02-26,Ananya Sharma,Mumbai,Home Office,Furniture,Ergonomic Standing Desk,1,36960.57,0.0,36960.57,9039.17,Corporate Wire,Shipped
+ORD-2026-10906,2026-04-11,Ananya Reddy,Chennai,Corporate,Technology,Dell XPS 15,3,137031.9,0.0,411095.7,102209.38,Credit Card,Delivered
+ORD-2026-10907,2026-02-17,Kabir Joshi,Ahmedabad,Home Office,Furniture,Ergonomic Standing Desk,1,36733.25,0.05,34896.59,8945.78,Corporate Wire,Delivered
+ORD-2026-10908,2026-01-04,Rahul Singhania,Kolkata,Corporate,Technology,Dell XPS 15,8,135390.15,0.15,920653.02,76636.97,Credit Card,Processing
+ORD-2026-10909,2026-04-01,Sneha Chatterjee,Mumbai,Corporate,Technology,Logitech MX Master 3S,1,8557.18,0.1,7701.46,698.52,UPI,Processing
+ORD-2026-10910,2026-05-09,Rohan Patel,Delhi,Consumer,Furniture,Steelcase Gesture,2,115387.72,0.1,207697.9,47597.97,Corporate Wire,Delivered
+ORD-2026-10911,2026-04-04,Sneha Sharma,Pune,Corporate,Office Supplies,Moleskine Hardcover Journal,4,1864.25,0.1,6711.3,720.58,Corporate Wire,Delivered
+ORD-2026-10912,2026-03-11,Rahul Iyer,Mumbai,Consumer,Furniture,Ergonomic Standing Desk,2,37991.76,0.0,75983.52,23437.68,Corporate Wire,Delivered
+ORD-2026-10913,2026-02-22,Ishaan Verma,Hyderabad,Corporate,Office Supplies,LaserJet Pro Toner,5,6616.22,0.15,28118.93,1559.19,Corporate Wire,Processing
+ORD-2026-10914,2026-02-14,Aditya Gupta,Pune,Corporate,Furniture,Filing Cabinet 3-Tier,2,11771.19,0.2,18833.9,3366.86,Net Banking,Processing
+ORD-2026-10915,2026-02-01,Vikram Singhania,Pune,Corporate,Technology,ThinkPad X1 Carbon,2,124578.97,0.05,236700.04,68384.2,Net Banking,Processing
+ORD-2026-10916,2026-05-23,Rahul Patel,Chennai,Corporate,Furniture,Herman Miller Aeron Chair,3,90639.05,0.0,271917.15,82088.27,Credit Card,Delivered
+ORD-2026-10917,2026-05-06,Aditya Sharma,Kolkata,Corporate,Office Supplies,LaserJet Pro Toner,1,6746.17,0.0,6746.17,1460.58,UPI,Delivered
+ORD-2026-10918,2026-07-02,Aditya Patel,Hyderabad,Corporate,Office Supplies,LaserJet Pro Toner,1,6781.41,0.0,6781.41,2086.75,Corporate Wire,Shipped
+ORD-2026-10919,2026-04-13,Divya Verma,Chennai,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1867.67,0.0,1867.67,398.29,UPI,Delivered
+ORD-2026-10920,2026-03-06,Rohan Deshmukh,Hyderabad,Corporate,Furniture,Herman Miller Aeron Chair,1,94630.97,0.15,80436.32,15976.23,Corporate Wire,Delivered
+ORD-2026-10921,2026-02-05,Kabir Singhania,Pune,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1785.69,0.0,3571.38,1000.9,Credit Card,Processing
+ORD-2026-10922,2026-01-07,Meera Deshmukh,Delhi,Consumer,Office Supplies,Moleskine Hardcover Journal,3,1777.16,0.05,5064.91,1036.7,Net Banking,Delivered
+ORD-2026-10923,2026-07-13,Arjun Deshmukh,Bangalore,Corporate,Office Supplies,LaserJet Pro Toner,2,6511.71,0.1,11721.08,1397.89,Credit Card,Delivered
+ORD-2026-10924,2026-03-11,Arjun Gupta,Delhi,Corporate,Office Supplies,LaserJet Pro Toner,3,6623.89,0.05,18878.09,3041.69,Credit Card,Processing
+ORD-2026-10925,2026-06-22,Kabir Joshi,Mumbai,Home Office,Technology,Sony WH-1000XM5,1,27986.85,0.1,25188.17,5933.15,UPI,Delivered
+ORD-2026-10926,2026-06-10,Aditya Joshi,Mumbai,Corporate,Office Supplies,Premium Copy Paper Box,1,2222.83,0.0,2222.83,732.25,Credit Card,Delivered
+ORD-2026-10927,2026-02-22,Ananya Singhania,Mumbai,Home Office,Furniture,Bookshelf Oak Finish,1,14361.61,0.0,14361.61,2627.34,UPI,Processing
+ORD-2026-10928,2026-03-08,Arjun Chatterjee,Ahmedabad,Home Office,Office Supplies,LaserJet Pro Toner,2,6295.13,0.05,11960.75,2025.1,UPI,Delivered
+ORD-2026-10929,2026-05-11,Ishaan Joshi,Hyderabad,Corporate,Furniture,Steelcase Gesture,1,110976.4,0.0,110976.4,31911.52,Net Banking,Shipped
+ORD-2026-10930,2026-04-09,Ishaan Verma,Ahmedabad,Corporate,Furniture,Ergonomic Standing Desk,1,38243.99,0.0,38243.99,13313.75,Net Banking,Delivered
+ORD-2026-10931,2026-06-15,Rahul Gupta,Ahmedabad,Consumer,Furniture,Ergonomic Standing Desk,2,37152.24,0.1,66874.03,6174.84,Net Banking,Processing
+ORD-2026-10932,2026-08-08,Arjun Iyer,Hyderabad,Corporate,Office Supplies,Whiteboard Magnetic 4x3,1,4570.16,0.0,4570.16,1326.18,Net Banking,Shipped
+ORD-2026-10933,2026-07-03,Arjun Patel,Chennai,Home Office,Furniture,Bookshelf Oak Finish,1,14476.43,0.1,13028.79,1250.27,UPI,Processing
+ORD-2026-10934,2026-07-01,Divya Iyer,Chennai,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1815.21,0.05,3448.9,576.94,Credit Card,Delivered
+ORD-2026-10935,2026-01-08,Arjun Joshi,Bangalore,Consumer,Technology,Dell 27-inch 4K Monitor,1,41900.93,0.15,35615.79,2967.23,UPI,Delivered
+ORD-2026-10936,2026-08-19,Divya Patel,Kolkata,Corporate,Technology,ThinkPad X1 Carbon,2,129335.02,0.0,258670.04,87329.62,Net Banking,Processing
+ORD-2026-10937,2026-06-11,Arjun Sharma,Bangalore,Corporate,Technology,Dell 27-inch 4K Monitor,2,42577.06,0.0,85154.12,21748.4,UPI,Delivered
+ORD-2026-10938,2026-05-06,Sneha Gupta,Chennai,Consumer,Technology,Dell 27-inch 4K Monitor,1,43296.42,0.1,38966.78,9408.73,Credit Card,Delivered
+ORD-2026-10939,2026-02-22,Aarav Patel,Mumbai,Corporate,Furniture,Filing Cabinet 3-Tier,2,11622.37,0.0,23244.74,5251.08,Corporate Wire,Delivered
+ORD-2026-10940,2026-08-02,Priya Chatterjee,Ahmedabad,Home Office,Furniture,Steelcase Gesture,2,106016.61,0.05,201431.56,61189.33,Corporate Wire,Shipped
+ORD-2026-10941,2026-08-12,Ananya Chatterjee,Delhi,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1719.27,0.0,1719.27,443.76,Credit Card,Delivered
+ORD-2026-10942,2026-07-30,Aditya Mehta,Kolkata,Home Office,Furniture,Herman Miller Aeron Chair,4,92986.66,0.0,371946.64,96389.21,UPI,Processing
+ORD-2026-10943,2026-08-27,Tanvi Iyer,Chennai,Corporate,Office Supplies,LaserJet Pro Toner,2,6553.8,0.15,11141.46,533.77,Net Banking,Delivered
+ORD-2026-10944,2026-01-09,Neha Deshmukh,Chennai,Consumer,Furniture,Herman Miller Aeron Chair,1,97221.79,0.05,92360.7,13892.06,Credit Card,Delivered
+ORD-2026-10945,2026-05-07,Ananya Chatterjee,Mumbai,Corporate,Technology,Logitech MX Master 3S,2,8143.5,0.05,15472.65,3359.32,UPI,Delivered
+ORD-2026-10946,2026-07-05,Aarav Verma,Mumbai,Corporate,Office Supplies,Premium Copy Paper Box,2,2156.75,0.0,4313.5,886.55,UPI,Delivered
+ORD-2026-10947,2026-08-27,Aarav Sharma,Hyderabad,Home Office,Office Supplies,Heavy Duty Stapler Set,2,954.99,0.1,1718.98,460.56,Corporate Wire,Delivered
+ORD-2026-10948,2026-04-21,Ishaan Deshmukh,Bangalore,Consumer,Furniture,Herman Miller Aeron Chair,4,93743.23,0.2,299978.34,43901.92,Corporate Wire,Delivered
+ORD-2026-10949,2026-03-02,Priya Verma,Mumbai,Consumer,Furniture,Filing Cabinet 3-Tier,2,11417.88,0.2,18268.61,630.94,Credit Card,Delivered
+ORD-2026-10950,2026-01-15,Rohan Singhania,Bangalore,Corporate,Technology,iPad Pro 12.9,1,82826.08,0.05,78684.78,20730.53,Corporate Wire,Shipped
+ORD-2026-10951,2026-06-18,Ananya Gupta,Delhi,Consumer,Furniture,Filing Cabinet 3-Tier,1,12376.11,0.1,11138.5,1205.45,UPI,Shipped
+ORD-2026-10952,2026-07-02,Aditya Nair,Chennai,Home Office,Technology,Sony WH-1000XM5,4,28115.97,0.0,112463.88,37366.77,Net Banking,Shipped
+ORD-2026-10953,2026-06-30,Tanvi Singhania,Chennai,Consumer,Technology,Dell XPS 15,3,137269.15,0.05,391217.08,84830.62,Credit Card,Delivered
+ORD-2026-10954,2026-07-05,Arjun Patel,Mumbai,Consumer,Office Supplies,Heavy Duty Stapler Set,2,913.35,0.0,1826.7,484.41,Credit Card,Delivered
+ORD-2026-10955,2026-03-13,Tanvi Deshmukh,Chennai,Consumer,Technology,iPad Pro 12.9,4,80910.21,0.0,323640.84,92224.7,Corporate Wire,Delivered
+ORD-2026-10956,2026-02-27,Priya Deshmukh,Bangalore,Home Office,Furniture,Filing Cabinet 3-Tier,1,12049.86,0.0,12049.86,3504.98,Credit Card,Processing
+ORD-2026-10957,2026-07-13,Divya Nair,Chennai,Home Office,Technology,ThinkPad X1 Carbon,1,124175.95,0.1,111758.35,22018.46,Credit Card,Delivered
+ORD-2026-10958,2026-05-22,Vikram Joshi,Chennai,Home Office,Furniture,Bookshelf Oak Finish,2,14527.42,0.05,27602.1,7913.57,Corporate Wire,Shipped
+ORD-2026-10959,2026-07-10,Divya Reddy,Bangalore,Consumer,Furniture,Steelcase Gesture,1,110470.85,0.0,110470.85,32325.92,Corporate Wire,Delivered
+ORD-2026-10960,2026-06-07,Aditya Nair,Chennai,Home Office,Furniture,Filing Cabinet 3-Tier,1,12192.93,0.0,12192.93,2534.67,UPI,Shipped
+ORD-2026-10961,2026-04-29,Aarav Singhania,Mumbai,Corporate,Technology,iPad Pro 12.9,2,82601.66,0.1,148682.99,39655.5,Credit Card,Delivered
+ORD-2026-10962,2026-08-18,Tanvi Iyer,Pune,Consumer,Furniture,Ergonomic Standing Desk,1,37086.26,0.1,33377.63,6151.2,UPI,Delivered
+ORD-2026-10963,2026-02-07,Arjun Chatterjee,Mumbai,Consumer,Technology,Dell 27-inch 4K Monitor,1,43514.4,0.05,41338.68,8764.61,Credit Card,Processing
+ORD-2026-10964,2026-07-03,Priya Sharma,Chennai,Corporate,Technology,Dell 27-inch 4K Monitor,3,42169.85,0.1,113858.59,30665.33,UPI,Delivered
+ORD-2026-10965,2026-01-28,Ananya Iyer,Ahmedabad,Consumer,Office Supplies,LaserJet Pro Toner,1,6416.38,0.0,6416.38,1348.35,Corporate Wire,Delivered
+ORD-2026-10966,2026-06-14,Vikram Mehta,Bangalore,Consumer,Furniture,Filing Cabinet 3-Tier,3,11889.77,0.0,35669.31,8530.8,Corporate Wire,Delivered
+ORD-2026-10967,2026-06-09,Aarav Patel,Pune,Consumer,Furniture,Ergonomic Standing Desk,4,38414.34,0.0,153657.36,32672.81,Net Banking,Delivered
+ORD-2026-10968,2026-04-07,Arjun Chatterjee,Mumbai,Home Office,Office Supplies,Premium Copy Paper Box,1,2107.26,0.2,1685.81,288.4,UPI,Processing
+ORD-2026-10969,2026-05-09,Tanvi Gupta,Kolkata,Home Office,Office Supplies,LaserJet Pro Toner,3,6208.43,0.05,17694.03,4092.06,Corporate Wire,Delivered
+ORD-2026-10970,2026-03-10,Priya Chatterjee,Chennai,Consumer,Furniture,Ergonomic Standing Desk,3,36977.38,0.2,88745.71,10702.87,Credit Card,Delivered
+ORD-2026-10971,2026-04-24,Ishaan Deshmukh,Pune,Consumer,Furniture,Filing Cabinet 3-Tier,2,12184.0,0.15,20712.8,2366.45,Corporate Wire,Shipped
+ORD-2026-10972,2026-02-28,Tanvi Patel,Hyderabad,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4633.14,0.05,8802.97,2241.82,Credit Card,Delivered
+ORD-2026-10973,2026-04-15,Vikram Iyer,Bangalore,Home Office,Furniture,Ergonomic Standing Desk,4,36158.95,0.15,122940.43,25957.19,Net Banking,Processing
+ORD-2026-10974,2026-07-02,Divya Singhania,Delhi,Consumer,Technology,Logitech MX Master 3S,1,8137.06,0.0,8137.06,2135.71,Corporate Wire,Shipped
+ORD-2026-10975,2026-04-01,Rohan Deshmukh,Hyderabad,Home Office,Furniture,Herman Miller Aeron Chair,1,93448.08,0.1,84103.27,13691.19,Credit Card,Delivered
+ORD-2026-10976,2026-01-19,Ishaan Nair,Ahmedabad,Corporate,Office Supplies,Heavy Duty Stapler Set,3,974.48,0.0,2923.44,675.26,UPI,Processing
+ORD-2026-10977,2026-08-23,Arjun Iyer,Delhi,Consumer,Technology,Sony WH-1000XM5,2,27869.88,0.05,52952.77,13685.54,UPI,Processing
+ORD-2026-10978,2026-07-04,Tanvi Mehta,Delhi,Consumer,Furniture,Bookshelf Oak Finish,1,15076.09,0.05,14322.29,3036.77,Corporate Wire,Delivered
+ORD-2026-10979,2026-03-24,Vikram Nair,Bangalore,Consumer,Technology,Dell 27-inch 4K Monitor,4,41708.26,0.1,150149.74,33816.47,Net Banking,Delivered
+ORD-2026-10980,2026-03-30,Aditya Patel,Delhi,Corporate,Furniture,Bookshelf Oak Finish,2,14193.29,0.15,24128.59,1248.78,Credit Card,Delivered
+ORD-2026-10981,2026-06-20,Aditya Patel,Delhi,Consumer,Office Supplies,Whiteboard Magnetic 4x3,3,4681.14,0.0,14043.42,2623.65,UPI,Delivered
+ORD-2026-10982,2026-05-06,Arjun Sharma,Pune,Consumer,Furniture,Filing Cabinet 3-Tier,2,11551.41,0.0,23102.82,6303.5,Credit Card,Delivered
+ORD-2026-10983,2026-04-24,Divya Deshmukh,Ahmedabad,Corporate,Technology,Dell XPS 15,12,134630.48,0.1,1454009.18,306743.27,Credit Card,Delivered
+ORD-2026-10984,2026-07-06,Ananya Nair,Bangalore,Home Office,Furniture,Steelcase Gesture,2,111892.9,0.1,201407.22,53127.86,Net Banking,Delivered
+ORD-2026-10985,2026-04-21,Ananya Joshi,Pune,Consumer,Office Supplies,LaserJet Pro Toner,5,6334.84,0.05,30090.49,6345.03,UPI,Delivered
+ORD-2026-10986,2026-03-09,Sneha Patel,Ahmedabad,Consumer,Office Supplies,Heavy Duty Stapler Set,1,985.71,0.0,985.71,185.67,UPI,Delivered
+ORD-2026-10987,2026-04-22,Ananya Singhania,Hyderabad,Home Office,Technology,ThinkPad X1 Carbon,2,123503.63,0.0,247007.26,61933.9,Net Banking,Shipped
+ORD-2026-10988,2026-05-16,Rahul Patel,Chennai,Consumer,Furniture,Bookshelf Oak Finish,2,14641.87,0.05,27819.55,6079.88,Net Banking,Delivered
+ORD-2026-10989,2026-02-26,Ananya Mehta,Kolkata,Corporate,Furniture,Ergonomic Standing Desk,2,37866.0,0.0,75732.0,22400.46,Credit Card,Delivered
+ORD-2026-10990,2026-06-28,Vikram Joshi,Bangalore,Corporate,Furniture,Filing Cabinet 3-Tier,2,11749.12,0.0,23498.24,6197.12,Corporate Wire,Delivered
+ORD-2026-10991,2026-05-24,Meera Nair,Chennai,Home Office,Furniture,Bookshelf Oak Finish,1,14353.09,0.0,14353.09,2797.38,Net Banking,Shipped
+ORD-2026-10992,2026-07-06,Priya Nair,Mumbai,Corporate,Furniture,Bookshelf Oak Finish,1,14552.22,0.15,12369.39,981.93,Credit Card,Processing
+ORD-2026-10993,2026-06-06,Neha Patel,Mumbai,Home Office,Technology,Logitech MX Master 3S,1,8850.39,0.1,7965.35,1058.83,Credit Card,Delivered
+ORD-2026-10994,2026-05-13,Priya Nair,Hyderabad,Consumer,Office Supplies,Heavy Duty Stapler Set,4,978.62,0.0,3914.48,764.06,Net Banking,Shipped
+ORD-2026-10995,2026-02-25,Kabir Joshi,Hyderabad,Consumer,Technology,ThinkPad X1 Carbon,3,125018.74,0.05,356303.41,62061.16,Credit Card,Delivered
+ORD-2026-10996,2026-03-14,Aditya Sharma,Hyderabad,Home Office,Office Supplies,Premium Copy Paper Box,1,2268.86,0.1,2041.97,421.47,Corporate Wire,Delivered
+ORD-2026-10997,2026-07-29,Ishaan Mehta,Delhi,Consumer,Technology,Sony WH-1000XM5,3,27763.06,0.1,74960.26,20613.56,UPI,Delivered
+ORD-2026-10998,2026-07-08,Tanvi Deshmukh,Hyderabad,Home Office,Furniture,Steelcase Gesture,2,107823.69,0.1,194082.64,37088.34,Credit Card,Delivered
+ORD-2026-10999,2026-06-17,Tanvi Singhania,Kolkata,Corporate,Furniture,Herman Miller Aeron Chair,1,92896.3,0.0,92896.3,28021.99,UPI,Shipped
+ORD-2026-11000,2026-01-05,Sneha Joshi,Kolkata,Corporate,Office Supplies,LaserJet Pro Toner,2,6191.18,0.05,11763.24,2091.32,,Shipped
+ORD-2026-11001,2026-04-05,Sneha Chatterjee,Delhi,Home Office,Furniture,Steelcase Gesture,1,105419.98,0.05,100148.98,21574.14,UPI,Shipped
+ORD-2026-11002,2026-06-01,Priya Verma,Bangalore,Corporate,Office Supplies,Heavy Duty Stapler Set,2,974.76,0.1,1754.57,467.85,Corporate Wire,Delivered
+ORD-2026-11003,2026-04-16,Aditya Joshi,Pune,Consumer,Technology,iPad Pro 12.9,2,88157.14,0.05,167498.57,44857.07,UPI,Processing
+ORD-2026-11004,2026-07-23,Sneha Iyer,Ahmedabad,Corporate,Office Supplies,Premium Copy Paper Box,1,2203.17,0.1,1982.85,229.19,Credit Card,Delivered
+ORD-2026-11005,2026-04-19,Ishaan Verma,Kolkata,Consumer,Technology,Dell XPS 15,2,135763.15,0.0,271526.3,54887.04,Credit Card,Delivered
+ORD-2026-11006,2026-08-15,Vikram Singhania,Bangalore,Home Office,Office Supplies,Heavy Duty Stapler Set,1,942.22,0.15,800.89,186.96,Credit Card,Shipped
+ORD-2026-11007,2026-03-17,Ishaan Gupta,Chennai,Home Office,Furniture,Filing Cabinet 3-Tier,4,11599.13,0.05,44076.69,11630.05,UPI,Processing
+ORD-2026-11008,2026-07-02,Neha Iyer,Chennai,Corporate,Furniture,Ergonomic Standing Desk,5,38836.49,0.15,165055.08,10698.02,UPI,Delivered
+ORD-2026-11009,2026-05-15,Ishaan Singhania,Mumbai,Corporate,Furniture,Ergonomic Standing Desk,1,39812.51,0.0,39812.51,11823.8,UPI,Delivered
+ORD-2026-11010,2026-06-27,Ananya Iyer,Ahmedabad,Corporate,Technology,ThinkPad X1 Carbon,2,119584.65,0.05,227210.83,45877.83,UPI,Delivered
+ORD-2026-11011,2026-06-10,Aarav Reddy,Chennai,Corporate,Furniture,Filing Cabinet 3-Tier,3,12320.39,0.0,36961.17,7065.78,UPI,Delivered
+ORD-2026-11012,2026-06-01,Rohan Verma,Hyderabad,Corporate,Technology,iPad Pro 12.9,2,85189.7,0.0,170379.4,40955.61,Corporate Wire,Delivered
+ORD-2026-11013,2026-05-28,Meera Chatterjee,Chennai,Home Office,Office Supplies,Heavy Duty Stapler Set,1,924.52,0.0,924.52,289.56,UPI,Delivered
+ORD-2026-11014,2026-02-12,Sneha Sharma,Pune,Consumer,Technology,Dell XPS 15,2,142307.79,0.0,284615.58,83789.35,Credit Card,Delivered
+ORD-2026-11015,2026-05-24,Vikram Deshmukh,Kolkata,Home Office,Furniture,Steelcase Gesture,1,110337.54,0.05,104820.66,16533.13,UPI,Delivered
+ORD-2026-11016,2026-06-12,Arjun Mehta,Bangalore,Corporate,Office Supplies,Heavy Duty Stapler Set,2,967.61,0.1,1741.7,300.26,Corporate Wire,Delivered
+ORD-2026-11017,2026-02-15,Aarav Nair,Ahmedabad,Home Office,Furniture,Bookshelf Oak Finish,1,15221.96,0.05,14460.86,2135.65,Corporate Wire,Delivered
+ORD-2026-11018,2026-02-15,Divya Joshi,Mumbai,Consumer,Furniture,Steelcase Gesture,2,107914.3,0.0,215828.6,72087.09,Net Banking,Delivered
+ORD-2026-11019,2026-05-09,Divya Sharma,Chennai,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1889.23,0.0,3778.46,870.09,Net Banking,Delivered
+ORD-2026-11020,2026-05-27,Arjun Sharma,Ahmedabad,Home Office,Office Supplies,Heavy Duty Stapler Set,2,985.62,0.0,1971.24,438.4,Credit Card,Delivered
+ORD-2026-11021,2026-04-05,Aarav Chatterjee,Bangalore,Home Office,Office Supplies,Premium Copy Paper Box,4,2182.31,0.0,8729.24,1800.09,Credit Card,Shipped
+ORD-2026-11022,2026-06-13,Ishaan Sharma,Pune,Consumer,Office Supplies,Moleskine Hardcover Journal,8,1820.52,0.0,14564.16,5056.17,Net Banking,Delivered
+ORD-2026-11023,2026-08-20,Tanvi Joshi,Pune,Home Office,Technology,Dell 27-inch 4K Monitor,2,42712.49,0.1,76882.48,20412.95,UPI,Delivered
+ORD-2026-11024,2026-01-22,Rohan Singhania,Mumbai,Corporate,Office Supplies,Premium Copy Paper Box,2,2229.77,0.0,4459.54,922.41,Credit Card,Delivered
+ORD-2026-11025,2026-03-12,Kabir Nair,Delhi,Corporate,Furniture,Filing Cabinet 3-Tier,3,12516.33,0.0,37548.99,12579.38,Credit Card,Delivered
+ORD-2026-11026,2026-07-06,Ananya Patel,Pune,Home Office,Office Supplies,LaserJet Pro Toner,3,6316.39,0.1,17054.25,3530.8,Credit Card,Delivered
+ORD-2026-11027,2026-03-20,Arjun Gupta,Hyderabad,Home Office,Office Supplies,Premium Copy Paper Box,1,2153.16,0.0,2153.16,651.5,Net Banking,Shipped
+ORD-2026-11028,2026-02-27,Arjun Reddy,Chennai,Consumer,Technology,iPad Pro 12.9,1,81535.5,0.0,81535.5,23614.64,Net Banking,Delivered
+ORD-2026-11029,2026-07-17,Rahul Iyer,Ahmedabad,Home Office,Office Supplies,Premium Copy Paper Box,1,2174.85,0.1,1957.37,344.82,UPI,Shipped
+ORD-2026-11030,2026-03-30,Rahul Gupta,Chennai,Consumer,Furniture,Filing Cabinet 3-Tier,2,11722.74,0.1,21100.93,3815.6,UPI,Delivered
+ORD-2026-11031,2026-02-25,Sneha Mehta,Mumbai,Consumer,Office Supplies,Premium Copy Paper Box,2,2161.06,0.0,4322.12,1098.51,Credit Card,Delivered
+ORD-2026-11032,2026-06-29,Ananya Gupta,Pune,Consumer,Technology,Logitech MX Master 3S,2,8842.53,0.0,17685.06,5627.23,Net Banking,Delivered
+ORD-2026-11033,2026-02-11,Sneha Iyer,Bangalore,Consumer,Furniture,Filing Cabinet 3-Tier,2,11921.96,0.05,22651.72,5534.49,UPI,Delivered
+ORD-2026-11034,2026-07-05,Neha Chatterjee,Pune,Corporate,Office Supplies,Heavy Duty Stapler Set,1,985.86,0.2,788.69,19.98,Credit Card,Shipped
+ORD-2026-11035,2026-04-20,Meera Mehta,Kolkata,Home Office,Technology,Dell XPS 15,2,145412.33,0.15,247200.96,10443.5,UPI,Processing
+ORD-2026-11036,2026-07-12,Rohan Patel,Pune,Consumer,Technology,iPad Pro 12.9,3,83691.87,0.0,251075.61,70974.32,Corporate Wire,Delivered
+ORD-2026-11037,2026-06-18,Rohan Reddy,Bangalore,Corporate,Furniture,Herman Miller Aeron Chair,1,94397.21,0.15,80237.63,7258.88,UPI,Processing
+ORD-2026-11038,2026-08-05,Meera Nair,Mumbai,Corporate,Technology,iPad Pro 12.9,1,84099.4,0.05,79894.43,22191.85,Corporate Wire,Shipped
+ORD-2026-11039,2026-08-01,Sneha Joshi,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,1,37619.56,0.15,31976.63,5431.93,Net Banking,Shipped
+ORD-2026-11040,2026-06-02,Vikram Iyer,Delhi,Corporate,Furniture,Filing Cabinet 3-Tier,1,11613.79,0.15,9871.72,1858.47,Net Banking,Delivered
+ORD-2026-11041,2026-05-09,Arjun Sharma,Kolkata,Consumer,Office Supplies,Premium Copy Paper Box,1,2136.47,0.0,2136.47,589.63,Net Banking,Shipped
+ORD-2026-11042,2026-06-17,Rohan Deshmukh,Bangalore,Corporate,Furniture,Bookshelf Oak Finish,2,14153.48,0.0,28306.96,5311.72,UPI,Delivered
+ORD-2026-11043,2026-04-12,Rahul Iyer,Delhi,Corporate,Technology,iPad Pro 12.9,2,88080.97,0.0,176161.94,37592.33,Credit Card,Delivered
+ORD-2026-11044,2026-03-23,Rohan Chatterjee,Kolkata,Home Office,Furniture,Herman Miller Aeron Chair,2,94066.18,0.2,150505.89,3549.84,Net Banking,Shipped
+ORD-2026-11045,2026-03-08,Ishaan Gupta,Delhi,Home Office,Furniture,Filing Cabinet 3-Tier,1,11802.08,0.0,11802.08,3057.28,Net Banking,Delivered
+ORD-2026-11046,2026-07-21,Rohan Deshmukh,Kolkata,Home Office,Technology,Dell XPS 15,1,142905.91,0.15,121470.02,22317.3,Corporate Wire,Shipped
+ORD-2026-11047,2026-01-13,Sneha Mehta,Mumbai,Consumer,Furniture,Bookshelf Oak Finish,1,14770.26,0.15,12554.72,2320.47,Net Banking,Delivered
+ORD-2026-11048,2026-07-16,Arjun Sharma,Chennai,Consumer,Furniture,Steelcase Gesture,2,107774.52,0.0,215549.04,74137.11,Credit Card,Delivered
+ORD-2026-11049,2026-07-07,Aarav Iyer,Kolkata,Consumer,Technology,ThinkPad X1 Carbon,2,120558.05,0.0,241116.1,64164.24,Net Banking,Delivered
+ORD-2026-11050,2026-04-28,Ishaan Chatterjee,Hyderabad,Home Office,Office Supplies,Whiteboard Magnetic 4x3,2,4442.76,0.0,8885.52,2888.26,Credit Card,Shipped
+ORD-2026-11051,2026-05-12,Ishaan Verma,Pune,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1881.06,0.0,3762.12,1152.47,Credit Card,Shipped
+ORD-2026-11052,2026-01-30,Meera Reddy,Chennai,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4587.42,0.1,8257.36,2217.55,Corporate Wire,Delivered
+ORD-2026-11053,2026-07-14,Divya Deshmukh,Chennai,Home Office,Office Supplies,Premium Copy Paper Box,1,2223.02,0.05,2111.87,323.1,Net Banking,Delivered
+ORD-2026-11054,2026-01-02,Vikram Reddy,Mumbai,Corporate,Office Supplies,Premium Copy Paper Box,1,2263.86,0.0,2263.86,548.02,Credit Card,Delivered
+ORD-2026-11055,2026-02-27,Aarav Joshi,Pune,Consumer,Technology,Sony WH-1000XM5,1,28915.53,0.1,26023.98,4338.91,Net Banking,Processing
+ORD-2026-11056,2026-04-10,Sneha Iyer,Mumbai,Corporate,Furniture,Steelcase Gesture,1,109581.42,0.0,109581.42,24520.26,UPI,Processing
+ORD-2026-11057,2026-06-28,Rohan Gupta,Kolkata,Corporate,Furniture,Herman Miller Aeron Chair,2,90996.78,0.05,172893.88,39545.1,Net Banking,Delivered
+ORD-2026-11058,2026-02-23,Ishaan Iyer,Pune,Corporate,Furniture,Steelcase Gesture,2,106214.91,0.0,212429.82,53226.57,Net Banking,Processing
+ORD-2026-11059,2026-04-21,Vikram Sharma,Chennai,Home Office,Office Supplies,Heavy Duty Stapler Set,8,953.57,0.0,7628.56,2179.23,Credit Card,Delivered
+ORD-2026-11060,2026-04-12,Priya Reddy,Delhi,Home Office,Furniture,Ergonomic Standing Desk,4,39840.65,0.1,143426.34,13320.74,Corporate Wire,Delivered
+ORD-2026-11061,2026-07-12,Priya Deshmukh,Chennai,Corporate,Furniture,Herman Miller Aeron Chair,2,96264.66,0.05,182902.85,36935.57,Corporate Wire,Delivered
+ORD-2026-11062,2026-08-08,Vikram Singhania,Ahmedabad,Corporate,Furniture,Ergonomic Standing Desk,4,37195.95,0.0,148783.8,38601.49,Net Banking,Shipped
+ORD-2026-11063,2026-06-17,Rohan Gupta,Delhi,Corporate,Office Supplies,Heavy Duty Stapler Set,8,962.96,0.0,7703.68,1885.79,UPI,Processing
+ORD-2026-11064,2026-06-08,Kabir Verma,Kolkata,Consumer,Furniture,Filing Cabinet 3-Tier,1,11966.3,0.05,11367.98,3404.83,Net Banking,Delivered
+ORD-2026-11065,2026-07-10,Tanvi Gupta,Kolkata,Home Office,Office Supplies,Premium Copy Paper Box,4,2171.19,0.0,8684.76,1748.32,UPI,Shipped
+ORD-2026-11066,2026-08-28,Ishaan Reddy,Pune,Consumer,Furniture,Herman Miller Aeron Chair,4,94631.21,0.0,378524.84,116715.11,Corporate Wire,Delivered
+ORD-2026-11067,2026-07-23,Rohan Singhania,Delhi,Home Office,Furniture,Ergonomic Standing Desk,1,36365.4,0.1,32728.86,4463.36,Corporate Wire,Processing
+ORD-2026-11068,2026-05-01,Arjun Deshmukh,Delhi,Corporate,Furniture,Filing Cabinet 3-Tier,1,12176.51,0.1,10958.86,1938.39,Credit Card,Shipped
+ORD-2026-11069,2026-05-04,Arjun Joshi,Mumbai,Corporate,Furniture,Herman Miller Aeron Chair,1,95109.82,0.1,85598.84,13273.81,Corporate Wire,Delivered
+ORD-2026-11070,2026-01-27,Rohan Mehta,Delhi,Home Office,Technology,iPad Pro 12.9,2,88510.28,0.0,177020.56,38016.22,UPI,Delivered
+ORD-2026-11071,2026-01-25,Neha Gupta,Delhi,Corporate,Office Supplies,Heavy Duty Stapler Set,3,935.03,0.1,2524.58,372.62,Net Banking,Shipped
+ORD-2026-11072,2026-06-29,Aditya Chatterjee,Chennai,Home Office,Technology,Dell XPS 15,1,136094.3,0.0,136094.3,39052.98,Net Banking,Delivered
+ORD-2026-11073,2026-03-20,Ishaan Patel,Chennai,Corporate,Office Supplies,Heavy Duty Stapler Set,2,978.99,0.0,1957.98,642.5,Net Banking,Shipped
+ORD-2026-11074,2026-03-07,Rahul Reddy,Mumbai,Consumer,Office Supplies,Moleskine Hardcover Journal,1,1775.55,0.0,1775.55,467.93,Corporate Wire,Shipped
+ORD-2026-11075,2026-06-08,Divya Patel,Pune,Home Office,Technology,Sony WH-1000XM5,4,27648.22,0.0,110592.88,22437.14,Corporate Wire,Delivered
+ORD-2026-11076,2026-08-11,Kabir Singhania,Bangalore,Corporate,Furniture,Herman Miller Aeron Chair,2,92385.84,0.0,184771.68,58185.9,UPI,Delivered
+ORD-2026-11077,2026-06-05,Meera Joshi,Delhi,Home Office,Technology,iPad Pro 12.9,2,86178.41,0.05,163738.98,51349.56,UPI,Delivered
+ORD-2026-11078,2026-04-04,Rahul Sharma,Kolkata,Home Office,Technology,iPad Pro 12.9,2,88924.08,0.0,177848.16,36650.42,Credit Card,Delivered
+ORD-2026-11079,2026-04-25,Tanvi Iyer,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,2,37031.33,0.05,70359.53,13535.82,Corporate Wire,Delivered
+ORD-2026-11080,2026-01-11,,Chennai,Consumer,Office Supplies,Premium Copy Paper Box,3,2289.35,0.15,5837.84,1218.85,Net Banking,Delivered
+ORD-2026-11081,2026-02-23,Priya Reddy,Ahmedabad,Corporate,Technology,Sony WH-1000XM5,4,28812.05,0.0,115248.2,38905.57,Corporate Wire,Delivered
+ORD-2026-11082,2026-04-24,Ananya Singhania,Hyderabad,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4531.2,0.0,4531.2,1137.82,Credit Card,Shipped
+ORD-2026-11083,2026-07-19,Rahul Reddy,Ahmedabad,Consumer,Furniture,Bookshelf Oak Finish,2,14030.97,0.0,28061.94,7401.62,Net Banking,Delivered
+ORD-2026-11084,2026-03-09,Arjun Iyer,Hyderabad,Corporate,Furniture,Filing Cabinet 3-Tier,2,11533.76,0.05,21914.14,3953.21,UPI,Shipped
+ORD-2026-11085,2026-01-02,Neha Iyer,Ahmedabad,Corporate,Technology,Dell XPS 15,1,137264.97,0.0,137264.97,26450.93,Corporate Wire,Delivered
+ORD-2026-11086,2026-06-13,Rahul Iyer,Bangalore,Consumer,Technology,Dell XPS 15,1,137480.22,0.05,130606.21,28847.76,Credit Card,Delivered
+ORD-2026-11087,2026-08-26,Tanvi Reddy,Bangalore,Corporate,Technology,Dell XPS 15,3,144933.0,0.1,391319.1,63601.99,UPI,Delivered
+ORD-2026-11088,2026-05-13,Sneha Gupta,Kolkata,Home Office,Furniture,Ergonomic Standing Desk,5,39353.7,0.0,196768.5,58712.75,UPI,Delivered
+ORD-2026-11089,2026-03-27,Ishaan Nair,Pune,Corporate,Furniture,Bookshelf Oak Finish,2,13783.23,0.1,24809.81,2486.55,Credit Card,Shipped
+ORD-2026-11090,2026-04-01,Rahul Patel,Ahmedabad,Corporate,Technology,Dell 27-inch 4K Monitor,1,40974.9,0.05,38926.15,6493.13,Credit Card,Delivered
+ORD-2026-11091,2026-04-20,Meera Deshmukh,Pune,Home Office,Office Supplies,Premium Copy Paper Box,3,2186.82,0.05,6232.44,1662.6,Credit Card,Delivered
+ORD-2026-11092,2026-02-11,Neha Joshi,Ahmedabad,Home Office,Office Supplies,Heavy Duty Stapler Set,5,976.72,0.15,4151.06,652.89,Corporate Wire,Delivered
+ORD-2026-11093,2026-03-13,Tanvi Chatterjee,Kolkata,Consumer,Technology,ThinkPad X1 Carbon,2,123368.11,0.0,246736.22,47616.87,Credit Card,Shipped
+ORD-2026-11094,2026-02-04,Divya Joshi,Delhi,Corporate,Office Supplies,Heavy Duty Stapler Set,3,958.53,0.15,2444.25,294.47,Credit Card,Shipped
+ORD-2026-11095,2026-03-04,Neha Chatterjee,Chennai,Home Office,Office Supplies,Moleskine Hardcover Journal,2,1848.58,0.0,3697.16,746.74,Net Banking,Delivered
+ORD-2026-11096,2026-08-20,Meera Singhania,Hyderabad,Consumer,Furniture,Bookshelf Oak Finish,1,14063.53,0.0,14063.53,2599.72,Net Banking,Delivered
+ORD-2026-11097,2026-06-04,Ishaan Sharma,Bangalore,Consumer,Office Supplies,Heavy Duty Stapler Set,2,978.32,0.1,1760.98,212.53,Credit Card,Processing
+ORD-2026-11098,2026-04-06,Aarav Chatterjee,Kolkata,Consumer,Office Supplies,Moleskine Hardcover Journal,3,1813.47,0.0,5440.41,1317.43,Credit Card,Processing
+ORD-2026-11099,2026-01-24,Kabir Verma,Bangalore,Home Office,Technology,Sony WH-1000XM5,4,29380.26,0.05,111644.99,20234.28,Corporate Wire,Delivered
+ORD-2026-11100,2026-04-30,Sneha Joshi,Bangalore,Home Office,Furniture,Herman Miller Aeron Chair,1,94563.45,0.05,89835.28,15812.03,Corporate Wire,Delivered
+ORD-2026-11101,2026-04-13,Tanvi Mehta,Mumbai,Home Office,Furniture,Herman Miller Aeron Chair,1,91679.7,0.0,91679.7,18753.29,Net Banking,Processing
+ORD-2026-11102,2026-04-28,Rahul Gupta,Hyderabad,Home Office,Furniture,Filing Cabinet 3-Tier,1,11647.37,0.1,10482.63,2552.29,Credit Card,Processing
+ORD-2026-11103,2026-06-04,Arjun Sharma,Bangalore,Home Office,Furniture,Herman Miller Aeron Chair,1,92435.99,0.0,92435.99,29071.37,Net Banking,Delivered
+ORD-2026-11104,2026-04-19,Aditya Reddy,Hyderabad,Corporate,Technology,Dell XPS 15,4,134723.54,0.15,458060.04,20929.4,Credit Card,Shipped
+ORD-2026-11105,2026-08-11,Ishaan Joshi,Hyderabad,Corporate,Technology,Logitech MX Master 3S,2,8730.34,0.0,17460.68,4359.29,Credit Card,Delivered
+ORD-2026-11106,2026-02-14,Kabir Chatterjee,Delhi,Consumer,Technology,ThinkPad X1 Carbon,5,123229.88,0.1,554534.46,49778.23,Corporate Wire,Delivered
+ORD-2026-11107,2026-02-23,Ananya Iyer,Pune,Corporate,Furniture,Filing Cabinet 3-Tier,1,11408.71,0.0,11408.71,2434.85,Corporate Wire,Delivered
+ORD-2026-11108,2026-04-01,Neha Mehta,Delhi,Corporate,Office Supplies,Moleskine Hardcover Journal,1,1827.08,0.1,1644.37,205.13,Corporate Wire,Delivered
+ORD-2026-11109,2026-03-12,Ishaan Gupta,Pune,Consumer,Technology,Dell XPS 15,1,140260.71,0.0,140260.71,45747.79,Corporate Wire,Delivered
+ORD-2026-11110,2026-01-16,Tanvi Reddy,Chennai,Corporate,Office Supplies,Heavy Duty Stapler Set,3,919.09,0.0,2757.27,721.96,UPI,Delivered
+ORD-2026-11111,2026-04-04,Divya Verma,Bangalore,Consumer,Furniture,Ergonomic Standing Desk,1,39554.13,0.05,37576.42,10083.1,Net Banking,Delivered
+ORD-2026-11112,2026-07-20,Aarav Nair,Mumbai,Corporate,Technology,Dell 27-inch 4K Monitor,4,40095.3,0.15,136324.02,21796.41,UPI,Delivered
+ORD-2026-11113,2026-01-26,Aarav Nair,Hyderabad,Consumer,Furniture,Herman Miller Aeron Chair,1,99592.0,0.0,99592.0,20362.19,Corporate Wire,Delivered
+ORD-2026-11114,2026-08-08,Tanvi Gupta,Mumbai,Corporate,Furniture,Bookshelf Oak Finish,4,14243.17,0.0,56972.68,14710.48,Credit Card,Shipped
+ORD-2026-11115,2026-05-07,Ishaan Chatterjee,Hyderabad,Consumer,Technology,Sony WH-1000XM5,1,27231.55,0.15,23146.82,5065.83,Credit Card,Shipped
+ORD-2026-11116,2026-03-14,Divya Chatterjee,Delhi,Consumer,Technology,iPad Pro 12.9,1,83543.32,0.05,79366.15,11230.5,Net Banking,Delivered
+ORD-2026-11117,2026-03-25,Vikram Nair,Bangalore,Home Office,Office Supplies,LaserJet Pro Toner,3,6585.72,0.1,17781.44,2271.81,UPI,Delivered
+ORD-2026-11118,2026-02-06,Rahul Sharma,Hyderabad,Consumer,Furniture,Steelcase Gesture,1,113934.48,0.0,113934.48,36240.6,Corporate Wire,Shipped
+ORD-2026-11119,2026-02-24,Sneha Chatterjee,Chennai,Home Office,Furniture,Herman Miller Aeron Chair,3,95137.66,0.05,271142.33,69255.58,UPI,Delivered
+ORD-2026-11120,2026-03-29,Meera Singhania,Ahmedabad,Home Office,Technology,Dell 27-inch 4K Monitor,4,41004.03,0.1,147614.51,19201.0,Corporate Wire,Delivered
+ORD-2026-11121,2026-05-20,Rohan Verma,Hyderabad,Corporate,Technology,ThinkPad X1 Carbon,2,129666.33,0.0,259332.66,77230.52,Corporate Wire,Processing
+ORD-2026-11122,2026-08-29,Ananya Iyer,Bangalore,Corporate,Office Supplies,Premium Copy Paper Box,1,2260.7,0.05,2147.66,601.85,Net Banking,Processing
+ORD-2026-11123,2026-06-03,Meera Patel,Mumbai,Home Office,Furniture,Filing Cabinet 3-Tier,1,12037.04,0.15,10231.48,1641.12,Credit Card,Delivered
+ORD-2026-11124,2026-06-12,Rahul Chatterjee,Hyderabad,Home Office,Technology,Sony WH-1000XM5,5,29003.23,0.05,137765.34,36640.99,Corporate Wire,Delivered
+ORD-2026-11125,2026-04-10,Divya Iyer,Kolkata,Corporate,Furniture,Steelcase Gesture,1,104503.89,0.15,88828.31,16435.75,Net Banking,Delivered
+ORD-2026-11126,2026-08-25,Ishaan Chatterjee,Delhi,Consumer,Furniture,Ergonomic Standing Desk,1,39005.45,0.1,35104.9,4400.28,UPI,Shipped
+ORD-2026-11127,2026-07-21,Rohan Gupta,Kolkata,Corporate,Office Supplies,Premium Copy Paper Box,1,2139.79,0.0,2139.79,403.7,UPI,Shipped
+ORD-2026-11128,2026-02-01,Ishaan Joshi,Bangalore,Consumer,Furniture,Ergonomic Standing Desk,2,36140.92,0.1,65053.66,16629.19,Net Banking,Processing
+ORD-2026-11129,2026-01-27,Meera Gupta,Ahmedabad,Consumer,Office Supplies,Heavy Duty Stapler Set,1,973.08,0.0,973.08,265.41,Credit Card,Delivered
+ORD-2026-11130,2026-08-13,Aditya Sharma,Kolkata,Corporate,Technology,Dell 27-inch 4K Monitor,2,43580.22,0.05,82802.42,15902.92,Corporate Wire,Delivered
+ORD-2026-11131,2026-02-27,Kabir Verma,Delhi,Home Office,Office Supplies,Whiteboard Magnetic 4x3,4,4657.48,0.0,18629.92,4954.25,Corporate Wire,Shipped
+ORD-2026-11132,2026-01-15,Rahul Verma,Chennai,Home Office,Office Supplies,Moleskine Hardcover Journal,4,1769.19,0.05,6722.92,1320.62,Net Banking,Delivered
+ORD-2026-11133,2026-01-22,Aarav Verma,Ahmedabad,Consumer,Office Supplies,Heavy Duty Stapler Set,1,927.75,0.0,927.75,167.42,Corporate Wire,Processing
+ORD-2026-11134,2026-06-05,Arjun Chatterjee,Kolkata,Home Office,Office Supplies,Heavy Duty Stapler Set,1,982.13,0.0,982.13,236.44,Credit Card,Processing
+ORD-2026-11135,2026-01-25,Ananya Reddy,Pune,Home Office,Office Supplies,Whiteboard Magnetic 4x3,2,4609.94,0.0,9219.88,2682.6,Corporate Wire,Shipped
+ORD-2026-11136,2026-05-27,Arjun Iyer,Mumbai,Corporate,Office Supplies,Heavy Duty Stapler Set,2,956.36,0.0,1912.72,661.6,Net Banking,Delivered
+ORD-2026-11137,2026-03-16,Divya Deshmukh,Mumbai,Home Office,Furniture,Steelcase Gesture,1,108376.16,0.05,102957.35,14722.89,Net Banking,Shipped
+ORD-2026-11138,2026-07-20,Aarav Nair,Ahmedabad,Home Office,Office Supplies,Moleskine Hardcover Journal,3,1810.53,0.0,5431.59,1103.74,Net Banking,Shipped
+ORD-2026-11139,2026-07-12,Neha Patel,Ahmedabad,Consumer,Furniture,Steelcase Gesture,2,113698.59,0.1,204657.46,48051.97,Net Banking,Delivered
+ORD-2026-11140,2026-08-23,Ishaan Verma,Kolkata,Corporate,Office Supplies,Heavy Duty Stapler Set,2,921.7,0.1,1659.06,192.61,Corporate Wire,Delivered
+ORD-2026-11141,2026-03-28,Meera Singhania,Pune,Consumer,Technology,iPad Pro 12.9,1,83389.48,0.0,83389.48,22011.46,Net Banking,Processing
+ORD-2026-11142,2026-05-18,Rohan Deshmukh,Delhi,Consumer,Technology,ThinkPad X1 Carbon,3,127039.88,0.15,323951.69,21009.03,UPI,Delivered
+ORD-2026-11143,2026-05-17,Neha Deshmukh,Bangalore,Corporate,Technology,Dell 27-inch 4K Monitor,3,41134.43,0.15,104892.8,12720.64,Credit Card,Delivered
+ORD-2026-11144,2026-02-27,Sneha Sharma,Hyderabad,Home Office,Technology,Dell 27-inch 4K Monitor,12,40842.77,0.0,490113.24,113626.16,UPI,Delivered
+ORD-2026-11145,2026-08-13,Priya Singhania,Hyderabad,Consumer,Technology,iPad Pro 12.9,1,85953.87,0.0,85953.87,17839.88,Corporate Wire,Processing
+ORD-2026-11146,2026-05-22,Tanvi Reddy,Kolkata,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4681.05,0.05,4447.0,1096.27,Net Banking,Delivered
+ORD-2026-11147,2026-07-25,Meera Mehta,Kolkata,Corporate,Furniture,Ergonomic Standing Desk,1,39740.75,0.0,39740.75,13000.64,UPI,Processing
+ORD-2026-11148,2026-05-29,Rohan Verma,Ahmedabad,Home Office,Furniture,Herman Miller Aeron Chair,3,97091.01,0.05,276709.38,51850.69,UPI,Shipped
+ORD-2026-11149,2026-03-10,Tanvi Sharma,Ahmedabad,Home Office,Furniture,Bookshelf Oak Finish,2,15218.89,0.0,30437.78,10538.79,Corporate Wire,Processing
+ORD-2026-11150,2026-06-16,Aarav Nair,Ahmedabad,Home Office,Technology,ThinkPad X1 Carbon,2,127735.86,0.0,255471.72,64670.59,Credit Card,Processing
+ORD-2026-11151,2026-05-06,Vikram Joshi,Bangalore,Corporate,Technology,Dell 27-inch 4K Monitor,2,42733.6,0.05,81193.84,20837.7,Corporate Wire,Delivered
+ORD-2026-11152,2026-07-16,Kabir Gupta,Pune,Consumer,Office Supplies,LaserJet Pro Toner,3,6252.79,0.0,18758.37,3448.72,Credit Card,Processing
+ORD-2026-11153,2026-04-16,Ishaan Patel,Hyderabad,Consumer,Office Supplies,Premium Copy Paper Box,3,2294.34,0.0,6883.02,1556.43,Net Banking,Delivered
+ORD-2026-11154,2026-01-25,Vikram Chatterjee,Kolkata,Corporate,Furniture,Bookshelf Oak Finish,1,13914.0,0.0,13914.0,4029.82,Corporate Wire,Delivered
+ORD-2026-11155,2026-05-08,Ananya Patel,Chennai,Corporate,Technology,Dell XPS 15,1,134141.96,0.05,127434.86,29941.33,Credit Card,Processing
+ORD-2026-11156,2026-03-07,Aarav Chatterjee,Mumbai,Home Office,Technology,Dell 27-inch 4K Monitor,1,43947.12,0.0,43947.12,11428.42,Credit Card,Delivered
+ORD-2026-11157,2026-04-09,Aditya Sharma,Pune,Consumer,Technology,Dell XPS 15,2,140493.0,0.0,280986.0,51734.68,Credit Card,Delivered
+ORD-2026-11158,2026-06-03,Neha Chatterjee,Bangalore,Corporate,Office Supplies,Premium Copy Paper Box,2,2187.92,0.1,3938.26,631.2,Credit Card,Delivered
+ORD-2026-11159,2026-08-28,Aditya Verma,Pune,Home Office,Technology,Sony WH-1000XM5,2,27993.42,0.15,47588.81,5453.36,Net Banking,Shipped
+ORD-2026-11160,2026-08-26,Rahul Iyer,Kolkata,Corporate,Technology,Dell 27-inch 4K Monitor,2,41435.91,0.0,82871.82,25631.7,Corporate Wire,Delivered
+ORD-2026-11161,2026-07-23,Vikram Sharma,Pune,Consumer,Furniture,Filing Cabinet 3-Tier,1,12196.22,0.05,11586.41,2994.25,Corporate Wire,Processing
+ORD-2026-11162,2026-06-14,Priya Mehta,Pune,Consumer,Furniture,Ergonomic Standing Desk,1,37636.1,0.05,35754.29,8878.3,Corporate Wire,Delivered
+ORD-2026-11163,2026-05-06,Ananya Nair,Ahmedabad,Home Office,Furniture,Steelcase Gesture,2,107659.13,0.1,193786.43,28790.44,Credit Card,Processing
+ORD-2026-11164,2026-08-01,Aarav Reddy,Delhi,Corporate,Office Supplies,Whiteboard Magnetic 4x3,2,4607.67,0.05,8754.57,1927.57,Credit Card,Delivered
+ORD-2026-11165,2026-04-09,Priya Nair,Mumbai,Home Office,Furniture,Filing Cabinet 3-Tier,2,11844.99,0.0,23689.98,5475.68,UPI,Delivered
+ORD-2026-11166,2026-04-28,Rohan Reddy,Pune,Consumer,Office Supplies,Premium Copy Paper Box,2,2224.86,0.05,4227.23,1300.69,Corporate Wire,Delivered
+ORD-2026-11167,2026-08-19,Ishaan Verma,Chennai,Consumer,Technology,Dell 27-inch 4K Monitor,3,44034.49,0.1,118893.12,10858.3,UPI,Delivered
+ORD-2026-11168,2026-08-23,Arjun Deshmukh,Mumbai,Consumer,Technology,Sony WH-1000XM5,1,29069.45,0.05,27615.98,6631.24,Net Banking,Delivered
+ORD-2026-11169,2026-08-29,Divya Gupta,Chennai,Corporate,Office Supplies,LaserJet Pro Toner,2,6355.76,0.0,12711.52,2501.84,Corporate Wire,Delivered
+ORD-2026-11170,2026-06-03,Aarav Gupta,Kolkata,Consumer,Office Supplies,Heavy Duty Stapler Set,1,909.2,0.05,863.74,255.08,UPI,Shipped
+ORD-2026-11171,2026-01-18,Rohan Iyer,Pune,Consumer,Office Supplies,Moleskine Hardcover Journal,5,1835.1,0.1,8257.95,1849.62,Net Banking,Delivered
+ORD-2026-11172,2026-08-08,Tanvi Mehta,Delhi,Consumer,Furniture,Ergonomic Standing Desk,5,37992.28,0.05,180463.33,52883.44,Credit Card,Shipped
+ORD-2026-11173,2026-05-03,Ananya Verma,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,1,36356.12,0.05,34538.31,8212.43,Net Banking,Shipped
+ORD-2026-11174,2026-07-09,Rohan Singhania,Mumbai,Home Office,Office Supplies,Premium Copy Paper Box,3,2099.63,0.1,5669.0,1559.5,UPI,Delivered
+ORD-2026-11175,2026-08-09,Aditya Patel,Pune,Corporate,Technology,Dell 27-inch 4K Monitor,1,43876.65,0.0,43876.65,11585.58,UPI,Delivered
+ORD-2026-11176,2026-06-10,Priya Nair,Ahmedabad,Consumer,Furniture,Herman Miller Aeron Chair,3,92984.16,0.05,265004.86,76046.17,Net Banking,Delivered
+ORD-2026-11177,2026-01-29,Rahul Verma,Kolkata,Home Office,Office Supplies,LaserJet Pro Toner,2,6781.32,0.0,13562.64,3892.98,UPI,Delivered
+ORD-2026-11178,2026-06-25,Priya Sharma,Kolkata,Consumer,Office Supplies,LaserJet Pro Toner,3,6252.77,0.1,16882.48,3973.61,Credit Card,Processing
+ORD-2026-11179,2026-05-20,Ananya Sharma,Ahmedabad,Home Office,Office Supplies,Heavy Duty Stapler Set,1,945.22,0.05,897.96,163.36,Corporate Wire,Processing
+ORD-2026-11180,2026-03-06,Neha Gupta,Ahmedabad,Corporate,Technology,Logitech MX Master 3S,2,8197.75,0.0,16395.5,3962.7,UPI,Shipped
+ORD-2026-11181,2026-03-07,Divya Patel,Pune,Home Office,Technology,Logitech MX Master 3S,3,8465.94,0.0,25397.82,5820.76,UPI,Shipped
+ORD-2026-11182,2026-02-02,Arjun Gupta,Pune,Consumer,Furniture,Bookshelf Oak Finish,4,14430.85,0.0,57723.4,10857.56,Corporate Wire,Delivered
+ORD-2026-11183,2026-03-28,Neha Gupta,Kolkata,Consumer,Office Supplies,Whiteboard Magnetic 4x3,1,4360.93,0.0,4360.93,1382.06,Net Banking,Shipped
+ORD-2026-11184,2026-05-21,Arjun Deshmukh,Pune,Home Office,Furniture,Ergonomic Standing Desk,1,38162.75,0.0,38162.75,10422.46,Corporate Wire,Delivered
+ORD-2026-11185,2026-02-21,Priya Nair,Bangalore,Home Office,Furniture,Filing Cabinet 3-Tier,2,11428.6,0.15,19428.62,3769.22,UPI,Delivered
+ORD-2026-11186,2026-07-10,Rahul Chatterjee,Bangalore,Home Office,Furniture,Filing Cabinet 3-Tier,3,11893.55,0.0,35680.65,9645.96,UPI,Shipped
+ORD-2026-11187,2026-03-22,Tanvi Chatterjee,Mumbai,Home Office,Technology,ThinkPad X1 Carbon,1,129528.12,0.0,129528.12,44173.24,Credit Card,Delivered
+ORD-2026-11188,2026-08-27,Divya Nair,Hyderabad,Home Office,Technology,Dell XPS 15,1,141725.24,0.0,141725.24,42002.4,Corporate Wire,Shipped
+ORD-2026-11189,2026-03-28,Ishaan Patel,Chennai,Corporate,Technology,Sony WH-1000XM5,1,27057.12,0.15,22998.55,4866.63,Corporate Wire,Delivered
+ORD-2026-11190,2026-05-24,Kabir Gupta,Ahmedabad,Home Office,Furniture,Ergonomic Standing Desk,8,36657.26,0.05,278595.18,65797.25,Credit Card,Delivered
+ORD-2026-11191,2026-08-14,Vikram Singhania,Kolkata,Corporate,Technology,ThinkPad X1 Carbon,2,123279.8,0.2,197247.68,18502.03,UPI,Shipped
+ORD-2026-11192,2026-08-17,Aarav Singhania,Pune,Corporate,Technology,iPad Pro 12.9,1,83300.89,0.0,83300.89,23581.26,UPI,Delivered
+ORD-2026-11193,2026-08-28,Meera Gupta,Hyderabad,Home Office,Furniture,Steelcase Gesture,3,105413.8,0.15,268805.19,30840.45,Corporate Wire,Delivered
+ORD-2026-11194,2026-06-09,Divya Chatterjee,Kolkata,Consumer,Furniture,Steelcase Gesture,1,110224.75,0.0,110224.75,21415.87,Corporate Wire,Delivered
+ORD-2026-11195,2026-08-20,Rohan Sharma,Hyderabad,Home Office,Furniture,Steelcase Gesture,2,104945.01,0.0,209890.02,46700.61,Corporate Wire,Delivered
+ORD-2026-11196,2026-03-27,Kabir Sharma,Bangalore,Home Office,Technology,Dell 27-inch 4K Monitor,2,40738.5,0.0,81477.0,22005.26,Corporate Wire,Delivered
+ORD-2026-11197,2026-06-27,Rahul Mehta,Kolkata,Corporate,Furniture,Filing Cabinet 3-Tier,4,11888.63,0.1,42799.07,9122.77,Net Banking,Delivered
+ORD-2026-11198,2026-05-22,Priya Singhania,Chennai,Corporate,Technology,Logitech MX Master 3S,4,8641.29,0.0,34565.16,10225.61,Credit Card,Delivered
+ORD-2026-11199,2026-07-27,Rohan Verma,Hyderabad,Consumer,Technology,iPad Pro 12.9,1,82764.04,0.05,78625.84,23599.69,Credit Card,Delivered
+ORD-2026-11200,2026-07-05,Aarav Joshi,Pune,Home Office,Technology,Dell XPS 15,2,146567.54,0.2,234508.06,12525.51,Net Banking,Delivered
+ORD-2026-11201,2026-06-06,Ananya Sharma,Bangalore,Consumer,Office Supplies,LaserJet Pro Toner,1,6234.53,0.1,5611.08,1099.74,UPI,Delivered
+ORD-2026-11202,2026-01-13,Ishaan Verma,Kolkata,Corporate,Office Supplies,Whiteboard Magnetic 4x3,1,4593.71,0.1,4134.34,761.63,UPI,Shipped
+ORD-2026-11203,2026-03-15,Ishaan Gupta,Mumbai,Corporate,Technology,Sony WH-1000XM5,1,27153.62,0.0,27153.62,8839.54,UPI,Delivered
+ORD-2026-11204,2026-06-29,Meera Verma,Hyderabad,Consumer,Furniture,Ergonomic Standing Desk,1,38350.77,0.05,36433.23,7583.32,Net Banking,Delivered
+ORD-2026-11205,2026-04-20,Aditya Nair,Hyderabad,Home Office,Technology,Dell 27-inch 4K Monitor,4,41082.09,0.05,156111.94,44793.46,Credit Card,Delivered
+ORD-2026-11206,2026-05-07,Neha Joshi,Mumbai,Home Office,Furniture,Herman Miller Aeron Chair,2,94486.35,0.15,160626.8,6402.68,Credit Card,Delivered
+ORD-2026-11207,2026-05-31,Meera Nair,Delhi,Home Office,Furniture,Steelcase Gesture,2,109784.94,0.1,197612.89,36240.42,Corporate Wire,Delivered
+ORD-2026-11208,2026-05-20,Ishaan Reddy,Hyderabad,Home Office,Technology,ThinkPad X1 Carbon,2,129749.68,0.0,259499.36,76515.33,Corporate Wire,Shipped
+ORD-2026-11209,2026-08-11,Divya Singhania,Ahmedabad,Consumer,Technology,Dell 27-inch 4K Monitor,3,40002.82,0.0,120008.46,39158.35,Net Banking,Shipped
+ORD-2026-11210,2026-08-11,Rahul Patel,Kolkata,Corporate,Technology,Logitech MX Master 3S,3,8221.86,0.05,23432.3,4913.4,UPI,Delivered
+ORD-2026-11211,2026-01-25,Aarav Deshmukh,Ahmedabad,Consumer,Furniture,Steelcase Gesture,1,106241.48,0.0,106241.48,22197.85,Net Banking,Delivered
+ORD-2026-11212,2026-02-18,Sneha Chatterjee,Ahmedabad,Corporate,Furniture,Ergonomic Standing Desk,2,37442.8,0.05,71141.32,21116.1,Net Banking,Shipped
+ORD-2026-11213,2026-06-05,Aditya Patel,Hyderabad,Home Office,Furniture,Ergonomic Standing Desk,2,37270.43,0.0,74540.86,24079.5,Net Banking,Processing
+ORD-2026-11214,2026-04-20,Tanvi Verma,Bangalore,Home Office,Furniture,Steelcase Gesture,3,114005.07,0.1,307813.69,64016.19,Corporate Wire,Delivered
+ORD-2026-11215,2026-01-05,Sneha Nair,Kolkata,Consumer,Technology,iPad Pro 12.9,2,88421.71,0.15,150316.91,16312.37,Corporate Wire,Delivered
+ORD-2026-11216,2026-05-23,Neha Chatterjee,Pune,Home Office,Technology,Dell XPS 15,5,141011.85,0.1,634553.33,67026.64,UPI,Delivered
+ORD-2026-11217,2026-05-06,Tanvi Singhania,Mumbai,Corporate,Office Supplies,LaserJet Pro Toner,1,6384.08,0.0,6384.08,1660.05,Corporate Wire,Processing
+ORD-2026-11218,2026-08-19,Divya Joshi,Chennai,Consumer,Furniture,Bookshelf Oak Finish,3,14175.51,0.1,38273.88,9597.21,Credit Card,Shipped
+ORD-2026-11219,2026-03-05,Priya Gupta,Mumbai,Corporate,Furniture,Filing Cabinet 3-Tier,2,11727.31,0.0,23454.62,6933.04,Net Banking,Processing
+ORD-2026-11220,2026-08-15,Kabir Reddy,Hyderabad,Home Office,Office Supplies,LaserJet Pro Toner,1,6750.1,0.0,6750.1,1761.81,Net Banking,Delivered
+ORD-2026-11221,2026-07-22,Vikram Deshmukh,Mumbai,Corporate,Furniture,Ergonomic Standing Desk,1,38576.21,0.0,38576.21,8502.06,Credit Card,Delivered
+ORD-2026-11222,2026-04-30,Meera Patel,Ahmedabad,Home Office,Furniture,Filing Cabinet 3-Tier,1,11776.9,0.0,11776.9,2246.17,Corporate Wire,Delivered
+ORD-2026-11223,2026-02-20,Ishaan Chatterjee,Ahmedabad,Corporate,Technology,Sony WH-1000XM5,1,26946.96,0.2,21557.57,66.95,Corporate Wire,Delivered
+ORD-2026-11224,2026-02-06,Neha Joshi,Kolkata,Home Office,Technology,Dell 27-inch 4K Monitor,2,40647.59,0.0,81295.18,19980.41,Credit Card,Delivered
+ORD-2026-11225,2026-03-24,Tanvi Chatterjee,Mumbai,Home Office,Technology,Dell 27-inch 4K Monitor,3,40168.29,0.0,120504.87,40785.83,UPI,Delivered
+ORD-2026-11226,2026-05-14,Rohan Joshi,Hyderabad,Consumer,Furniture,Steelcase Gesture,1,112759.36,0.0,112759.36,30025.85,Credit Card,Processing
+ORD-2026-11227,2026-04-17,Rahul Deshmukh,Bangalore,Home Office,Technology,Dell XPS 15,2,145759.94,0.0,291519.88,89109.38,UPI,Delivered
+ORD-2026-11228,2026-06-15,Rahul Iyer,Mumbai,Consumer,Office Supplies,Premium Copy Paper Box,2,2256.88,0.0,4513.76,850.87,UPI,Processing
+ORD-2026-11229,2026-03-23,Neha Deshmukh,Kolkata,Consumer,Office Supplies,Moleskine Hardcover Journal,2,1835.48,0.05,3487.41,758.03,Credit Card,Delivered
+ORD-2026-11230,2026-05-31,Aarav Reddy,Hyderabad,Home Office,Furniture,Herman Miller Aeron Chair,1,98625.65,0.0,98625.65,25982.41,UPI,Shipped
+ORD-2026-11231,2026-02-24,Rohan Iyer,Mumbai,Home Office,Office Supplies,Whiteboard Magnetic 4x3,1,4504.9,0.05,4279.65,1229.04,UPI,Processing
+ORD-2026-11232,2026-03-07,Neha Reddy,Pune,Corporate,Furniture,Herman Miller Aeron Chair,2,94482.66,0.0,188965.32,35050.25,Corporate Wire,Delivered
+ORD-2026-11233,2026-02-17,Ananya Sharma,Kolkata,Consumer,Office Supplies,Premium Copy Paper Box,1,2254.4,0.05,2141.68,357.1,UPI,Processing
+ORD-2026-11234,2026-07-29,Aditya Nair,Ahmedabad,Consumer,Office Supplies,Premium Copy Paper Box,2,2145.51,0.15,3647.37,485.37,Net Banking,Delivered
+ORD-2026-11235,2026-02-25,Arjun Patel,Pune,Consumer,Furniture,Bookshelf Oak Finish,3,14341.59,0.0,43024.77,9544.79,Corporate Wire,Shipped
+ORD-2026-11236,2026-05-24,Tanvi Mehta,Hyderabad,Consumer,Office Supplies,LaserJet Pro Toner,4,6577.53,0.15,22363.6,1428.16,Net Banking,Delivered
+ORD-2026-11237,2026-03-19,Sneha Deshmukh,Bangalore,Consumer,Technology,iPad Pro 12.9,1,84346.91,0.0,84346.91,16954.1,Credit Card,Delivered
+ORD-2026-11238,2026-04-17,Rahul Sharma,Chennai,Consumer,Technology,iPad Pro 12.9,1,88674.09,0.0,88674.09,16213.34,UPI,Delivered
+ORD-2026-11239,2026-08-24,Rahul Joshi,Mumbai,Corporate,Technology,ThinkPad X1 Carbon,1,124440.56,0.1,111996.5,12357.59,Net Banking,Delivered
+ORD-2026-11240,2026-01-06,Ishaan Chatterjee,Ahmedabad,Consumer,Office Supplies,Premium Copy Paper Box,1,2173.03,0.0,2173.03,746.83,Corporate Wire,Shipped
+ORD-2026-11241,2026-04-16,Rohan Sharma,Mumbai,Home Office,Technology,iPad Pro 12.9,3,82472.94,0.1,222676.94,50612.4,Net Banking,Delivered
+ORD-2026-11242,2026-03-02,Ishaan Singhania,Mumbai,Home Office,Technology,Sony WH-1000XM5,3,29266.01,0.0,87798.03,23437.71,UPI,Delivered
+ORD-2026-11243,2026-03-15,Neha Verma,Pune,Corporate,Furniture,Filing Cabinet 3-Tier,1,11845.53,0.05,11253.25,2444.04,UPI,Delivered
+ORD-2026-11244,2026-07-08,Rahul Nair,Kolkata,Consumer,Office Supplies,Heavy Duty Stapler Set,1,975.39,0.2,780.31,121.83,Corporate Wire,Processing
+ORD-2026-11245,2026-04-15,Neha Deshmukh,Delhi,Home Office,Furniture,Ergonomic Standing Desk,1,37872.91,0.0,37872.91,8402.88,UPI,Delivered
+ORD-2026-11246,2026-03-29,Kabir Gupta,Bangalore,Home Office,Furniture,Filing Cabinet 3-Tier,2,12421.32,0.1,22358.38,3787.82,UPI,Shipped
+ORD-2026-11247,2026-01-21,Arjun Deshmukh,Delhi,Home Office,Office Supplies,LaserJet Pro Toner,2,6340.57,0.05,12047.08,2617.69,UPI,Delivered
+ORD-2026-11248,2026-06-25,Ishaan Nair,Ahmedabad,Consumer,Furniture,Steelcase Gesture,2,111725.81,0.0,223451.62,63286.87,Net Banking,Shipped
+ORD-2026-11249,2026-06-26,Meera Verma,Hyderabad,Home Office,Office Supplies,Heavy Duty Stapler Set,1,974.07,0.05,925.37,173.63,Credit Card,Shipped
+ORD-2026-11250,2026-02-06,Divya Verma,Chennai,Consumer,Furniture,Steelcase Gesture,3,105562.46,0.05,300853.01,51156.4,,Delivered
+ORD-2026-10011,2026-07-12,Aditya Gupta,Pune,Consumer,Furniture,Bookshelf Oak Finish,1,14822.03,0.0,14822.03,3374.3,UPI,Processing
+ORD-2026-10046,2026-07-12,Vikram Deshmukh,Hyderabad,Corporate,Technology,iPad Pro 12.9,2,83607.1,0.0,167214.2,39219.4,Corporate Wire,Delivered
+ORD-2026-10121,2026-01-14,Meera Gupta,Pune,Consumer,Furniture,Herman Miller Aeron Chair,2,92643.96,0.0,185287.92,38027.33,UPI,Delivered

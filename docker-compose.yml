@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=DataLens
+      - APP_ENV=production
+      - DATABASE_URL=sqlite:///./data/datalens.db
+      - SECRET_KEY=datalens-production-secret-key-change-me
+      - AI_PROVIDER=demo
+      - MAX_UPLOAD_SIZE_MB=50
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
