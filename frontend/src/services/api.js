@@ -1,11 +1,22 @@
 import axios from 'axios'
 
+const rawBase = import.meta.env.VITE_API_BASE_URL || ''
+const normalizedBase = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase
+export const API_BASE_URL = normalizedBase ? `${normalizedBase}/api` : '/api'
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: API_BASE_URL,
   headers: {
     'Content-Type': 'application/json'
   }
 })
+
+export const getDownloadUrl = (path) => {
+  if (!path) return ''
+  if (path.startsWith('http://') || path.startsWith('https://')) return path
+  const rootHost = normalizedBase || ''
+  return `${rootHost}${path}`
+}
 
 // Request interceptor for attaching auth token
 api.interceptors.request.use((config) => {

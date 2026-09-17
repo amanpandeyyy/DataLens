@@ -15,7 +15,7 @@ import {
 import { useDataLens } from '../hooks/useDataLens'
 import { EmptyState } from '../components/EmptyState'
 import { formatBytes, formatDate } from '../utils/formatters'
-import api from '../services/api'
+import api, { getDownloadUrl } from '../services/api'
 
 export const ReportsPage = ({ onNavigate }) => {
   const { activeDataset, showToast } = useDataLens()
@@ -57,7 +57,7 @@ export const ReportsPage = ({ onNavigate }) => {
       showToast(`Generated ${reportFormat.toUpperCase()} report successfully!`, 'success')
       await fetchReports()
       // Trigger instant download
-      window.open(res.data.download_url, '_blank')
+      window.open(getDownloadUrl(res.data.download_url), '_blank')
     } catch (err) {
       showToast(err.message, 'error')
     } finally {
@@ -245,7 +245,7 @@ export const ReportsPage = ({ onNavigate }) => {
 
                   <div className="flex items-center justify-between sm:justify-end gap-3 shrink-0">
                     <a
-                      href={rep.download_url}
+                      href={getDownloadUrl(rep.download_url)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[#161616] hover:bg-[#222222] text-white border border-[#242424] text-xs sm:text-sm font-semibold transition-all"

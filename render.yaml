@@ -1,0 +1,21 @@
+services:
+  # DataLens — AI Data Analyst Unified Full-Stack Deployment on Render
+  - type: web
+    name: datalens-ai-analyst
+    runtime: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    region: oregon
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_NAME
+        value: DataLens
+      - key: AI_PROVIDER
+        value: demo
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite:////app/data/datalens.db
+      - key: MAX_UPLOAD_SIZE_MB
+        value: 50
