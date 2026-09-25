@@ -10,7 +10,8 @@ router = APIRouter(prefix="/auth", tags=["Authentication"])
 
 @router.post("/register", response_model=Token)
 def register(user_in: UserCreate, db: Session = Depends(get_db)):
-    existing = db.query(User).filter(User.email == user_in.email.lower()).first()
+    clean_email = user_in.email.strip().lower()
+    existing = db.query(User).filter(User.email == clean_email).first()
     if existing:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
@@ -18,10 +19,10 @@ def register(user_in: UserCreate, db: Session = Depends(get_db)):
         )
 
     user = User(
-        email=user_in.email.lower(),
+        email=clean_email,
         hashed_password=get_password_hash(user_in.password),
-        full_name=user_in.full_name,
-        role=user_in.role or "Data Analyst"
+        full_name=user_in.full_name.strip(),
+        role=(user_in.role or "Data Analyst").strip()
     )
     db.add(user)
     db.commit()
@@ -32,12 +33,28 @@ def register(user_in: UserCreate, db: Session = Depends(get_db)):
 
 @router.post("/login", response_model=Token)
 def login(user_in: UserLogin, db: Session = Depends(get_db)):
-    user = db.query(User).filter(User.email == user_in.email.lower()).first()
-    if not user or not verify_password(user_in.password, user.hashed_password):
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid email or password."
+    clean_email = user_in.email.strip().lower()
+    clean_password = user_in.password.strip()
+    user = db.query(User).filter(User.email == clean_email).first()
+
+    # Self-heal demo user if logging in with demo credentials
+    if not user and clean_email == "demo@datalens.ai" and clean_password == "datalens123":
+        user = User(
+            email="demo@datalens.ai",
+            hashed_password=get_password_hash("datalens123"),
+            full_name="Alex Mercer",
+            role="Lead Data Analyst"
         )
+        db.add(user)
+        db.commit()
+        db.refresh(user)
+
+    if not user or not verify_password(clean_password, user.hashed_password):
+        if not user or not verify_password(user_in.password, user.hashed_password):
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="Invalid email or password."
+            )
 
     token = create_access_token({"sub": str(user.id), "email": user.email})
     return Token(access_token=token, token_type="bearer", user=UserResponse.model_validate(user))

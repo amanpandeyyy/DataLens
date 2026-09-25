@@ -4,13 +4,20 @@ import api from '../services/api'
 const DataLensContext = createContext(null)
 
 export const DataLensProvider = ({ children }) => {
-  const [user, setUser] = useState(null)
-  const [token, setToken] = useState(localStorage.getItem('datalens_token'))
+  const [token, setToken] = useState(() => localStorage.getItem('datalens_token'))
+  const [user, setUser] = useState(() => {
+    try {
+      const cached = localStorage.getItem('datalens_user')
+      return cached ? JSON.parse(cached) : null
+    } catch {
+      return null
+    }
+  })
   const [datasets, setDatasets] = useState([])
   const [activeDataset, setActiveDataset] = useState(null)
   const [projects, setProjects] = useState([])
   const [activeProject, setActiveProject] = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const [toasts, setToasts] = useState([])
 
   const showToast = useCallback((message, type = 'info') => {
@@ -28,39 +35,36 @@ export const DataLensProvider = ({ children }) => {
   // Auto-login or verify current user
   const initUser = useCallback(async () => {
     const explicitlyLoggedOut = localStorage.getItem('datalens_logged_out') === 'true'
-    try {
-      let curToken = token
-      if (!curToken) {
-        if (!explicitlyLoggedOut) {
-          const res = await api.post('/auth/demo-login')
-          curToken = res.data.access_token
-          localStorage.setItem('datalens_token', curToken)
-          setToken(curToken)
-          setUser(res.data.user)
-        } else {
-          setUser(null)
-        }
-      } else {
+    const curToken = localStorage.getItem('datalens_token')
+
+    if (curToken) {
+      try {
         const res = await api.get('/auth/me')
         setUser(res.data)
-      }
-    } catch {
-      if (!explicitlyLoggedOut) {
-        try {
-          const res = await api.post('/auth/demo-login')
-          localStorage.setItem('datalens_token', res.data.access_token)
-          setToken(res.data.access_token)
-          setUser(res.data.user)
-        } catch (err) {
-          console.error('Auth initialization error:', err)
+        localStorage.setItem('datalens_user', JSON.stringify(res.data))
+      } catch (err) {
+        // If 401 Unauthorized, token is expired
+        if (err.response?.status === 401) {
+          localStorage.removeItem('datalens_token')
+          localStorage.removeItem('datalens_user')
+          setToken(null)
+          setUser(null)
         }
-      } else {
-        setUser(null)
       }
-    } finally {
-      setLoading(false)
+    } else if (!explicitlyLoggedOut) {
+      try {
+        const res = await api.post('/auth/demo-login')
+        const accessToken = res.data.access_token
+        const userData = res.data.user
+        localStorage.setItem('datalens_token', accessToken)
+        localStorage.setItem('datalens_user', JSON.stringify(userData))
+        setToken(accessToken)
+        setUser(userData)
+      } catch (err) {
+        console.warn('Auto demo login skipped:', err.message)
+      }
     }
-  }, [token])
+  }, [])
 
   const fetchDatasets = useCallback(async () => {
     try {
@@ -124,16 +128,21 @@ export const DataLensProvider = ({ children }) => {
   const login = async (email, password) => {
     try {
       setLoading(true)
-      const res = await api.post('/auth/login', { email, password })
+      const res = await api.post('/auth/login', {
+        email: email.trim().toLowerCase(),
+        password: password.trim()
+      })
       const accessToken = res.data.access_token
+      const userData = res.data.user
       localStorage.setItem('datalens_token', accessToken)
+      localStorage.setItem('datalens_user', JSON.stringify(userData))
       localStorage.removeItem('datalens_logged_out')
       setToken(accessToken)
-      setUser(res.data.user)
-      showToast(`Welcome back, ${res.data.user.full_name}!`, 'success')
-      return res.data.user
+      setUser(userData)
+      showToast(`Welcome back, ${userData.full_name}!`, 'success')
+      return userData
     } catch (err) {
-      showToast(err.message || 'Login failed', 'error')
+      showToast(err.message || 'Login failed. Please check your credentials.', 'error')
       throw err
     } finally {
       setLoading(false)
@@ -144,14 +153,20 @@ export const DataLensProvider = ({ children }) => {
   const register = async (userData) => {
     try {
       setLoading(true)
-      const res = await api.post('/auth/register', userData)
+      const res = await api.post('/auth/register', {
+        ...userData,
+        email: userData.email.trim().toLowerCase(),
+        full_name: userData.full_name.trim()
+      })
       const accessToken = res.data.access_token
+      const userObj = res.data.user
       localStorage.setItem('datalens_token', accessToken)
+      localStorage.setItem('datalens_user', JSON.stringify(userObj))
       localStorage.removeItem('datalens_logged_out')
       setToken(accessToken)
-      setUser(res.data.user)
-      showToast(`Account created! Welcome, ${res.data.user.full_name}!`, 'success')
-      return res.data.user
+      setUser(userObj)
+      showToast(`Account created! Welcome, ${userObj.full_name}!`, 'success')
+      return userObj
     } catch (err) {
       showToast(err.message || 'Registration failed', 'error')
       throw err
@@ -166,15 +181,31 @@ export const DataLensProvider = ({ children }) => {
       setLoading(true)
       const res = await api.post('/auth/demo-login')
       const accessToken = res.data.access_token
+      const userObj = res.data.user
       localStorage.setItem('datalens_token', accessToken)
+      localStorage.setItem('datalens_user', JSON.stringify(userObj))
       localStorage.removeItem('datalens_logged_out')
       setToken(accessToken)
-      setUser(res.data.user)
+      setUser(userObj)
       showToast('Signed in as Alex Mercer (Lead Data Analyst)!', 'success')
-      return res.data.user
+      return userObj
     } catch (err) {
-      showToast(err.message || 'Demo login failed', 'error')
-      throw err
+      // Fallback local session if cloud server is sleeping/unreachable
+      console.warn('Live demo login failed, using resilient demo session:', err)
+      const fallbackUser = {
+        id: 1,
+        email: 'demo@datalens.ai',
+        full_name: 'Alex Mercer',
+        role: 'Lead Data Analyst'
+      }
+      const fallbackToken = 'demo-session-' + Date.now()
+      localStorage.setItem('datalens_token', fallbackToken)
+      localStorage.setItem('datalens_user', JSON.stringify(fallbackUser))
+      localStorage.removeItem('datalens_logged_out')
+      setToken(fallbackToken)
+      setUser(fallbackUser)
+      showToast('Signed in as Alex Mercer (Demo Session)!', 'success')
+      return fallbackUser
     } finally {
       setLoading(false)
     }
@@ -182,6 +213,7 @@ export const DataLensProvider = ({ children }) => {
 
   const logout = () => {
     localStorage.removeItem('datalens_token')
+    localStorage.removeItem('datalens_user')
     localStorage.setItem('datalens_logged_out', 'true')
     setToken(null)
     setUser(null)

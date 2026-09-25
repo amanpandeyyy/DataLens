@@ -21,6 +21,15 @@ export const getDownloadUrl = (path) => {
   return `${rootHost}${path}`
 }
 
+export const pingServer = async () => {
+  try {
+    const res = await api.get('/health', { timeout: 10000 })
+    return res.data?.status === 'healthy'
+  } catch {
+    return false
+  }
+}
+
 // Request interceptor for attaching auth token
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('datalens_token')
