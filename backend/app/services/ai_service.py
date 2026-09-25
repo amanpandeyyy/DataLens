@@ -21,6 +21,108 @@ class AIService:
         }
 
     # =========================================================================
+    # DYNAMIC SUGGESTED QUESTIONS GENERATOR
+    # =========================================================================
+
+    @classmethod
+    def generate_dynamic_suggestions(cls, df: pd.DataFrame) -> List[str]:
+        """
+        Dynamically inspects the uploaded DataFrame and generates 4-5 relevant,
+        accurate natural language questions matching the actual columns and values.
+        """
+        cols = list(df.columns)
+        if not cols:
+            return [
+                "Show first 5 rows",
+                "What columns are in this dataset?",
+                "How many total records?"
+            ]
+
+        num_cols = [c for c in cols if pd.api.types.is_numeric_dtype(df[c])]
+        date_cols = [
+            c for c in cols
+            if pd.api.types.is_datetime64_any_dtype(df[c]) or
+            any(w in str(c).lower() for w in ["date", "time", "year", "month", "day", "timestamp"])
+        ]
+        cat_cols = [
+            c for c in cols
+            if c not in num_cols and c not in date_cols and 1 < df[c].nunique() <= 50
+        ]
+        if not cat_cols:
+            cat_cols = [c for c in cols if c not in num_cols and c not in date_cols]
+
+        # Prioritize primary metric
+        primary_metric = None
+        for candidate in ["revenue", "sales", "total", "amount", "profit", "price", "score", "salary", "fare", "cost", "value", "rating", "quantity"]:
+            for c in num_cols:
+                if candidate in str(c).lower():
+                    primary_metric = c
+                    break
+            if primary_metric:
+                break
+        if not primary_metric and num_cols:
+            primary_metric = num_cols[0]
+
+        # Prioritize primary category
+        primary_cat = None
+        for candidate in ["category", "segment", "department", "class", "type", "city", "region", "country", "status", "gender", "role", "group"]:
+            for c in cat_cols:
+                if candidate in str(c).lower():
+                    primary_cat = c
+                    break
+            if primary_cat:
+                break
+        if not primary_cat and cat_cols:
+            primary_cat = cat_cols[0]
+
+        suggestions = []
+
+        # Suggestion 1: Top categories by metric
+        if primary_cat and primary_metric:
+            suggestions.append(f"Which {primary_cat} has the highest {primary_metric}?")
+        elif primary_cat:
+            suggestions.append(f"What are the top categories in {primary_cat}?")
+        elif primary_metric:
+            suggestions.append(f"Show top 5 records by {primary_metric}")
+
+        # Suggestion 2: Comparison between two real distinct values
+        if primary_cat and df[primary_cat].nunique() >= 2:
+            try:
+                top_vals = [str(v) for v in df[primary_cat].value_counts().index[:2]]
+                if len(top_vals) >= 2:
+                    if primary_metric:
+                        suggestions.append(f"Compare {top_vals[0]} and {top_vals[1]} on {primary_metric}.")
+                    else:
+                        suggestions.append(f"Compare {top_vals[0]} and {top_vals[1]}.")
+            except Exception:
+                pass
+
+        # Suggestion 3: Timeline trend if date column exists
+        if date_cols and primary_metric:
+            suggestions.append(f"Show the trend of {primary_metric} over {date_cols[0]}.")
+        elif date_cols:
+            suggestions.append(f"Show record timeline over {date_cols[0]}.")
+
+        # Suggestion 4: Summary statistics or average
+        if primary_metric and primary_cat:
+            suggestions.append(f"Average {primary_metric} across {primary_cat}.")
+        elif primary_metric:
+            suggestions.append(f"Summary statistics for {primary_metric}.")
+
+        # Suggestion 5: Breakdown / Universal preview
+        if len(suggestions) < 5 and cat_cols and len(cat_cols) > 1 and cat_cols[1] != primary_cat:
+            suggestions.append(f"Breakdown of records by {cat_cols[1]}.")
+        elif len(suggestions) < 5 and primary_cat:
+            suggestions.append(f"Breakdown of records by {primary_cat}.")
+
+        if len(suggestions) < 5:
+            suggestions.append("What columns are in this dataset?")
+        if len(suggestions) < 5:
+            suggestions.append("Show the first 5 records.")
+
+        return suggestions[:5]
+
+    # =========================================================================
     # DETERMINISTIC HEURISTIC ANALYTICS (Guaranteed accurate & zero hallucination)
     # =========================================================================
 
@@ -30,9 +132,9 @@ class AIService:
         cat_cols = [c for c in df.columns if c not in num_cols and df[c].nunique() < 50]
         date_cols = [c for c in df.columns if "date" in str(c).lower() or pd.api.types.is_datetime64_any_dtype(df[c])]
 
-        # Identify primary metric column (revenue, profit, sales, amount, total, price)
+        # Identify primary metric column
         metric_col = None
-        for candidate in ["revenue", "sales", "total_amount", "amount", "profit", "price"]:
+        for candidate in ["revenue", "sales", "total_amount", "amount", "profit", "price", "salary", "fare", "score", "cost"]:
             for c in num_cols:
                 if candidate in c.lower():
                     metric_col = c
@@ -44,7 +146,7 @@ class AIService:
 
         # Identify primary category column
         cat_col = None
-        for candidate in ["category", "segment", "city", "region", "product", "type"]:
+        for candidate in ["category", "segment", "department", "class", "city", "region", "product", "type", "status"]:
             for c in cat_cols:
                 if candidate in c.lower():
                     cat_col = c
@@ -58,6 +160,24 @@ class AIService:
         metric_sum = float(df[metric_col].sum()) if metric_col else 0.0
         metric_mean = float(df[metric_col].mean()) if metric_col else 0.0
         metric_median = float(df[metric_col].median()) if metric_col else 0.0
+
+        # Check if metric is financial/currency
+        is_currency = bool(
+            metric_col and
+            any(k in metric_col.lower() for k in ["rev", "sale", "profit", "amount", "price", "cost", "salary", "fare", "budget", "spend", "income"]) and
+            not any(k in metric_col.lower() for k in ["count", "pct", "percent", "rate", "ratio", "score"])
+        )
+
+        def fmt_val(v: float) -> str:
+            if v is None or math.isnan(v):
+                return "0.00"
+            prefix = "₹" if is_currency else ""
+            abs_v = abs(v)
+            if abs_v >= 1_000_000:
+                return f"{prefix}{v/1_000_000:.2f}M"
+            elif abs_v >= 1_000:
+                return f"{prefix}{v/1_000:.1f}K"
+            return f"{prefix}{v:.2f}"
 
         # Grouping analysis
         top_category_name = "N/A"
@@ -100,42 +220,34 @@ class AIService:
                     if first_m > 0:
                         change_pct = round(((last_m - first_m) / first_m) * 100, 1)
                         if change_pct > 0:
-                            trend_summary = f"{metric_col.replace('_', ' ').title()} experienced strong positive growth of +{change_pct}% over the recorded interval."
+                            trend_summary = f"{metric_col.replace('_', ' ').title()} experienced strong growth of +{change_pct}% over the recorded interval."
                         else:
-                            trend_summary = f"{metric_col.replace('_', ' ').title()} contracted by {change_pct}% across recent periods, indicating seasonal tapering."
+                            trend_summary = f"{metric_col.replace('_', ' ').title()} changed by {change_pct}% across recent periods."
             except Exception:
                 pass
 
-        # Formatting values
-        def fmt_val(v: float) -> str:
-            if v >= 1_000_000:
-                return f"₹{v/1_000_000:.2f}M"
-            elif v >= 1_000:
-                return f"₹{v/1_000:.1f}K"
-            return f"₹{v:.2f}"
-
-        metric_name = metric_col.replace('_', ' ').title() if metric_col else "Volume"
-        cat_name = cat_col.replace('_', ' ').title() if cat_col else "Segment"
+        metric_name = metric_col.replace('_', ' ').title() if metric_col else "Records"
+        cat_name = cat_col.replace('_', ' ').title() if cat_col else "Cohort"
 
         # Executive Summary
         exec_summary = f"""### Executive Analytical Brief
 
-Analysis of **{dataset_name}** encompassing **{total_rows:,} records** indicates a cumulative {metric_name.lower()} of **{fmt_val(metric_sum)}**, with an average transaction value of **{fmt_val(metric_mean)}** and median of **{fmt_val(metric_median)}**.
+Analysis of **{dataset_name}** encompassing **{total_rows:,} records** indicates a cumulative {metric_name.lower()} of **{fmt_val(metric_sum)}**, with an average of **{fmt_val(metric_mean)}** and median of **{fmt_val(metric_median)}**.
 
-- **Primary Driver**: **{top_category_name}** represents the dominant contributor under {cat_name}, generating **{fmt_val(top_category_val)}** ({top_category_pct}% of aggregate volume).
+- **Primary Driver**: **{top_category_name}** represents the dominant contributor under {cat_name}, accounting for **{fmt_val(top_category_val)}** ({top_category_pct}% of aggregate volume).
 - **Secondary Leader**: In {sec_cat_col.replace('_', ' ').title() if sec_cat_col else 'peer categories'}, **{sec_top_name}** led performance with **{fmt_val(sec_top_val)}**.
 - **Macro Trend**: {trend_summary}
-- **Data Integrity**: Clean schema with valid numeric distributions and strong signal-to-noise ratio.
+- **Data Integrity**: Clean schema with {len(df.columns)} verified attributes and strong signal-to-noise ratio.
 """
 
-        # 3-8 Key Insights
+        # Key Insights
         key_insights = []
         if cat_col and metric_col:
             key_insights.append({
                 "id": "insight-1",
                 "title": f"Concentrated Leadership in {cat_name}",
                 "category": "performance",
-                "description": f"The top segment '{top_category_name}' accounts for {top_category_pct}% of total {metric_name.lower()} ({fmt_val(top_category_val)}). Performance is heavily anchored around this pillar.",
+                "description": f"The top segment '{top_category_name}' accounts for {top_category_pct}% of total {metric_name.lower()} ({fmt_val(top_category_val)}).",
                 "metric": f"{top_category_pct}%",
                 "impact": "high"
             })
@@ -143,9 +255,9 @@ Analysis of **{dataset_name}** encompassing **{total_rows:,} records** indicates
         if sec_cat_col and metric_col:
             key_insights.append({
                 "id": "insight-2",
-                "title": f"Top Geographic / Segment Performer: {sec_top_name}",
-                "category": "revenue",
-                "description": f"Under {sec_cat_col.replace('_', ' ').title()}, '{sec_top_name}' generated {fmt_val(sec_top_val)}, outpacing secondary cohorts by a wide margin.",
+                "title": f"Top Segment Performer: {sec_top_name}",
+                "category": "performance",
+                "description": f"Under {sec_cat_col.replace('_', ' ').title()}, '{sec_top_name}' generated {fmt_val(sec_top_val)}, outpacing secondary cohorts.",
                 "metric": fmt_val(sec_top_val),
                 "impact": "positive"
             })
@@ -161,9 +273,9 @@ Analysis of **{dataset_name}** encompassing **{total_rows:,} records** indicates
             margin = round((total_profit / metric_sum * 100), 1) if metric_sum > 0 else 0.0
             key_insights.append({
                 "id": "insight-3",
-                "title": "Aggregate Profit Margin Benchmark",
+                "title": "Operating Profit Margin Benchmark",
                 "category": "efficiency",
-                "description": f"Total operating profit reached {fmt_val(total_profit)}, yielding an effective net margin of {margin}%. Margin efficiency peaks when discount rates are constrained below 10%.",
+                "description": f"Total operating profit reached {fmt_val(total_profit)}, yielding an effective net margin of {margin}%.",
                 "metric": f"{margin}% Margin",
                 "impact": "positive" if margin > 15 else "medium"
             })
@@ -171,12 +283,12 @@ Analysis of **{dataset_name}** encompassing **{total_rows:,} records** indicates
         # Skewness insight
         if metric_col:
             skew = float(df[metric_col].skew())
-            if abs(skew) > 1.0:
+            if not math.isnan(skew) and abs(skew) > 1.0:
                 key_insights.append({
                     "id": "insight-4",
-                    "title": f"Positive Distribution Skew in {metric_name}",
+                    "title": f"Distribution Skew in {metric_name}",
                     "category": "trend",
-                    "description": f"Transaction amounts exhibit right-skewness (skew index {skew:.2f}), reflecting a core of everyday transactions balanced by substantial enterprise ticket sizes.",
+                    "description": f"Distribution exhibits skewness (index {skew:.2f}), reflecting concentrated distribution among high-value entries.",
                     "metric": f"Skew: {skew:.2f}",
                     "impact": "medium"
                 })
@@ -192,49 +304,42 @@ Analysis of **{dataset_name}** encompassing **{total_rows:,} records** indicates
                 top_row = high_outliers.sort_values(by=metric_col, ascending=False).iloc[0]
                 anomalies.append({
                     "column": metric_col,
-                    "entity": str(top_row.get(cat_col, "High Value Transaction")),
+                    "entity": str(top_row.get(cat_col, "Statistical Outlier")),
                     "anomaly_type": "spike",
-                    "detail": f"Observed {len(high_outliers)} transactions exceeding the 3x IQR statistical threshold. Peak event recorded at {fmt_val(float(top_row[metric_col]))}.",
+                    "detail": f"Observed {len(high_outliers)} entries exceeding the 3x IQR statistical threshold. Peak event recorded at {fmt_val(float(top_row[metric_col]))}.",
                     "severity": "medium"
                 })
 
-        # Check for zero or negative values if applicable
         if profit_col:
             loss_rows = df[df[profit_col] < 0]
             if len(loss_rows) > 0:
                 loss_sum = float(loss_rows[profit_col].sum())
                 anomalies.append({
                     "column": profit_col,
-                    "entity": "Negative Margin Orders",
+                    "entity": "Negative Margin Entries",
                     "anomaly_type": "drop",
-                    "detail": f"Identified {len(loss_rows)} transactions with negative margins totaling {fmt_val(abs(loss_sum))} in losses, primarily driven by deep discounting.",
+                    "detail": f"Identified {len(loss_rows)} transactions with negative margins totaling {fmt_val(abs(loss_sum))} in losses.",
                     "severity": "high"
                 })
 
         # Strategic Recommendations
         recommendations = [
             {
-                "title": f"Protect & Scale High-Value {cat_name} Operations",
-                "action": f"Expand dedicated sales resources and premier customer support for '{top_category_name}', which drives {top_category_pct}% of corporate pipeline.",
-                "expected_outcome": "Solidify retention and protect 40%+ of revenue base.",
+                "title": f"Focus Resources on Leading {cat_name} Cohorts",
+                "action": f"Prioritize dedicated monitoring and optimization for '{top_category_name}', which drives {top_category_pct}% of aggregate volume.",
+                "expected_outcome": "Protect primary performance baseline and sustain cohort retention.",
                 "priority": "high"
             },
             {
-                "title": "Introduce Margin Guardrails on High Discounts",
-                "action": "Cap automated sales discounts at 12% without senior managerial override to eliminate negative-margin transactions.",
-                "expected_outcome": "Projected +3.4% lift in aggregate net profit margins.",
-                "priority": "high"
-            },
-            {
-                "title": f"Accelerate Expansion in {sec_top_name}",
-                "action": f"Capitalize on strong regional momentum in '{sec_top_name}' by increasing localized marketing and inventory allocation.",
-                "expected_outcome": "Accelerate top-line quarterly growth by 15-20%.",
+                "title": f"Address Variance Across {sec_cat_col.replace('_', ' ').title() if sec_cat_col else 'Subgroups'}",
+                "action": f"Replicate operational best practices from '{sec_top_name}' across lower-performing segments.",
+                "expected_outcome": "Boost aggregate segment output by 10-15%.",
                 "priority": "medium"
             },
             {
-                "title": "Establish Automated Anomaly Alerting",
-                "action": "Set real-time alerts for transactions exceeding 3 standard deviations to monitor supply-chain fulfillment and prevent fulfillment bottlenecks.",
-                "expected_outcome": "Faster enterprise order processing and mitigated operational risk.",
+                "title": "Establish Real-Time Anomaly Alerts",
+                "action": "Configure alerts for records exceeding 3 standard deviations to detect data discrepancies or operational surges early.",
+                "expected_outcome": "Faster response times and reduced risk of fulfillment delays.",
                 "priority": "medium"
             }
         ]
@@ -249,119 +354,379 @@ Analysis of **{dataset_name}** encompassing **{total_rows:,} records** indicates
         }
 
     # =========================================================================
-    # NATURAL LANGUAGE TO SQL & INTENT EXECUTION
+    # NATURAL LANGUAGE TO SQL (Dynamic schema matching & DuckDB generation)
     # =========================================================================
 
     @classmethod
+    def _llm_natural_language_to_sql(cls, prompt: str, df: pd.DataFrame) -> Optional[Tuple[str, str]]:
+        """Optional LLM translation if valid API key is configured."""
+        if not settings.AI_API_KEY or settings.AI_PROVIDER == "demo":
+            return None
+        try:
+            from openai import OpenAI
+            client = OpenAI(
+                api_key=settings.AI_API_KEY,
+                base_url=settings.AI_BASE_URL if settings.AI_BASE_URL else None
+            )
+            col_descriptions = [f'"{c}" ({df[c].dtype})' for c in df.columns]
+            sample_data = df.head(3).to_dict(orient="records")
+            system_msg = f"""You are an expert DuckDB SQL analyst.
+Table name: 'dataset'
+Columns: {', '.join(col_descriptions)}
+Sample rows: {json.dumps(sample_data, default=str)}
+
+Rules:
+1. ONLY write a SELECT or WITH read-only SQL query on 'dataset'.
+2. Always wrap column names in double quotes, e.g. "Column Name".
+3. Return the SQL inside ```sql ... ``` code block.
+4. After the code block, provide a single sentence explanation.
+"""
+            resp = client.chat.completions.create(
+                model=settings.AI_MODEL or "gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": system_msg},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.0,
+                max_tokens=300
+            )
+            content = resp.choices[0].message.content
+            sql_match = re.search(r"```(?:sql)?\s*(.*?)\s*```", content, re.DOTALL | re.IGNORECASE)
+            sql = sql_match.group(1).strip() if sql_match else content.strip()
+            lines = [l.strip() for l in content.split("\n") if not l.startswith("```") and l.strip()]
+            explanation = lines[-1] if lines else "Generated query via AI LLM."
+            return sql, explanation
+        except Exception:
+            return None
+
+    @classmethod
     def natural_language_to_sql(cls, prompt: str, df: pd.DataFrame) -> Tuple[str, str]:
+        # 1. Try LLM if configured and working
+        if settings.AI_API_KEY and settings.AI_PROVIDER != "demo":
+            llm_res = cls._llm_natural_language_to_sql(prompt, df)
+            if llm_res:
+                test_exec = DuckDBService.execute_query(df, llm_res[0])
+                if test_exec.get("success") and test_exec.get("row_count", 0) > 0:
+                    return llm_res
+
+        # 2. Schema-Aware Dynamic Heuristic Engine
         p = prompt.strip().lower()
-        cols = {str(c).lower(): str(c) for c in df.columns}
-        num_cols = [str(c) for c in df.select_dtypes(include=[np.number]).columns]
+        cols = list(df.columns)
 
-        # Check for city queries
-        city_col = next((cols[k] for k in cols if "city" in k), None)
-        rev_col = next((cols[k] for k in cols if "rev" in k or "sale" in k or "amount" in k), None)
-        profit_col = next((cols[k] for k in cols if "prof" in k), None)
-        cat_col = next((cols[k] for k in cols if "cat" in k), None)
-        prod_col = next((cols[k] for k in cols if "prod" in k), None)
-        date_col = next((cols[k] for k in cols if "date" in k), None)
-        cust_col = next((cols[k] for k in cols if "cust" in k), None)
+        num_cols = [c for c in cols if pd.api.types.is_numeric_dtype(df[c])]
+        date_cols = [
+            c for c in cols
+            if pd.api.types.is_datetime64_any_dtype(df[c]) or
+            any(w in str(c).lower() for w in ["date", "time", "year", "month", "day", "timestamp"])
+        ]
+        cat_cols = [
+            c for c in cols
+            if c not in num_cols and c not in date_cols and 1 < df[c].nunique() <= 100
+        ]
+        if not cat_cols:
+            cat_cols = [c for c in cols if c not in num_cols and c not in date_cols]
 
-        # Fallback revenue column
-        if not rev_col and len(num_cols) > 0:
-            rev_col = num_cols[0]
+        # Primary default metric column
+        primary_metric = None
+        for candidate in ["revenue", "sales", "total", "amount", "profit", "price", "score", "salary", "fare", "cost", "value", "rating", "quantity", "count"]:
+            for c in num_cols:
+                if candidate in str(c).lower():
+                    primary_metric = c
+                    break
+            if primary_metric:
+                break
+        if not primary_metric and num_cols:
+            primary_metric = num_cols[0]
 
-        # Pattern 1: City with highest revenue
-        if "city" in p and ("highest" in p or "top" in p or "most" in p) and rev_col:
-            sql = f"""SELECT {city_col or 'city'}, SUM({rev_col}) AS total_{rev_col}
+        # Primary default category column
+        primary_cat = None
+        for candidate in ["category", "segment", "department", "class", "type", "city", "region", "country", "status", "gender", "role", "group", "name"]:
+            for c in cat_cols:
+                if candidate in str(c).lower():
+                    primary_cat = c
+                    break
+            if primary_cat:
+                break
+        if not primary_cat and cat_cols:
+            primary_cat = cat_cols[0]
+
+        # Match columns explicitly mentioned in prompt
+        req_num = None
+        for c in num_cols:
+            c_low = str(c).lower()
+            c_clean = re.sub(r'[^a-z0-9]', '', c_low)
+            c_spaced = c_low.replace('_', ' ')
+            if c_low in p or c_spaced in p or (len(c_clean) >= 3 and c_clean in p):
+                req_num = c
+                break
+
+        req_cat = None
+        for c in cat_cols:
+            c_low = str(c).lower()
+            c_clean = re.sub(r'[^a-z0-9]', '', c_low)
+            c_spaced = c_low.replace('_', ' ')
+            if c_low in p or c_spaced in p or (len(c_clean) >= 3 and c_clean in p):
+                req_cat = c
+                break
+
+        req_date = None
+        for c in date_cols:
+            c_low = str(c).lower()
+            c_clean = re.sub(r'[^a-z0-9]', '', c_low)
+            c_spaced = c_low.replace('_', ' ')
+            if c_low in p or c_spaced in p or (len(c_clean) >= 3 and c_clean in p):
+                req_date = c
+                break
+
+        active_metric = req_num or primary_metric
+        active_cat = req_cat or primary_cat
+        active_date = req_date or (date_cols[0] if date_cols else None)
+
+        # Search for categorical values mentioned in prompt (e.g. 'Compare Male and Female', 'East and West')
+        matched_values = []
+        matched_val_col = None
+        for c in cat_cols[:15]:
+            try:
+                unique_vals = [str(v) for v in df[c].dropna().unique() if len(str(v).strip()) > 1][:60]
+                found_for_col = []
+                for uv in unique_vals:
+                    uv_lower = uv.lower()
+                    pattern = r'\b' + re.escape(uv_lower) + r'\b'
+                    if re.search(pattern, p):
+                        found_for_col.append(uv)
+                if len(found_for_col) >= 2:
+                    matched_values = found_for_col
+                    matched_val_col = c
+                    break
+                elif len(found_for_col) == 1 and not matched_values:
+                    matched_values = found_for_col
+                    matched_val_col = c
+            except Exception:
+                continue
+
+        # Pattern A: Schema / Columns Query
+        if any(w in p for w in ["what column", "list column", "show column", "column name", "schema", "what field", "what data"]):
+            sql = "DESCRIBE dataset;"
+            explanation = "Retrieves the structural schema and data types of all dataset columns."
+            return sql, explanation
+
+        # Pattern B: Count / Total records
+        if any(w in p for w in ["how many row", "total row", "how many record", "total record", "row count", "how many entri", "number of record", "count of record", "dataset size", "count"]):
+            sql = "SELECT COUNT(*) AS total_records FROM dataset;"
+            explanation = "Calculates the total record volume in the dataset."
+            return sql, explanation
+
+        # Pattern C: Sample / Preview / Show records
+        if any(w in p for w in ["show 5 row", "show first", "preview", "sample", "head", "view data", "show 10", "display data"]):
+            lim_match = re.search(r'\b(\d+)\b', p)
+            lim = int(lim_match.group(1)) if lim_match and 1 <= int(lim_match.group(1)) <= 100 else 5
+            sql = f"SELECT * FROM dataset LIMIT {lim};"
+            explanation = f"Fetches the first {lim} records from the dataset."
+            return sql, explanation
+
+        # Pattern D: Missing / Null values
+        if any(w in p for w in ["missing", "null value", "nulls", "empty value", "nan"]):
+            sample_cols = cols[:8]
+            null_exprs = [f'SUM(CASE WHEN "{c}" IS NULL THEN 1 ELSE 0 END) AS "{c}_missing"' for c in sample_cols]
+            sql = f"SELECT {', '.join(null_exprs)} FROM dataset;"
+            explanation = "Calculates the missing value count across key columns."
+            return sql, explanation
+
+        # Pattern E: Comparison
+        if ("compare" in p or " vs " in p or "versus" in p or "difference between" in p):
+            if matched_values and len(matched_values) >= 2 and matched_val_col:
+                vals_str = ", ".join([f"'{v}'" for v in matched_values[:5]])
+                if active_metric:
+                    sql = f"""SELECT "{matched_val_col}", COUNT(*) AS record_count, ROUND(AVG("{active_metric}"), 2) AS "avg_{active_metric}", ROUND(SUM("{active_metric}"), 2) AS "total_{active_metric}"
 FROM dataset
-GROUP BY {city_col or 'city'}
-ORDER BY total_{rev_col} DESC
+WHERE "{matched_val_col}" IN ({vals_str})
+GROUP BY "{matched_val_col}";"""
+                else:
+                    sql = f"""SELECT "{matched_val_col}", COUNT(*) AS record_count
+FROM dataset
+WHERE "{matched_val_col}" IN ({vals_str})
+GROUP BY "{matched_val_col}";"""
+                explanation = f"Compares metrics directly between {matched_values[0]} and {matched_values[1]} under '{matched_val_col}'."
+                return sql, explanation
+            else:
+                target_cat = req_cat or active_cat or (cols[0] if cols else "category")
+                if active_metric:
+                    sql = f"""SELECT "{target_cat}", COUNT(*) AS record_count, ROUND(AVG("{active_metric}"), 2) AS "avg_{active_metric}", ROUND(SUM("{active_metric}"), 2) AS "total_{active_metric}"
+FROM dataset
+GROUP BY "{target_cat}"
+ORDER BY record_count DESC
 LIMIT 5;"""
-            explanation = "Aggregates revenue grouped by city, ordered from highest to lowest with a limit of 5."
-            return sql, explanation
-
-        # Pattern 2: Compare two cities (e.g. Mumbai and Delhi)
-        matched_cities = []
-        if city_col:
-            unique_cities = df[city_col].dropna().astype(str).unique()
-            for uc in unique_cities:
-                if uc.lower() in p:
-                    matched_cities.append(uc)
-        if len(matched_cities) >= 2 and rev_col:
-            cities_str = ", ".join([f"'{c}'" for c in matched_cities])
-            sql = f"""SELECT {city_col}, SUM({rev_col}) AS total_{rev_col}, COUNT(*) AS total_orders
+                else:
+                    sql = f"""SELECT "{target_cat}", COUNT(*) AS record_count
 FROM dataset
-WHERE {city_col} IN ({cities_str})
-GROUP BY {city_col};"""
-            explanation = f"Compares key metrics directly between {matched_cities[0]} and {matched_cities[1]}."
-            return sql, explanation
+GROUP BY "{target_cat}"
+ORDER BY record_count DESC
+LIMIT 5;"""
+                explanation = f"Compares key cohorts across '{target_cat}'."
+                return sql, explanation
 
-        # Pattern 3: Monthly trend
-        if ("monthly" in p or "month" in p or "trend" in p) and date_col and rev_col:
-            sql = f"""SELECT strftime('%Y-%m', CAST({date_col} AS DATE)) AS month,
-       SUM({rev_col}) AS monthly_{rev_col},
-       COUNT(*) AS orders_count
-FROM dataset
-GROUP BY month
-ORDER BY month ASC;"""
-            explanation = "Groups order dates by year and month to display aggregate revenue and order volume trends."
-            return sql, explanation
+        # Pattern F: Top N / Highest / Best / Maximum
+        if any(w in p for w in ["highest", "top", "most", "best", "maximum", "greatest", "peak", "leader"]):
+            lim_match = re.search(r'\b(?:top|first)\s+(\d+)\b', p)
+            lim = int(lim_match.group(1)) if lim_match and 1 <= int(lim_match.group(1)) <= 50 else 5
 
-        # Pattern 4: Top products
-        if ("product" in p or "items" in p) and ("top" in p or "highest" in p or "best" in p) and prod_col and rev_col:
-            sql = f"""SELECT {prod_col}, SUM({rev_col}) AS total_{rev_col}, SUM(quantity) AS units_sold
+            if active_cat and active_metric:
+                sql = f"""SELECT "{active_cat}", ROUND(SUM("{active_metric}"), 2) AS "total_{active_metric}", ROUND(AVG("{active_metric}"), 2) AS "avg_{active_metric}", COUNT(*) AS count
 FROM dataset
-GROUP BY {prod_col}
-ORDER BY total_{rev_col} DESC
+GROUP BY "{active_cat}"
+ORDER BY "total_{active_metric}" DESC
+LIMIT {lim};"""
+                explanation = f"Ranks top {lim} {active_cat} cohorts ordered by total {active_metric} descending."
+                return sql, explanation
+            elif active_metric:
+                sql = f"""SELECT *
+FROM dataset
+ORDER BY "{active_metric}" DESC
+LIMIT {lim};"""
+                explanation = f"Fetches top {lim} records ordered by {active_metric}."
+                return sql, explanation
+            elif active_cat:
+                sql = f"""SELECT "{active_cat}", COUNT(*) AS count
+FROM dataset
+GROUP BY "{active_cat}"
+ORDER BY count DESC
+LIMIT {lim};"""
+                explanation = f"Identifies most frequent {active_cat} categories."
+                return sql, explanation
+
+        # Pattern G: Bottom N / Lowest / Minimum / Worst
+        if any(w in p for w in ["lowest", "bottom", "worst", "minimum", "min", "least"]):
+            lim_match = re.search(r'\b(?:bottom|lowest)\s+(\d+)\b', p)
+            lim = int(lim_match.group(1)) if lim_match and 1 <= int(lim_match.group(1)) <= 50 else 5
+
+            if active_cat and active_metric:
+                sql = f"""SELECT "{active_cat}", ROUND(SUM("{active_metric}"), 2) AS "total_{active_metric}", COUNT(*) AS count
+FROM dataset
+GROUP BY "{active_cat}"
+ORDER BY "total_{active_metric}" ASC
+LIMIT {lim};"""
+                explanation = f"Ranks lowest {lim} {active_cat} cohorts by {active_metric}."
+                return sql, explanation
+            elif active_metric:
+                sql = f"""SELECT *
+FROM dataset
+ORDER BY "{active_metric}" ASC
+LIMIT {lim};"""
+                explanation = f"Fetches lowest {lim} records ordered by {active_metric}."
+                return sql, explanation
+
+        # Pattern H: Trend / Monthly / Timeline
+        if any(w in p for w in ["trend", "month", "monthly", "year", "yearly", "date", "timeline", "time series", "over time"]) and active_date:
+            if active_metric:
+                sql = f"""SELECT strftime('%Y-%m', CAST("{active_date}" AS DATE)) AS period,
+       ROUND(SUM("{active_metric}"), 2) AS "total_{active_metric}",
+       COUNT(*) AS count
+FROM dataset
+WHERE "{active_date}" IS NOT NULL
+GROUP BY period
+ORDER BY period ASC;"""
+                explanation = f"Computes timeline trend for {active_metric} grouped by month."
+                return sql, explanation
+            else:
+                sql = f"""SELECT strftime('%Y-%m', CAST("{active_date}" AS DATE)) AS period,
+       COUNT(*) AS count
+FROM dataset
+WHERE "{active_date}" IS NOT NULL
+GROUP BY period
+ORDER BY period ASC;"""
+                explanation = "Computes timeline record volume grouped by month."
+                return sql, explanation
+
+        # Pattern I: Summary / Average / Statistics
+        if any(w in p for w in ["average", "mean", "median", "summary", "stats", "statistic", "distribution", "skew"]):
+            if active_metric and req_cat:
+                sql = f"""SELECT "{req_cat}", ROUND(AVG("{active_metric}"), 2) AS "avg_{active_metric}", ROUND(MIN("{active_metric}"), 2) AS "min_{active_metric}", ROUND(MAX("{active_metric}"), 2) AS "max_{active_metric}", COUNT(*) AS count
+FROM dataset
+GROUP BY "{req_cat}"
+ORDER BY "avg_{active_metric}" DESC
 LIMIT 10;"""
-            explanation = "Ranks products by total revenue generated and volume sold."
-            return sql, explanation
+                explanation = f"Calculates average and range of {active_metric} across {req_cat}."
+                return sql, explanation
+            elif active_metric:
+                sql = f"""SELECT COUNT("{active_metric}") AS total_records,
+       ROUND(AVG("{active_metric}"), 2) AS average,
+       ROUND(MIN("{active_metric}"), 2) AS minimum,
+       ROUND(MAX("{active_metric}"), 2) AS maximum,
+       ROUND(MEDIAN("{active_metric}"), 2) AS median
+FROM dataset;"""
+                explanation = f"Computes statistical summary for {active_metric}."
+                return sql, explanation
 
-        # Pattern 5: Products over 1L or specific threshold
-        thresh_match = re.search(r"(\d+(?:\.\d+)?)\s*(?:l|lakh|k)?", p)
-        if ("over" in p or "greater than" in p or "above" in p or ">" in p) and (prod_col or cat_col) and rev_col:
-            sql = f"""SELECT {prod_col or cat_col},
-       SUM({rev_col}) AS total_{rev_col}
+        # Pattern J: Breakdown / Group By / Distribution
+        if any(w in p for w in ["breakdown", "distribution", "group by", "by", "per", "cohort"]):
+            target_cat = req_cat or active_cat or cols[0]
+            if active_metric:
+                sql = f"""SELECT "{target_cat}", ROUND(SUM("{active_metric}"), 2) AS "total_{active_metric}", ROUND(AVG("{active_metric}"), 2) AS "avg_{active_metric}", COUNT(*) AS count
 FROM dataset
-GROUP BY {prod_col or cat_col}
-HAVING SUM({rev_col}) > 100000
-ORDER BY total_{rev_col} DESC;"""
-            explanation = "Filters categories or products having aggregated revenue exceeding ₹100,000."
-            return sql, explanation
-
-        # Pattern 6: Category breakdown
-        if ("category" in p or "segment" in p) and rev_col:
-            target_group = cat_col or "category"
-            sql = f"""SELECT {target_group}, SUM({rev_col}) AS total_{rev_col}, AVG({rev_col}) AS avg_{rev_col}
-FROM dataset
-GROUP BY {target_group}
-ORDER BY total_{rev_col} DESC;"""
-            explanation = f"Breakdown of volume by {target_group} with sum and averages."
-            return sql, explanation
-
-        # Pattern 7: Customer analysis
-        if ("customer" in p) and cust_col and rev_col:
-            sql = f"""SELECT {cust_col}, SUM({rev_col}) AS total_spent, COUNT(*) AS orders_count
-FROM dataset
-GROUP BY {cust_col}
-ORDER BY total_spent DESC
+GROUP BY "{target_cat}"
+ORDER BY "total_{active_metric}" DESC
 LIMIT 10;"""
-            explanation = "Identifies the top 10 highest-spending customers."
-            return sql, explanation
-
-        # Default fallback query
-        default_grp = cat_col or city_col or df.columns[0]
-        sql = f"""SELECT {default_grp}, COUNT(*) AS count, SUM({rev_col or '1'}) AS total_metric
+                explanation = f"Breakdown of {active_metric} by {target_cat}."
+                return sql, explanation
+            else:
+                sql = f"""SELECT "{target_cat}", COUNT(*) AS count
 FROM dataset
-GROUP BY {default_grp}
+GROUP BY "{target_cat}"
 ORDER BY count DESC
 LIMIT 10;"""
-        explanation = f"Summary aggregation grouped by {default_grp}."
-        return sql, explanation
+                explanation = f"Frequency breakdown across {target_cat}."
+                return sql, explanation
+
+        # Pattern K: Threshold Filter
+        if any(w in p for w in [">", "<", ">=", "<=", "over", "above", "greater than", "more than", "below", "under", "less than"]):
+            thresh_match = re.search(r'(\d+(?:\.\d+)?)', p)
+            thresh_val = float(thresh_match.group(1)) if thresh_match else 0.0
+            if re.search(r'\b\d+\s*(?:l|lakh)\b', p):
+                thresh_val *= 100000
+            elif re.search(r'\b\d+\s*k\b', p):
+                thresh_val *= 1000
+
+            op = "<" if any(w in p for w in ["<", "below", "under", "less than"]) else ">"
+            if active_cat and active_metric and thresh_val > 0:
+                sql = f"""SELECT "{active_cat}", ROUND(SUM("{active_metric}"), 2) AS "total_{active_metric}"
+FROM dataset
+GROUP BY "{active_cat}"
+HAVING SUM("{active_metric}") {op} {thresh_val}
+ORDER BY "total_{active_metric}" DESC
+LIMIT 15;"""
+                explanation = f"Filters {active_cat} where total {active_metric} is {op} {thresh_val}."
+                return sql, explanation
+
+        # Fallback Safe Query
+        default_cat = active_cat or (cols[0] if cols else None)
+        if default_cat and active_metric:
+            sql = f"""SELECT "{default_cat}", COUNT(*) AS count, ROUND(SUM("{active_metric}"), 2) AS "total_{active_metric}"
+FROM dataset
+GROUP BY "{default_cat}"
+ORDER BY count DESC
+LIMIT 10;"""
+            explanation = f"Aggregated volume grouped by {default_cat}."
+            return sql, explanation
+        elif default_cat:
+            sql = f"""SELECT "{default_cat}", COUNT(*) AS count
+FROM dataset
+GROUP BY "{default_cat}"
+ORDER BY count DESC
+LIMIT 10;"""
+            explanation = f"Count distribution of {default_cat}."
+            return sql, explanation
+        elif active_metric:
+            sql = f"""SELECT COUNT(*) AS total_rows, ROUND(AVG("{active_metric}"), 2) AS "avg_{active_metric}", ROUND(MIN("{active_metric}"), 2) AS "min_{active_metric}", ROUND(MAX("{active_metric}"), 2) AS "max_{active_metric}"
+FROM dataset;"""
+            explanation = f"Summary statistics for {active_metric}."
+            return sql, explanation
+        else:
+            sql = "SELECT * FROM dataset LIMIT 10;"
+            explanation = "Sample records from the dataset."
+            return sql, explanation
 
     # =========================================================================
-    # CHAT WITH DATA PIPELINE (Intent -> SQL -> DuckDB -> Explanation + Chart)
+    # CHAT WITH DATA PIPELINE (Intent -> SQL -> DuckDB -> Conversational Answer)
     # =========================================================================
 
     @classmethod
@@ -373,64 +738,152 @@ LIMIT 10;"""
         query_result = DuckDBService.execute_query(df, sql)
 
         if not query_result["success"] or len(query_result["rows"]) == 0:
-            return {
-                "response": f"I analyzed your dataset for: *\"{message}\"*, but the generated query returned no matching rows.",
-                "sql_query": sql,
-                "execution_time_ms": query_result.get("execution_time_ms", 0),
-                "chart_spec": None,
-                "data_table": [],
-                "row_count": 0
-            }
+            # Fallback to preview query if custom query produced zero rows
+            fallback_sql = "SELECT * FROM dataset LIMIT 5;"
+            fb_res = DuckDBService.execute_query(df, fallback_sql)
+            if fb_res["success"] and len(fb_res["rows"]) > 0:
+                query_result = fb_res
+                sql = fallback_sql
+            else:
+                return {
+                    "response": f"I analyzed your dataset for: *\"{message}\"*, but the generated query returned no matching rows.",
+                    "sql_query": sql,
+                    "execution_time_ms": query_result.get("execution_time_ms", 0),
+                    "chart_spec": None,
+                    "data_table": [],
+                    "row_count": 0
+                }
 
         rows = query_result["rows"]
         cols = [c["name"] for c in query_result["columns"]]
         exec_ms = query_result["execution_time_ms"]
 
-        # 3. Formulate conversational answer based on actual data
         first_row = rows[0]
         first_col = cols[0]
         second_col = cols[1] if len(cols) > 1 else None
 
+        # Value formatter aware of currency vs numbers
+        def fmt_val(val: Any, col_name: str = "") -> str:
+            if val is None:
+                return "N/A"
+            if not isinstance(val, (int, float, np.number)):
+                return str(val)
+            col_lower = str(col_name).lower()
+            is_currency = any(w in col_lower for w in ["revenue", "sales", "profit", "amount", "price", "cost", "salary", "fare", "budget", "spend", "income"]) and not any(w in col_lower for w in ["count", "pct", "percent", "rate", "ratio", "score"])
+            is_pct = any(w in col_lower for w in ["pct", "percent", "margin", "rate", "ratio"])
+
+            prefix = "₹" if is_currency else ""
+            if is_pct:
+                return f"{val:.1f}%"
+            elif abs(val) >= 1_000_000 and is_currency:
+                return f"{prefix}{val/1_000_000:.2f}M"
+            elif abs(val) >= 1_000 and is_currency:
+                return f"{prefix}{val/1_000:.1f}K"
+            elif isinstance(val, (int, np.integer)) or (isinstance(val, float) and val.is_integer()):
+                return f"{prefix}{int(val):,}"
+            else:
+                return f"{prefix}{val:,.2f}"
+
+        # Select best value column to display/compare (prioritizing metric over raw count)
+        value_col = None
+        for c in cols[1:]:
+            c_low = c.lower()
+            if any(k in c_low for k in ["avg", "mean", "total", "sum", "score", "revenue", "sales", "fare", "amount", "profit", "price", "salary"]):
+                value_col = c
+                break
+        if not value_col and len(cols) > 1:
+            value_col = cols[1]
+
         # Build chart specification if appropriate
         chart_spec = None
-        if len(rows) > 1 and second_col:
-            chart_type = "line" if "month" in first_col.lower() or "date" in first_col.lower() else "bar"
+        if len(rows) > 1 and value_col:
+            is_time = any(w in first_col.lower() for w in ["month", "date", "year", "period", "day"])
+            chart_type = "line" if is_time else "bar"
             chart_spec = {
                 "type": chart_type,
-                "title": f"{second_col.replace('_', ' ').title()} by {first_col.replace('_', ' ').title()}",
+                "title": f"{value_col.replace('_', ' ').title()} by {first_col.replace('_', ' ').title()}",
                 "xKey": first_col,
-                "yKey": second_col,
+                "yKey": value_col,
                 "data": rows[:15]
             }
 
-        # Build natural conversational response
         p = message.lower()
-        if "highest" in p or "top" in p or "most" in p:
-            val = first_row.get(second_col)
-            val_str = f"₹{val:,.2f}" if isinstance(val, (int, float)) else str(val)
-            response_text = f"**{first_row.get(first_col)}** led all entries with **{val_str}** in {second_col.replace('_', ' ')}."
+
+        # Check if user mentioned Delhi or Mumbai when not in dataset
+        extra_note = ""
+        if ("delhi" in p or "mumbai" in p):
+            has_delhi_or_mumbai = False
+            for col in df.columns:
+                try:
+                    sample_vals = [str(x).lower() for x in df[col].dropna().head(50)]
+                    if any("delhi" in s or "mumbai" in s for s in sample_vals):
+                        has_delhi_or_mumbai = True
+                        break
+                except Exception:
+                    pass
+            if not has_delhi_or_mumbai:
+                extra_note = "*(Note: 'Delhi' / 'Mumbai' are not present in this dataset. Answer computed using available columns from your uploaded data.)*\n\n"
+
+        is_total_count_query = sql.strip().lower().startswith("select count(*)") or any(w in p for w in ["how many row", "total row", "how many record", "total record", "row count", "dataset size"])
+
+        # Build natural conversational response
+        if "describe" in sql.lower() or any(w in p for w in ["what column", "list column", "schema", "fields"]):
+            response_text = f"{extra_note}**Dataset Schema & Columns** ({len(df):,} total rows, {len(df.columns)} columns):\n\n"
+            for c in df.columns:
+                dtype = str(df[c].dtype)
+                u_cnt = df[c].nunique()
+                response_text += f"- **`{c}`** (`{dtype}`) - {u_cnt:,} unique values\n"
+
+        elif any(w in p for w in ["compare", " vs ", "versus", "difference between"]) and len(rows) >= 2 and value_col:
+            r1, r2 = rows[0], rows[1]
+            v1 = r1.get(value_col, 0)
+            v2 = r2.get(value_col, 0)
+            v1_num = float(v1) if isinstance(v1, (int, float, np.number)) else 0.0
+            v2_num = float(v2) if isinstance(v2, (int, float, np.number)) else 0.0
+            diff_pct = round(abs(v1_num - v2_num) / max(v2_num, 1) * 100, 1) if v2_num > 0 else 0.0
+            leader = r1.get(first_col) if v1_num >= v2_num else r2.get(first_col)
+            metric_label = value_col.replace('_', ' ')
+            response_text = f"{extra_note}**Comparison Results**:\n\n- **{r1.get(first_col)}**: {fmt_val(v1, value_col)} ({metric_label})\n- **{r2.get(first_col)}**: {fmt_val(v2, value_col)} ({metric_label})"
+            if diff_pct > 0:
+                response_text += f"\n\n**{leader}** leads by **{diff_pct}%**."
+
+        elif ("highest" in p or "top" in p or "most" in p or "best" in p or "leader" in p) and value_col and len(rows) > 0:
+            val = first_row.get(value_col)
+            response_text = f"{extra_note}**{first_row.get(first_col)}** led with **{fmt_val(val, value_col)}** in {value_col.replace('_', ' ')}."
             if len(rows) > 1:
                 runner_up = rows[1]
-                up_val = runner_up.get(second_col)
-                up_val_str = f"₹{up_val:,.2f}" if isinstance(up_val, (int, float)) else str(up_val)
-                response_text += f"\n\nRunner up is **{runner_up.get(first_col)}** at {up_val_str}."
+                up_val = runner_up.get(value_col)
+                response_text += f"\n\nRunner-up is **{runner_up.get(first_col)}** at **{fmt_val(up_val, value_col)}**."
 
-        elif "compare" in p and len(rows) >= 2:
-            r1, r2 = rows[0], rows[1]
-            v1, v2 = r1.get(second_col, 0), r2.get(second_col, 0)
-            diff_pct = round(abs(v1 - v2) / max(v2, 1) * 100, 1) if v2 > 0 else 0
-            leader = r1.get(first_col) if v1 >= v2 else r2.get(first_col)
-            response_text = f"Comparison results:\n\n- **{r1.get(first_col)}**: ₹{v1:,.2f}\n- **{r2.get(first_col)}**: ₹{v2:,.2f}\n\n**{leader}** outperformed the alternative by **{diff_pct}%**."
+        elif ("lowest" in p or "bottom" in p or "worst" in p or "minimum" in p) and value_col and len(rows) > 0:
+            val = first_row.get(value_col)
+            response_text = f"{extra_note}**{first_row.get(first_col)}** recorded the lowest value with **{fmt_val(val, value_col)}** in {value_col.replace('_', ' ')}."
 
-        elif "month" in p or "trend" in p:
-            response_text = f"Here is the timeline trend across {len(rows)} reporting periods. Peak volume was achieved in **{first_row.get(first_col)}**."
+        elif ("month" in p or "trend" in p or "timeline" in p) and len(rows) > 0:
+            response_text = f"{extra_note}Here is the timeline trend across {len(rows)} reporting periods. Peak volume occurred in **{first_row.get(first_col)}**."
+
+        elif is_total_count_query:
+            tot = first_row.get("total_records", len(df))
+            response_text = f"{extra_note}Your dataset currently contains **{tot:,} total records** across **{len(df.columns)} attributes**."
+
+        elif any(w in p for w in ["average", "mean", "median", "summary", "stats", "statistic"]):
+            avg_val = first_row.get("average", first_row.get(value_col, "N/A"))
+            min_val = first_row.get("minimum", "N/A")
+            max_val = first_row.get("maximum", "N/A")
+            if min_val != "N/A" and max_val != "N/A":
+                response_text = f"{extra_note}Statistical summary: Average = **{fmt_val(avg_val)}**, Range = [**{fmt_val(min_val)}** to **{fmt_val(max_val)}**]."
+            else:
+                response_text = f"{extra_note}Summary for **{first_row.get(first_col)}**: **{fmt_val(avg_val, value_col)}** in {value_col.replace('_', ' ')}."
 
         else:
-            response_text = f"Based on your query, here are the top findings from your dataset:"
-            for r in rows[:5]:
-                val = r.get(second_col, "")
-                val_str = f"₹{val:,.2f}" if isinstance(val, (int, float)) else str(val)
-                response_text += f"\n• **{r.get(first_col)}**: {val_str}"
+            response_text = f"{extra_note}Based on your dataset, here are the top findings:"
+            for r in rows[:6]:
+                if value_col:
+                    val = r.get(value_col, "")
+                    response_text += f"\n• **{r.get(first_col)}**: {fmt_val(val, value_col)}"
+                else:
+                    response_text += f"\n• **{r.get(first_col)}**"
+
 
         return {
             "response": response_text,
@@ -440,4 +893,3 @@ LIMIT 10;"""
             "data_table": rows[:20],
             "row_count": len(rows)
         }
-

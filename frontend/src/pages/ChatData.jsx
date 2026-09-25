@@ -34,28 +34,75 @@ export const ChatDataPage = ({ onNavigate }) => {
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
   const [expandedSqlIdx, setExpandedSqlIdx] = useState(null)
+  const [quickPrompts, setQuickPrompts] = useState([])
   const messagesEndRef = useRef(null)
+  const prevDatasetIdRef = useRef(null)
 
-  const quickPrompts = [
-    'Which city generated the highest revenue?',
-    'Compare Mumbai and Delhi.',
-    'Show me the monthly trend.',
-    'Which products generated over ₹1L?',
-    'Top 5 customers by volume.'
-  ]
-
-  // Initialize greeting message
+  // Initialize/reset greeting message when active dataset changes
   useEffect(() => {
-    if (activeDataset && messages.length === 0) {
+    if (!activeDataset) return
+
+    if (prevDatasetIdRef.current !== activeDataset.id) {
+      prevDatasetIdRef.current = activeDataset.id
       setMessages([
         {
           role: 'assistant',
-          content: `Hello! I am your AI Analyst for **${activeDataset.name}**. You can ask me any question about volumes, regional trends, outliers, or segment performance. Every answer is computed in real time using DuckDB.`,
+          content: `Hello! I am your AI Analyst for **${activeDataset.name}** (${activeDataset.row_count?.toLocaleString() || 0} records, ${activeDataset.col_count || 0} attributes). Ask me any question about distributions, comparisons, top cohorts, or trends. Every answer is computed in real time using DuckDB.`,
           sql_query: null
         }
       ])
     }
   }, [activeDataset])
+
+  // Dynamically load tailored suggested prompts for the active dataset
+  useEffect(() => {
+    if (!activeDataset) return
+    let isCancelled = false
+
+    // 1. Generate immediate local suggestions from activeDataset metadata
+    const cols = activeDataset.schema_metadata?.columns || activeDataset.schema_metadata?.columns_info || []
+    const numCols = cols.filter(c => c.detected_type === 'numeric' || ['int', 'float', 'num'].some(t => c.dtype?.toLowerCase().includes(t)))
+    const catCols = cols.filter(c => c.detected_type === 'categorical' || ['object', 'string', 'str'].some(t => c.dtype?.toLowerCase().includes(t)))
+    const dateCols = cols.filter(c => c.detected_type === 'datetime' || ['date', 'time'].some(t => (c.name || '').toLowerCase().includes(t)))
+
+    const localPrompts = []
+    if (catCols.length > 0 && numCols.length > 0) {
+      localPrompts.push(`Which ${catCols[0].name} has highest ${numCols[0].name}?`)
+      if (catCols[0].sample_values && catCols[0].sample_values.length >= 2) {
+        localPrompts.push(`Compare ${catCols[0].sample_values[0]} and ${catCols[0].sample_values[1]} on ${numCols[0].name}.`)
+      }
+      localPrompts.push(`Average ${numCols[0].name} by ${catCols[0].name}.`)
+    } else if (numCols.length > 0) {
+      localPrompts.push(`Show top 5 records by ${numCols[0].name}`)
+      localPrompts.push(`Summary statistics for ${numCols[0].name}`)
+    } else if (catCols.length > 0) {
+      localPrompts.push(`Breakdown of records by ${catCols[0].name}`)
+    }
+
+    if (dateCols.length > 0) {
+      localPrompts.push(`Show trend over ${dateCols[0].name}`)
+    }
+    localPrompts.push('What columns are in this dataset?')
+    localPrompts.push('Show first 5 rows')
+
+    setQuickPrompts(localPrompts.slice(0, 5))
+
+    // 2. Fetch refined dynamic suggestions from backend
+    api.get(`/ai/${activeDataset.id}/suggestions`)
+      .then(res => {
+        if (!isCancelled && res.data?.suggestions && res.data.suggestions.length > 0) {
+          setQuickPrompts(res.data.suggestions)
+        }
+      })
+      .catch(() => {
+        // Fallback already set
+      })
+
+    return () => {
+      isCancelled = true
+    }
+  }, [activeDataset?.id])
+
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
@@ -267,7 +314,7 @@ export const ChatDataPage = ({ onNavigate }) => {
       >
         <input
           type="text"
-          placeholder="Ask anything about this dataset (e.g. 'Which city generated highest revenue?')..."
+          placeholder={activeDataset ? `Ask anything about ${activeDataset.name} (e.g. 'Show summary statistics')...` : "Ask anything about this dataset..."}
           value={input}
           onChange={(e) => setInput(e.target.value)}
           disabled={loading}

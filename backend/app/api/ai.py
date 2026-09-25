@@ -48,6 +48,20 @@ def analyze_dataset(
     analysis = AIService.generate_heuristic_analysis(df, dataset.name)
     return AIAnalysisResponse(**analysis)
 
+@router.get("/{dataset_id}/suggestions")
+def get_dataset_suggestions(
+    dataset_id: int,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    dataset = db.query(Dataset).filter(Dataset.id == dataset_id, Dataset.user_id == current_user.id).first()
+    if not dataset:
+        raise HTTPException(status_code=404, detail="Dataset not found.")
+
+    df = DataService.load_dataframe(dataset.file_path)
+    suggestions = AIService.generate_dynamic_suggestions(df)
+    return {"suggestions": suggestions}
+
 @router.post("/{dataset_id}/chat", response_model=ChatResponse)
 def chat_with_data(
     dataset_id: int,
@@ -66,4 +80,5 @@ def chat_with_data(
         conversation_history=req.conversation_history or []
     )
     return ChatResponse(**result)
+
 
